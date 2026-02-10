@@ -1,1 +1,1329 @@
-Hellow World
+<!-- 
+  TRIVIA TIME: VERTICAL FEED EDITION (v10.4 - Global Likes)
+  
+  RELEASE NOTES v10.4:
+  - Feature: "Global" Like Button logic added.
+  - UI: Added Like Counter to the sidebar.
+  - Core: Integrated optimistic UI updates for liking topics.
+  - Logic: Added 'likedTopics' local storage to persist user state.
+  - API: Ready for Cloudflare Worker integration (currently mocks server response).
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Trivia Time: Feed v10.4</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            touch-action: none; 
+            user-select: none;
+        }
+
+        /* --- LAYOUT & SLIDES --- */
+        .viewport {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            cursor: grab; 
+        }
+        .viewport:active { cursor: grabbing; }
+
+        .slide {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+            background: #111;
+            transform: translateY(100%); 
+            transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+        
+        /* Z-INDEX FIX */
+        .slide.active { transform: translateY(0%); z-index: 10; }
+        .slide.next { transform: translateY(100%); z-index: 9; } 
+        .slide.prev { transform: translateY(-100%); z-index: 9; } 
+        
+        .slide.dragging { transition: none !important; }
+
+        /* --- CINEMATIC BACKGROUND LAYERS --- */
+        .slide-bg {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0; 
+            transition: opacity 1.2s ease-in-out; 
+            transform-origin: center center;
+            will-change: transform, opacity, filter;
+        }
+
+        .slide-bg.active-layer { opacity: 1; z-index: 2; }
+        .slide-bg.inactive-layer { opacity: 0; z-index: 1; }
+
+        /* --- MOTION ANIMATIONS --- */
+        @keyframes zoomIn { from { transform: scale(1); } to { transform: scale(1.15); } }
+        @keyframes zoomOut { from { transform: scale(1.15); } to { transform: scale(1); } }
+        @keyframes panRight { from { transform: scale(1.15) translateX(-5%); } to { transform: scale(1.15) translateX(0%); } }
+        @keyframes panLeft { from { transform: scale(1.15) translateX(5%); } to { transform: scale(1.15) translateX(0%); } }
+        @keyframes panUp { from { transform: scale(1.15) translateY(5%); } to { transform: scale(1.15) translateY(0%); } }
+        @keyframes blurFocus { 
+            0% { filter: blur(10px); transform: scale(1.1); } 
+            20% { filter: blur(0px); transform: scale(1.08); } 
+            100% { filter: blur(0px); transform: scale(1); } 
+        }
+
+        .anim-zoom-in { animation: zoomIn 12s linear forwards; }
+        .anim-zoom-out { animation: zoomOut 12s linear forwards; }
+        .anim-pan-right { animation: panRight 12s linear forwards; }
+        .anim-pan-left { animation: panLeft 12s linear forwards; }
+        .anim-pan-up { animation: panUp 12s linear forwards; }
+        .anim-blur-focus { animation: blurFocus 12s ease-out forwards; }
+
+        /* --- UI OVERLAYS --- */
+        .ui-layer {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            z-index: 50;
+        }
+
+        .slide-content {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            z-index: 15;
+        }
+
+        .info-block {
+            position: absolute;
+            bottom: 60px;
+            left: 30px;
+            z-index: 20;
+            text-align: left;
+            width: 85%;
+            pointer-events: auto;
+        }
+
+        .info-cat {
+            font-size: 0.9rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #00f2ff;
+            margin-bottom: 8px;
+            text-shadow: 2px 2px 0px rgba(0,0,0,0.8);
+        }
+
+        .info-title {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: white;
+            line-height: 0.95;
+            text-transform: uppercase;
+            text-shadow: 4px 4px 0px rgba(0,0,0,0.8);
+            margin-bottom: 10px;
+        }
+        
+        /* Completion Button */
+        .stay-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 12px 24px;
+            background: #00f2ff;
+            color: black;
+            font-weight: 900;
+            text-transform: uppercase;
+            border-radius: 30px;
+            box-shadow: 0 4px 15px rgba(0, 242, 255, 0.4);
+            animation: pulse-btn 2s infinite;
+            pointer-events: auto;
+            cursor: pointer;
+        }
+        @keyframes pulse-btn {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(0, 242, 255, 0.7); }
+            70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(0, 242, 255, 0); }
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(0, 242, 255, 0); }
+        }
+
+        /* --- POP-UP BUBBLE (MOVABLE) --- */
+        .pop-up-container {
+            position: absolute;
+            display: flex;
+            align-items: center; 
+            z-index: 30;
+            pointer-events: auto; 
+            opacity: 0;
+            transform: scale(0.8) translateY(20px);
+            transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            max-width: 80%;
+            cursor: grab;
+            touch-action: none;
+        }
+
+        .pop-up-container.visible { opacity: 1; transform: scale(1) translateY(0); }
+        
+        .pop-up-container.dragging {
+            cursor: grabbing;
+            transform: scale(1.05) !important;
+            z-index: 100 !important;
+            transition: none !important;
+        }
+
+        .pop-icon-circle {
+            width: 60px;
+            height: 60px;
+            min-width: 60px; 
+            min-height: 60px;
+            background: #00A3FF; 
+            border: 4px solid white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 28px;
+            z-index: 32;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            position: relative;
+            transition: width 0.2s, height 0.2s;
+            cursor: pointer; /* Clickable now */
+        }
+        
+        .pop-icon-circle:active { transform: scale(0.95); }
+
+        .pop-text-box {
+            background: white;
+            color: black;
+            padding: 12px 24px 12px 40px; 
+            margin-left: -30px; 
+            border: 3px solid black;
+            border-radius: 20px; 
+            font-size: 1.1rem;
+            font-weight: 800;
+            line-height: 1.3; 
+            z-index: 31;
+            box-shadow: 6px 6px 0px rgba(0,0,0,0.5);
+            min-height: 60px; 
+            display: flex;
+            align-items: center; 
+        }
+
+        #tv-bug {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.6);
+            backdrop-filter: blur(10px);
+            padding: 8px 16px;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.2);
+            color: white;
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            pointer-events: auto;
+            cursor: pointer;
+        }
+        
+        /* --- SIDE ACTION BAR --- */
+        .side-bar {
+            position: absolute;
+            right: 16px;
+            bottom: 120px; 
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            z-index: 60;
+            align-items: center;
+            pointer-events: auto; 
+        }
+
+        .action-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            transition: transform 0.1s;
+        }
+        
+        .action-btn:active { transform: scale(0.9); }
+        
+        /* Like button active state */
+        .action-btn.liked .action-icon {
+            fill: #ff4444;
+            filter: drop-shadow(0 0 8px rgba(255,68,68,0.6));
+        }
+
+        .action-icon {
+            width: 40px;
+            height: 40px;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+            fill: white;
+            margin-bottom: 4px;
+            transition: fill 0.3s;
+        }
+        
+        .action-label {
+            font-size: 10px;
+            font-weight: 700;
+            color: white;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+            text-transform: uppercase;
+        }
+        
+        .like-count {
+            font-size: 10px;
+            font-weight: 800;
+            color: white;
+            background: rgba(0,0,0,0.5);
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-top: -2px;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+        }
+        
+        .slide-loader {
+            position: absolute;
+            inset: 0;
+            background: #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 5;
+            transition: opacity 0.5s;
+        }
+        .slide-loader.hidden { opacity: 0; pointer-events: none; }
+
+        .channel-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.95);
+            backdrop-filter: blur(10px);
+            z-index: 2000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            transition: opacity 0.3s ease, visibility 0.3s;
+        }
+        .channel-modal.active { opacity: 1; visibility: visible; pointer-events: auto; }
+
+        .treemap-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            width: 95vw;
+            max-width: 900px;
+            max-height: 80vh;
+            overflow-y: auto;
+            justify-content: center;
+            padding-bottom: 60px; 
+        }
+
+        .channel-tile {
+            position: relative;
+            background: #333;
+            border-radius: 12px;
+            cursor: pointer;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-weight: 800;
+            transition: transform 0.2s, opacity 0.2s;
+            min-width: 140px;
+            min-height: 100px;
+            border: 2px solid transparent;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+        }
+        .channel-tile:hover { transform: scale(1.05); z-index: 10; border-color: white; }
+        .channel-tile.blocked { opacity: 0.5; filter: grayscale(1); }
+        .channel-tile.custom { border: 2px dashed #00f2ff; }
+
+        .tile-block-btn {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            width: 24px;
+            height: 24px;
+            background: rgba(0,0,0,0.6);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            color: #ff4444;
+            transition: background 0.2s;
+            z-index: 20;
+        }
+        .tile-block-btn:hover { background: white; }
+
+        .tile-reset-btn {
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            width: 24px;
+            height: 24px;
+            background: rgba(0,0,0,0.6);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            color: #00f2ff;
+            transition: background 0.2s;
+            z-index: 20;
+        }
+        .tile-reset-btn:hover { background: white; }
+
+        .tile-progress {
+            font-size: 0.7rem;
+            margin-top: 4px;
+            opacity: 0.9;
+            font-weight: 600;
+        }
+        
+        .swipe-hint {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(255,255,255,0.5);
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            animation: bounce 2s infinite;
+            pointer-events: none;
+            z-index: 40;
+            transition: opacity 0.5s;
+            text-align: center;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {transform: translateX(-50%) translateY(0);}
+            40% {transform: translateX(-50%) translateY(-10px);}
+            60% {transform: translateX(-50%) translateY(-5px);}
+        }
+
+        .pop-star {
+            position: absolute; z-index: 35; width: 50px; height: 50px;
+            pointer-events: none; display: none; 
+            filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.5));
+        }
+        .star-face { stroke: black; stroke-width: 2px; fill: #FFD700; }
+        .star-depth { stroke: black; stroke-width: 1px; fill: #DAA520; }
+        
+        .pop-circle {
+            position: absolute; z-index: 35; width: 20px; height: 20px;
+            pointer-events: none; display: none;
+            filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.5));
+        }
+        
+        .progress-track {
+            position: fixed; bottom: 0; left: 0; width: 100%; height: 4px;
+            background: rgba(255,255,255,0.2); z-index: 9000;
+        }
+        .progress-fill { height: 100%; background: #00f2ff; width: 0%; }
+        
+        .progress-marker {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 2px;
+            background: rgba(0,0,0,0.5); 
+            z-index: 9001;
+        }
+        
+        /* Creator Modal */
+        #creator-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.9);
+            z-index: 3000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+        #creator-modal.active { opacity: 1; visibility: visible; }
+        
+        /* Mini Browser (Sheet) */
+        #mini-browser {
+            position: fixed;
+            left: 0; bottom: 0; width: 100%; height: 85vh;
+            background: white;
+            border-radius: 20px 20px 0 0;
+            z-index: 4000;
+            transform: translateY(100%);
+            transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+            display: flex; flex-direction: column;
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.5);
+        }
+        #mini-browser.active { transform: translateY(0%); }
+        #browser-frame { flex: 1; border: none; width: 100%; background: #fff; }
+
+        /* Loading Bar for Creator */
+        @keyframes progress-indeterminate {
+            0% { width: 0%; margin-left: 0%; }
+            50% { width: 70%; margin-left: 30%; }
+            100% { width: 0%; margin-left: 100%; }
+        }
+        .animate-progress-indeterminate {
+            animation: progress-indeterminate 1.5s infinite ease-in-out;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- MINI BROWSER -->
+<div id="mini-browser">
+    <div class="h-12 bg-gray-100 border-b flex items-center justify-between px-4 rounded-t-2xl">
+        <div class="text-xs font-bold text-gray-500 uppercase tracking-widest">Source</div>
+        <button class="w-8 h-8 flex items-center justify-center bg-gray-200 rounded-full hover:bg-gray-300 text-gray-600 font-bold" onclick="closeBrowser()">
+            ✕
+        </button>
+    </div>
+    <iframe id="browser-frame" src=""></iframe>
+</div>
+
+<!-- CHANNEL SELECTOR -->
+<div id="channel-modal" class="channel-modal">
+    <div class="flex flex-col items-center justify-center w-full h-full" onclick="event.stopPropagation()">
+        <div class="text-white text-3xl font-black tracking-widest mb-2 uppercase">Channels</div>
+        <div class="text-gray-400 text-xs mb-6 uppercase tracking-wider">Select to Play • Click 🚫 to Ignore</div>
+        
+        <div id="treemap-grid" class="treemap-grid"></div>
+        <button onclick="clearHistory(event)" class="mt-4 px-6 py-2 bg-red-900/50 border border-red-500 text-red-200 text-xs font-bold rounded hover:bg-red-800 transition">
+            RESET HISTORY
+        </button>
+        <div class="text-gray-600 text-[10px] mt-2">TAP OUTSIDE TO CLOSE</div>
+    </div>
+</div>
+
+<!-- CREATOR MODAL -->
+<div id="creator-modal">
+    <div class="bg-gray-900 p-8 rounded-2xl border border-gray-700 w-80 text-center relative" onclick="event.stopPropagation()">
+        <div class="text-white text-xl font-bold mb-4 uppercase tracking-widest">Create Channel</div>
+        <input type="text" id="create-topic-input" class="w-full bg-gray-800 text-white p-3 rounded mb-4 text-center border border-gray-600 focus:border-cyan-400 outline-none" placeholder="Enter Topic (e.g. 90s, Cats)">
+        <button id="create-btn" onclick="triggerCreate()" class="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-3 rounded transition uppercase tracking-widest text-sm">
+            Generate Magic
+        </button>
+        
+        <!-- Loading UI -->
+        <div class="w-full bg-gray-700 h-1 mt-4 rounded-full overflow-hidden hidden" id="create-progress-track">
+            <div class="h-full bg-cyan-400 animate-progress-indeterminate"></div>
+        </div>
+        <div id="create-status" class="text-cyan-400 text-xs mt-2 h-4 uppercase font-bold tracking-wider"></div>
+        
+        <div class="absolute top-2 right-4 text-gray-500 cursor-pointer text-xl" onclick="document.getElementById('creator-modal').classList.remove('active')">&times;</div>
+    </div>
+</div>
+
+<!-- VIEWPORT -->
+<div class="viewport" id="viewport">
+    
+    <!-- SLIDE A -->
+    <div id="slide-0" class="slide active" data-id="0">
+        <div class="slide-loader" id="loader-0">
+            <div class="w-12 h-12 border-4 border-cyan-500 border-t-transparent rounded-full animate-spin"></div>
+            <div class="mt-4 text-cyan-400 font-bold tracking-widest text-xs">LOADING SCENE...</div>
+        </div>
+        <img id="img-0-a" class="slide-bg" src="">
+        <img id="img-0-b" class="slide-bg" src="">
+        
+        <div class="slide-content">
+            <div class="info-block">
+                <div id="cat-0" class="info-cat">CATEGORY</div>
+                <div id="title-0" class="info-title">TOPIC</div>
+            </div>
+            <!-- Bubble -->
+            <div id="bubble-0" class="pop-up-container">
+                <!-- IMPORTANT: Click listener handled in JS setupBubbleDrag -->
+                <div class="pop-icon-circle" id="icon-bg-0" data-link="0">
+                    <span id="emoji-0">📺</span>
+                </div>
+                <div class="pop-text-box">
+                    <span id="desc-0">Fact goes here...</span>
+                </div>
+                <!-- Indicators -->
+                <div id="star-0" class="pop-star">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path class="star-depth" d="M50 5 L63 35 L95 35 L70 55 L80 85 L50 70 L20 85 L30 55 L5 35 L37 35 Z" transform="translate(3,3)" />
+                        <path class="star-face" d="M50 5 L63 35 L95 35 L70 55 L80 85 L50 70 L20 85 L30 55 L5 35 L37 35 Z" />
+                    </svg>
+                </div>
+                <div id="circle-0" class="pop-circle">
+                    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="16" fill="#00f2ff" stroke="white" stroke-width="4"/>
+                    </svg>
+                </div>
+                
+                <!-- NEW: STAY BUTTON CONTAINER -->
+                <div id="stay-container-0" class="absolute left-0 top-24 w-full flex justify-center hidden z-50">
+                    <div class="stay-btn" onclick="stayOnChannel('0')">STAY ON CHANNEL</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDE B -->
+    <div id="slide-1" class="slide next" data-id="1">
+        <div class="slide-loader" id="loader-1">
+            <div class="w-12 h-12 border-4 border-cyan-500 border-t-transparent rounded-full animate-spin"></div>
+            <div class="mt-4 text-cyan-400 font-bold tracking-widest text-xs">PREPARING NEXT...</div>
+        </div>
+        <img id="img-1-a" class="slide-bg" src="">
+        <img id="img-1-b" class="slide-bg" src="">
+        
+        <div class="slide-content">
+            <div class="info-block">
+                <div id="cat-1" class="info-cat">CATEGORY</div>
+                <div id="title-1" class="info-title">TOPIC</div>
+            </div>
+            <div id="bubble-1" class="pop-up-container">
+                <div class="pop-icon-circle" id="icon-bg-1">
+                    <span id="emoji-1">📺</span>
+                </div>
+                <div class="pop-text-box">
+                    <span id="desc-1">Fact goes here...</span>
+                </div>
+                <div id="star-1" class="pop-star">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path class="star-depth" d="M50 5 L63 35 L95 35 L70 55 L80 85 L50 70 L20 85 L30 55 L5 35 L37 35 Z" transform="translate(3,3)" />
+                        <path class="star-face" d="M50 5 L63 35 L95 35 L70 55 L80 85 L50 70 L20 85 L30 55 L5 35 L37 35 Z" />
+                    </svg>
+                </div>
+                <div id="circle-1" class="pop-circle">
+                    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="16" fill="#00f2ff" stroke="white" stroke-width="4"/>
+                    </svg>
+                </div>
+                <!-- STAY BUTTON -->
+                <div id="stay-container-1" class="absolute left-0 top-24 w-full flex justify-center hidden z-50">
+                    <div class="stay-btn" onclick="stayOnChannel('1')">STAY ON CHANNEL</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui-layer">
+    <div id="tv-bug">
+        <div class="text-[0.6rem] font-black text-cyan-400 tracking-widest mb-1">TRIVIA TIME</div>
+        <div id="clock-time" class="text-2xl font-bold leading-none">00:00</div>
+    </div>
+    
+    <!-- SIDE ACTION BAR -->
+    <div class="side-bar">
+        <!-- Magic Create -->
+        <div class="action-btn" onclick="openCreator(event)">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-purple-500 to-cyan-400 flex items-center justify-center mb-1 shadow-lg border-2 border-white/20">
+                <span class="text-xl">✨</span>
+            </div>
+            <span class="action-label">Create</span>
+        </div>
+
+        <!-- Like (Global) -->
+        <div class="action-btn" id="like-btn" onclick="triggerLike(event)">
+            <svg class="action-icon" viewBox="0 0 24 24">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 17.5 3 20.58 3 23 5.42 23 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+            <span class="action-label">Like</span>
+            <span id="like-count" class="like-count">0</span>
+        </div>
+        
+        <!-- Dislike -->
+        <div class="action-btn">
+            <svg class="action-icon" viewBox="0 0 24 24">
+                <path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"/>
+            </svg>
+            <span class="action-label">Dislike</span>
+        </div>
+
+        <!-- Share -->
+        <div class="action-btn">
+            <svg class="action-icon" viewBox="0 0 24 24">
+                <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/>
+            </svg>
+            <span class="action-label">Share</span>
+        </div>
+    </div>
+
+    <div id="swipe-hint" class="swipe-hint">SWIPE UP FOR NEXT TOPIC <br> TAP FOR NEXT FACT</div>
+    <div id="progress-track" class="progress-track">
+        <div id="progress-fill" class="progress-fill"></div>
+    </div>
+</div>
+
+<script>
+    const BASE_DURATION = 6000; 
+    const CHAR_MS = 60; 
+    const IMAGE_API = "https://pollinations.protista.com/image/";
+    const TEXT_API = "https://pollinations.protista.com/text/";
+    
+    // REPLACE THIS WITH YOUR CLOUDFLARE WORKER URL WHEN READY
+    // e.g., "https://trivia-likes.yourname.workers.dev"
+    const API_URL = ""; 
+
+    const DB_URLS = [
+        "https://bg.protista.com/States.json",
+        "https://bg.protista.com/Countries.json",
+        "https://bg.protista.com/Trivia1.json",
+        "https://bg.protista.com/Trivia2.json",
+        "https://bg.protista.com/Grammys2026.json"
+    ];
+    
+    const LOADING_PHRASES = [
+        "Consulting the Internet Oracle...",
+        "Mining facts from the ether...",
+        "Teaching AI about your topic...",
+        "Polishing pixels...",
+        "Fact-checking with the multiverse...",
+        "Downloading knowledge...",
+        "Generating curiosity..."
+    ];
+    
+    const COMPLETION_PHRASES = [
+        "You've downloaded the entire database!",
+        "Mission Complete: Subject Conquered.",
+        "Nothing left here but dust and echoes...",
+        "You have ascended to the next level of knowledge!",
+        "Database exhausted. Initiating cool-down protocol.",
+        "You know too much now...",
+        "Achievement Unlocked: Full Completion!"
+    ];
+
+    const FALLBACK_DATA = {
+        "Movies": [
+            {
+              "name": "The Princess Bride",
+              "description": "Cult classic fantasy adventure film.",
+              "facts": [
+                { "text": "Director Rob Reiner had to leave the set during Billy Crystal's scenes because his laughter was ruining the audio.", "emoji": "🤣" }
+              ]
+            }
+        ]
+    };
+
+    const PASTELS = ["#00A3FF", "#FF0099", "#CCFF00", "#9D00FF", "#FF6600", "#00E5FF"];
+    const EFFECTS = ['anim-zoom-in', 'anim-zoom-out', 'anim-pan-right', 'anim-pan-left', 'anim-pan-up', 'anim-blur-focus'];
+
+    const STORAGE_SEEN = 'tt_seen_v1';
+    const STORAGE_BLOCKED = 'tt_blocked_v1';
+    const STORAGE_CUSTOM = 'tt_custom_channels';
+    const STORAGE_LIKES = 'tt_liked_topics';
+
+    let channels = {}; 
+    let activeChannel = "Random";
+    let topicQueue = [];
+    let topicHistory = []; 
+    let seenTopics = new Set(JSON.parse(localStorage.getItem(STORAGE_SEEN) || '[]')); 
+    let cycleSeen = new Set(); 
+    let blockedChannels = new Set(JSON.parse(localStorage.getItem(STORAGE_BLOCKED) || '[]')); 
+    // New: Track local user likes
+    let likedTopics = new Set(JSON.parse(localStorage.getItem(STORAGE_LIKES) || '[]'));
+
+    let currentSlideIndex = 0; 
+    let isTransitioning = false;
+    let hintHidden = false;
+
+    let currentTopicData = null;
+    let currentFactIndex = 0;
+    let sceneTimer = null;
+    let bubbleTimer = null;
+    
+    const viewport = document.getElementById('viewport');
+    const slides = [document.getElementById('slide-0'), document.getElementById('slide-1')];
+    const loaders = [document.getElementById('loader-0'), document.getElementById('loader-1')];
+    const bug = document.getElementById('tv-bug');
+    const progressBar = document.getElementById('progress-fill');
+    const progressTrack = document.getElementById('progress-track');
+    const modal = document.getElementById('channel-modal');
+    const creatorModal = document.getElementById('creator-modal');
+    const swipeHint = document.getElementById('swipe-hint');
+    const browser = document.getElementById('mini-browser');
+    const frame = document.getElementById('browser-frame');
+    
+    // UI Elements for Likes
+    const likeBtn = document.getElementById('like-btn');
+    const likeCountEl = document.getElementById('like-count');
+
+    async function init() {
+        setupBubbleDrag('bubble-0');
+        setupBubbleDrag('bubble-1');
+        
+        await loadDatabases();
+        
+        if (Object.keys(channels).length === 0) {
+             console.warn("No data loaded. Using fallback.");
+             processDataChunk(FALLBACK_DATA);
+        }
+
+        await addTopicToQueue();
+        await addTopicToQueue();
+        await addTopicToQueue();
+
+        renderSlideText(0, topicQueue[0]);
+        loadTopicImages(0, topicQueue[0]);
+        
+        renderSlideText(1, topicQueue[1]);
+        loadTopicImages(1, topicQueue[1]);
+
+        startTopic(0, topicQueue[0]);
+        
+        setupGestures();
+        setInterval(updateClock, 1000);
+    }
+    
+    // --- SERVER / MOCK SERVER LOGIC ---
+    
+    // 1. Fetch current likes for a topic (Mocked for now)
+    async function fetchLikes(topicId) {
+        if (!topicId) return 0;
+        
+        if (API_URL) {
+            try {
+                // Real implementation: Fetch from Worker
+                const res = await fetch(`${API_URL}/likes?id=${encodeURIComponent(topicId)}`);
+                if (res.ok) {
+                    const data = await res.json();
+                    return data.count || 0;
+                }
+            } catch (e) { console.error("Fetch like error", e); }
+            return 0;
+        } else {
+            // MOCK: Generate a fake number based on string hash for consistency
+            let hash = 0;
+            for (let i = 0; i < topicId.length; i++) hash = ((hash << 5) - hash) + topicId.charCodeAt(i);
+            return Math.abs(hash) % 500; // Mock count between 0-500
+        }
+    }
+
+    // 2. Submit a like (Mocked for now)
+    async function submitLike(topicId) {
+        if (!topicId) return;
+        
+        if (API_URL) {
+            try {
+                await fetch(`${API_URL}/likes`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ id: topicId })
+                });
+            } catch (e) { console.error("Submit like error", e); }
+        } else {
+            // Mock delay
+            console.log(`[Mock Server] Like submitted for ${topicId}`);
+        }
+    }
+    
+    window.triggerLike = async function(e) {
+        e.stopPropagation();
+        if (!currentTopicData || !currentTopicData.id) return;
+        
+        const id = currentTopicData.id;
+        
+        // Prevent double liking (UI Check)
+        if (likedTopics.has(id)) {
+            // Optional: Toggle off? For now let's just ignore or animate
+            return;
+        }
+
+        // 1. Optimistic UI Update
+        likedTopics.add(id);
+        localStorage.setItem(STORAGE_LIKES, JSON.stringify([...likedTopics]));
+        updateLikeUI(true);
+        
+        const currentCount = parseInt(likeCountEl.innerText) || 0;
+        likeCountEl.innerText = currentCount + 1;
+
+        // 2. Send to server
+        await submitLike(id);
+    };
+    
+    function updateLikeUI(isLiked) {
+        if (isLiked) {
+            likeBtn.classList.add('liked');
+        } else {
+            likeBtn.classList.remove('liked');
+        }
+    }
+
+    function setupBubbleDrag(id) {
+        const el = document.getElementById(id);
+        const icon = el.querySelector('.pop-icon-circle');
+        let isDragging = false;
+        let startX, startY, startLeft, startTop;
+        let hasMoved = false; 
+
+        const onStart = (e) => {
+            e.stopPropagation(); 
+            isDragging = true;
+            hasMoved = false; 
+            
+            el.classList.add('dragging');
+            startLeft = el.offsetLeft;
+            startTop = el.offsetTop;
+            
+            const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+            const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+            startX = clientX; startY = clientY;
+        };
+
+        const onMove = (e) => {
+            if (!isDragging) return;
+            const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+            const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+            
+            if (Math.abs(clientX - startX) > 5 || Math.abs(clientY - startY) > 5) {
+                hasMoved = true;
+            }
+
+            if (hasMoved) {
+                e.preventDefault(); e.stopPropagation();
+                const dx = clientX - startX; const dy = clientY - startY;
+                el.style.left = `${startLeft + dx}px`;
+                el.style.top = `${startTop + dy}px`;
+                el.style.transition = 'none';
+            }
+        };
+
+        const onEnd = (e) => {
+            if (!isDragging) return;
+            isDragging = false;
+            el.classList.remove('dragging');
+            el.style.transition = ''; 
+            
+            if (!hasMoved) {
+                const target = e.target;
+                if (icon.contains(target)) {
+                    openSource(e);
+                }
+            }
+        };
+
+        el.addEventListener('mousedown', onStart);
+        el.addEventListener('touchstart', onStart);
+        window.addEventListener('mousemove', onMove);
+        window.addEventListener('touchmove', onMove, { passive: false });
+        window.addEventListener('mouseup', onEnd);
+        window.addEventListener('touchend', onEnd);
+    }
+    
+    // --- MINI BROWSER ---
+    window.openSource = function(e) {
+        if(e) e.stopPropagation();
+        
+        let url = null;
+        if (currentTopicData && currentTopicData.source_url) {
+            url = currentTopicData.source_url;
+        } else if (currentTopicData) {
+            // Fallback if generic channel
+            url = 'https://en.wikipedia.org/wiki/Special:Search?search=' + encodeURIComponent(currentTopicData.title);
+        }
+        
+        console.log("[Source] Opening:", url);
+
+        if (url) {
+            frame.src = url;
+            browser.classList.add('active');
+            // Pause sequencer
+            clearTimeout(sceneTimer);
+            clearTimeout(bubbleTimer);
+        }
+    };
+    
+    window.closeBrowser = function() {
+        browser.classList.remove('active');
+        frame.src = ""; // Clear to stop audio/video
+        // Resume sequence
+        if (currentTopicData) {
+             const fact = currentTopicData.facts[currentFactIndex];
+             sceneTimer = setTimeout(() => { advanceSequence(); }, Math.max(1000, fact.duration - 2000)); // Rough resume
+        }
+    };
+
+    // --- DATA & AI ---
+    async function loadDatabases() {
+        const fetchPromises = DB_URLS.map(url => fetch(url).then(r => { if(!r.ok) throw new Error(r.statusText); return r.json(); }).catch(e => { console.warn("Fetch failed for", url, e); return null; }));
+        const results = await Promise.all(fetchPromises);
+        results.forEach(data => { if(data) processDataChunk(data); });
+        const customData = JSON.parse(localStorage.getItem(STORAGE_CUSTOM) || '{}');
+        Object.keys(customData).forEach(cat => { if (!channels[cat]) channels[cat] = []; channels[cat] = channels[cat].concat(customData[cat]); });
+    }
+    
+    function processDataChunk(data) { const traverse = (obj, catName) => { if (Array.isArray(obj)) { obj.forEach(item => { const finalCat = item.cat || catName || "General"; if (!channels[finalCat]) channels[finalCat] = []; const uniqueId = `${finalCat}||${item.name}`; channels[finalCat].push({ id: uniqueId, name: item.name, desc: item.description, facts: item.facts || [{text: item.description, emoji: "💡"}], cat: finalCat }); }); } else if (typeof obj === 'object') { Object.keys(obj).forEach(key => traverse(obj[key], key)); } }; traverse(data, "General"); }
+    function saveState() { localStorage.setItem(STORAGE_SEEN, JSON.stringify([...seenTopics])); localStorage.setItem(STORAGE_BLOCKED, JSON.stringify([...blockedChannels])); }
+    window.openCreator = function(e) { e.stopPropagation(); creatorModal.classList.add('active'); const input = document.getElementById('create-topic-input'); input.style.display = 'block'; document.getElementById('create-btn').style.display = 'block'; input.value = ''; input.focus(); };
+
+    window.triggerCreate = function() { const input = document.getElementById('create-topic-input'); const topic = input.value.trim(); if (!topic) return; const prompt = `Generate a JSON object for a trivia channel about "${topic}". The structure must be: {"${topic}": [{"name": "Subject Name", "description": "Short context", "facts": [{"text": "Fact 1", "emoji": "👍"}]}]}. Provide 3 subjects with 4 facts each. Return ONLY raw JSON.`; handleCreation(topic, prompt, 'openai'); };
+    
+    // JSON Repair
+    function tryParseJSON(str) {
+        try { return JSON.parse(str); }
+        catch (e) {
+            // Repair brackets
+            let openBraces = (str.match(/{/g) || []).length;
+            let closeBraces = (str.match(/}/g) || []).length;
+            let openBrackets = (str.match(/\[/g) || []).length;
+            let closeBrackets = (str.match(/\]/g) || []).length;
+            
+            let repaired = str;
+            while (openBrackets > closeBrackets) { repaired += "]"; closeBrackets++; }
+            while (openBraces > closeBraces) { repaired += "}"; closeBraces++; }
+            
+            try { return JSON.parse(repaired); } catch (e2) { return null; }
+        }
+    }
+
+    async function handleCreation(topicName, prompt, preferredModel = 'openai') { 
+        const status = document.getElementById('create-status'); 
+        const loader = document.getElementById('create-progress-track'); 
+        const inputEl = document.getElementById('create-topic-input'); 
+        
+        loader.classList.remove('hidden'); 
+        let phraseIndex = 0; 
+        status.innerText = LOADING_PHRASES[0]; 
+        
+        const interval = setInterval(() => { 
+            phraseIndex = (phraseIndex + 1) % LOADING_PHRASES.length; 
+            status.innerText = LOADING_PHRASES[phraseIndex]; 
+        }, 2500); 
+        
+        const fetchWithModel = async (model) => { 
+            const seed = 0; 
+            
+            // Safely disable JSON mode for search models to avoid 400
+            const isSearch = ['perplexity-fast', 'gemini-fast', 'perplexity-reasoning'].includes(model);
+            const jsonMode = isSearch ? 'false' : 'true'; 
+            
+            const url = `${TEXT_API}${encodeURIComponent(prompt)}?model=${model}&json=${jsonMode}&seed=${seed}`; 
+            console.log(`[AI] Requesting: ${url}`); 
+            
+            const res = await fetch(url); 
+            if (!res.ok) { 
+                const errText = await res.text(); 
+                throw new Error(`HTTP ${res.status}: ${errText}`); 
+            } 
+            return await res.text(); 
+        }; 
+        
+        try { 
+            let text; 
+            try { 
+                text = await fetchWithModel(preferredModel); 
+            } catch (e) { 
+                console.warn(`[AI] ${preferredModel} failed, trying fallback...`, e); 
+                // Fallback to gemini-flash which is reliable on proxy
+                const fallback = preferredModel === 'openai' ? 'gemini-fast' : 'openai'; 
+                text = await fetchWithModel(fallback); 
+            } 
+            
+            console.log("[AI] Raw Response:", text); 
+            
+            const cleanText = text.replace(/```json/g, '').replace(/```/g, ''); 
+            const startIndex = cleanText.indexOf('{'); 
+            const endIndex = cleanText.lastIndexOf('}'); 
+            
+            if (startIndex === -1) throw new Error("No JSON start found"); 
+            
+            // If end index missing, take whole string, repairer will fix it
+            const jsonStr = endIndex !== -1 ? cleanText.substring(startIndex, endIndex + 1) : cleanText.substring(startIndex);
+            
+            const data = tryParseJSON(jsonStr); 
+            if (!data) throw new Error("JSON Parse Failed");
+
+            const customData = JSON.parse(localStorage.getItem(STORAGE_CUSTOM) || '{}'); 
+            
+            let hasValidData = false;
+            Object.keys(data).forEach(cat => { 
+                if (!Array.isArray(data[cat])) return;
+                
+                if (!customData[cat]) customData[cat] = []; 
+                const newItems = data[cat].map(item => {
+                    let url = item.source_url;
+                    if (cat.startsWith('News:') && (!url || !url.includes('wikipedia.org'))) {
+                        url = 'https://en.wikipedia.org/wiki/Special:Search?search=' + encodeURIComponent(item.name);
+                    }
+                    return { 
+                        id: `${cat}||${item.name}`, 
+                        name: item.name, 
+                        desc: item.description, 
+                        source_url: url,
+                        facts: item.facts || [], 
+                        cat: cat 
+                    }; 
+                }); 
+                
+                if (newItems.length > 0) {
+                    customData[cat] = customData[cat].concat(newItems); 
+                    if (!channels[cat]) channels[cat] = []; 
+                    channels[cat] = channels[cat].concat(newItems); 
+                    hasValidData = true;
+                }
+            }); 
+            
+            if (hasValidData) {
+                localStorage.setItem(STORAGE_CUSTOM, JSON.stringify(customData)); 
+                clearInterval(interval); 
+                const newCat = Object.keys(data)[0]; 
+                status.innerText = "SUCCESS!"; 
+                setTimeout(() => { 
+                    creatorModal.classList.remove('active'); 
+                    loader.classList.add('hidden'); 
+                    if(inputEl) inputEl.value = ""; 
+                    status.innerText = ""; 
+                    selectChannel(newCat); 
+                }, 1000); 
+            } else {
+                throw new Error("Invalid AI Response Structure");
+            }
+
+        } catch (e) { 
+            clearInterval(interval); 
+            loader.classList.add('hidden'); 
+            console.error("JSON Error:", e); 
+            status.innerText = "Error parsing AI data. Try again."; 
+            document.getElementById('create-topic-input').style.display = 'block'; 
+            document.getElementById('create-btn').style.display = 'block'; 
+        } 
+    }
+    
+    window.toggleBlock = function(e, catName) { e.stopPropagation(); if (blockedChannels.has(catName)) blockedChannels.delete(catName); else blockedChannels.add(catName); saveState(); generateTreemap(); };
+    window.resetChannel = function(e, catName) { e.stopPropagation(); if(confirm(`Reset progress for ${catName}?`)) { const items = channels[catName]; if (items) { items.forEach(t => seenTopics.delete(t.id)); items.forEach(t => cycleSeen.delete(t.id)); } saveState(); generateTreemap(); } };
+    window.clearHistory = function(e) { e.stopPropagation(); if(confirm("Reset all progress?")) { seenTopics.clear(); cycleSeen.clear(); saveState(); generateTreemap(); } };
+    
+    async function addTopicToQueue() {
+        let pool = [];
+        if (activeChannel === "Random") {
+            Object.keys(channels).forEach(k => { if (!blockedChannels.has(k)) pool = pool.concat(channels[k]); });
+        } else {
+            pool = channels[activeChannel] || [];
+        }
+        if (pool.length === 0) return;
+
+        let available = pool.filter(t => !seenTopics.has(t.id));
+        
+        if (available.length === 0) {
+             available = pool.filter(t => !cycleSeen.has(t.id));
+             if (available.length === 0) {
+                 const completedChannel = activeChannel; 
+                 pool.forEach(t => cycleSeen.delete(t.id));
+                 if (activeChannel !== 'Random') activeChannel = 'Random';
+                 const phrase = COMPLETION_PHRASES[Math.floor(Math.random() * COMPLETION_PHRASES.length)];
+                 const completionTopic = {
+                     id: `comp-${Date.now()}`,
+                     name: `${completedChannel} COMPLETED!`,
+                     cat: completedChannel,
+                     desc: "All facts viewed.",
+                     isCompletion: true, 
+                     facts: [{
+                         text: `${phrase} Swiping up will take you to Random channels.`,
+                         emoji: "🏆",
+                         indicator: null,
+                         duration: 10000,
+                         prompt: `Cinematic artistic trophy award achievement gold medal representing ${completedChannel} concept art masterpiece 8k`,
+                         imageUrl: null,
+                         ready: false
+                     }]
+                 };
+                 topicQueue.push(completionTopic);
+                 triggerImageLoad(completionTopic.facts[0]);
+                 return; 
+             }
+        }
+
+        const rawTopic = available[Math.floor(Math.random() * available.length)];
+        seenTopics.add(rawTopic.id);
+        saveState();
+        cycleSeen.add(rawTopic.id);
+
+        const factsRaw = rawTopic.facts.slice(0, 6);
+        const processedFacts = factsRaw.map((f, i) => {
+            let indicator = null;
+            if (i === 0) indicator = 'star';
+            else if (i === 1) indicator = 'circle';
+            const txtLen = f.text.length;
+            let duration = BASE_DURATION;
+            if (txtLen > 60) duration += (txtLen - 60) * CHAR_MS;
+            if (duration > 10000) duration = 10000; 
+            const safeName = rawTopic.name || "Unknown Topic";
+            const safeDesc = rawTopic.desc || "A topic of interest.";
+            const safeText = f.text || "Did you know?";
+            return {
+                text: safeText,
+                emoji: f.emoji || "💡",
+                indicator: indicator,
+                duration: duration,
+                prompt: `Cinematic vertical shot, 4k. Subject: ${safeName}. Detail: ${safeText.substring(0,60)}. Context: ${safeDesc}. Dramatic lighting.`,
+                imageUrl: null,
+                ready: false,
+                loading: false
+            };
+        });
+
+        const newTopic = {
+            id: rawTopic.id, // Ensure ID is passed down
+            cat: rawTopic.cat || "Trivia", 
+            title: rawTopic.name || "Topic",
+            source_url: rawTopic.source_url, 
+            facts: processedFacts
+        };
+
+        topicQueue.push(newTopic);
+        if (newTopic.facts.length > 0) triggerImageLoad(newTopic.facts[0]);
+    }
+    
+    // --- STAY ON CHANNEL HANDLER ---
+    window.stayOnChannel = function(targetCat) { const catName = currentTopicData.cat; if (catName) { selectChannel(catName); } };
+    function triggerImageLoad(fact, domIndex) { if (fact.loading) { if (domIndex !== undefined) { if (!fact.callbacks) fact.callbacks = []; fact.callbacks.push(() => updateSlideImage(fact, domIndex)); } return; } if (fact.imageUrl) { if (domIndex !== undefined) updateSlideImage(fact, domIndex); return; } fact.loading = true; if (!fact.callbacks) fact.callbacks = []; if (domIndex !== undefined) fact.callbacks.push(() => updateSlideImage(fact, domIndex)); const seed = 0; const url = `${IMAGE_API}${encodeURIComponent(fact.prompt)}?width=720&height=1280&nologo=true&seed=${seed}&model=flux`; const imgObj = new Image(); imgObj.onload = () => { fact.imageUrl = url; fact.ready = true; fact.loading = false; if (fact.callbacks) fact.callbacks.forEach(cb => cb()); fact.callbacks = []; }; imgObj.onerror = () => { if (domIndex !== undefined) loaders[domIndex].classList.add('hidden'); fact.loading = false; }; imgObj.src = url; }
+    function updateSlideImage(fact, domIndex) { if (!fact) return; const imgA = document.getElementById(`img-${domIndex}-a`); const imgB = document.getElementById(`img-${domIndex}-b`); imgB.className = "slide-bg inactive-layer"; if (imgA.src === fact.imageUrl) return; imgA.src = fact.imageUrl; imgA.className = `slide-bg active-layer ${EFFECTS[0]}`; loaders[domIndex].classList.add('hidden'); }
+    function loadTopicImages(domIndex, topicData) { if (!topicData) return; setTimeout(() => { if(loaders[domIndex]) loaders[domIndex].classList.add('hidden'); }, 3000); topicData.facts.forEach((fact, i) => { const isCover = (i === 0); if (fact.ready && fact.imageUrl) { if (isCover) updateSlideImage(fact, domIndex); return; } triggerImageLoad(fact, isCover ? domIndex : undefined); }); }
+    
+    // MODIFIED: Load likes when starting a topic
+    function startTopic(domIndex, topicData) { 
+        if (!topicData) return; 
+        currentTopicData = topicData; 
+        currentFactIndex = 0; 
+        currentTopicData.totalDuration = topicData.facts.reduce((acc, f) => acc + f.duration, 0); 
+        
+        // Reset/Load Likes
+        const isLiked = likedTopics.has(topicData.id);
+        updateLikeUI(isLiked);
+        likeCountEl.innerText = "..."; // Loading state
+        
+        // Fetch real count
+        fetchLikes(topicData.id).then(count => {
+            likeCountEl.innerText = count;
+        });
+
+        renderProgressMarkers(topicData); 
+        runScene(domIndex); 
+    }
+    
+    function renderProgressMarkers(topicData) { const oldMarkers = progressTrack.querySelectorAll('.progress-marker'); oldMarkers.forEach(m => m.remove()); const total = topicData.totalDuration; let accumulated = 0; topicData.facts.forEach((f, i) => { if (i === 0) { accumulated += f.duration; return; } const pct = (accumulated / total) * 100; const marker = document.createElement('div'); marker.className = 'progress-marker'; marker.style.left = `${pct}%`; progressTrack.appendChild(marker); accumulated += f.duration; }); }
+    function runScene(domIndex) { if (!currentTopicData || !currentTopicData.facts) return; if (currentFactIndex >= currentTopicData.facts.length) { goNext(); return; } const fact = currentTopicData.facts[currentFactIndex]; showScene(domIndex, fact, currentFactIndex); updateProgressBar(); clearTimeout(sceneTimer); clearTimeout(bubbleTimer); bubbleTimer = setTimeout(() => { const bubble = document.getElementById(`bubble-${domIndex}`); bubble.classList.remove('visible'); }, fact.duration - 500); sceneTimer = setTimeout(() => { advanceSequence(); }, fact.duration); }
+    function advanceSequence() { if (!currentTopicData) return; currentFactIndex++; runScene(currentSlideIndex); }
+    function updateProgressBar() { if (!currentTopicData) return; let elapsed = 0; for(let i=0; i<currentFactIndex; i++) { elapsed += currentTopicData.facts[i].duration; } const currentDur = currentTopicData.facts[currentFactIndex].duration; const total = currentTopicData.totalDuration; const startPct = (elapsed / total) * 100; const endPct = ((elapsed + currentDur) / total) * 100; progressBar.style.transition = 'none'; progressBar.style.width = `${startPct}%`; void progressBar.offsetWidth; progressBar.style.transition = `width ${currentDur}ms linear`; progressBar.style.width = `${endPct}%`; }
+    function showScene(domIndex, fact, index) { const layer1 = document.getElementById(`img-${domIndex}-a`); const layer2 = document.getElementById(`img-${domIndex}-b`); const isLayer1Active = layer1.classList.contains('active-layer'); const nextLayer = isLayer1Active ? layer2 : layer1; if (index === 0) { if (fact.ready && fact.imageUrl) { if (layer1.src === fact.imageUrl && layer1.classList.contains('active-layer')) { } else { layer1.src = fact.imageUrl; const effect = EFFECTS[Math.floor(Math.random() * EFFECTS.length)]; layer1.className = `slide-bg active-layer ${effect}`; layer2.className = `slide-bg inactive-layer`; } } } else if (fact.ready && fact.imageUrl) { nextLayer.src = fact.imageUrl; const effect = EFFECTS[Math.floor(Math.random() * EFFECTS.length)]; nextLayer.className = `slide-bg ${effect}`; requestAnimationFrame(() => { nextLayer.classList.add('active-layer'); nextLayer.classList.remove('inactive-layer'); const active = isLayer1Active ? layer1 : layer2; active.classList.remove('active-layer'); active.classList.add('inactive-layer'); }); } document.getElementById(`desc-${domIndex}`).innerText = fact.text; document.getElementById(`emoji-${domIndex}`).innerText = fact.emoji; positionBubble(domIndex, fact.indicator); const bubble = document.getElementById(`bubble-${domIndex}`); bubble.classList.remove('visible'); setTimeout(() => bubble.classList.add('visible'), 50); }
+    
+    // UPDATED: Show/Hide Stay Button based on topic type
+    function renderSlideText(domIndex, data) {
+        if (!data) return;
+        document.getElementById(`cat-${domIndex}`).innerText = data.cat;
+        document.getElementById(`title-${domIndex}`).innerText = data.title;
+        
+        // Show/Hide Stay Button
+        const stayBtn = document.getElementById(`stay-container-${domIndex}`);
+        if (data.isCompletion) {
+            stayBtn.classList.remove('hidden');
+        } else {
+            stayBtn.classList.add('hidden');
+        }
+    }
+
+    function positionBubble(domIndex, indicatorType) {
+        const bubble = document.getElementById(`bubble-${domIndex}`);
+        const textBox = bubble.querySelector('.pop-text-box');
+        const star = document.getElementById(`star-${domIndex}`);
+        const circle = document.getElementById(`circle-${domIndex}`);
+        const iconBg = document.getElementById(`icon-bg-${domIndex}`);
+        const emoji = document.getElementById(`emoji-${domIndex}`);
+        iconBg.style.backgroundColor = PASTELS[Math.floor(Math.random() * PASTELS.length)];
+        iconBg.style.width = '60px'; iconBg.style.height = '60px'; iconBg.style.minWidth = '60px';
+        textBox.style.marginLeft = '-30px'; textBox.style.paddingLeft = '40px'; emoji.style.fontSize = '28px';
+        const textHeight = textBox.offsetHeight;
+        const newSize = Math.max(60, textHeight + 4); 
+        iconBg.style.width = `${newSize}px`; iconBg.style.height = `${newSize}px`; iconBg.style.minWidth = `${newSize}px`;
+        const half = newSize / 2;
+        textBox.style.marginLeft = `-${half}px`; textBox.style.paddingLeft = `${half + 15}px`;
+        emoji.style.fontSize = `${newSize * 0.5}px`;
+        const topVal = 15 + Math.random() * 25;
+        const textLen = document.getElementById(`desc-${domIndex}`).innerText.length;
+        const isLong = textLen > 80;
+        const leftVal = isLong ? (5 + Math.random() * 10) : (10 + Math.random() * 30);
+        bubble.style.maxWidth = `${95 - leftVal}%`;
+        if (!bubble.classList.contains('dragging')) { bubble.style.top = `${topVal}%`; bubble.style.left = `${leftVal}%`; }
+        star.style.display = 'none'; circle.style.display = 'none';
+        if (indicatorType === 'star') { star.style.display = 'block'; star.style.top = '-25px'; star.style.left = '-25px'; star.style.transform = 'scale(1.2) rotate(-10deg)'; } 
+        else if (indicatorType === 'circle') { circle.style.display = 'block'; circle.style.top = '40px'; circle.style.left = '40px'; }
+    }
+
+    async function finalizeSlideChange(newIndex) {
+        if (isTransitioning) return;
+        isTransitioning = true;
+        if (!hintHidden) { swipeHint.style.opacity = '0'; hintHidden = true; }
+        clearTimeout(sceneTimer); clearTimeout(bubbleTimer);
+        if (newIndex !== currentSlideIndex && newIndex === (currentSlideIndex === 0 ? 1 : 0)) {
+             if (topicQueue[0] && !topicQueue[0].isDummy) {
+                 topicHistory.push(topicQueue[0]);
+             }
+             if (topicHistory.length > 20) topicHistory.shift();
+             currentSlideIndex = newIndex; progressBar.style.transition = 'none'; progressBar.style.width = '0%';
+             topicQueue.shift(); if (topicQueue.length < 3) await addTopicToQueue();
+             startTopic(currentSlideIndex, topicQueue[0]);
+             const oldSlide = slides[currentSlideIndex === 0 ? 1 : 0];
+             setTimeout(() => {
+                 const oldBubble = document.getElementById(`bubble-${oldSlide.dataset.id}`);
+                 oldBubble.style.transition = 'none'; oldBubble.classList.remove('visible'); oldBubble.style.opacity = '0';
+                 oldSlide.style.zIndex = '-1'; oldSlide.style.transition = 'none';
+                 oldSlide.classList.remove('active', 'prev'); oldSlide.classList.add('next'); oldSlide.style.transform = ''; 
+                 void oldSlide.offsetWidth; oldSlide.style.transition = ''; oldSlide.style.zIndex = ''; 
+                 setTimeout(() => { oldBubble.style.transition = ''; oldBubble.style.opacity = ''; }, 50);
+                 const id = oldSlide.dataset.id;
+                 const l1 = document.getElementById(`img-${id}-a`); const l2 = document.getElementById(`img-${id}-b`);
+                 l1.style.transition = 'none'; l2.style.transition = 'none';
+                 l1.src = ""; l1.className = "slide-bg inactive-layer"; l2.src = ""; l2.className = "slide-bg inactive-layer";
+                 void l1.offsetWidth; void l2.offsetWidth; l1.style.transition = ''; l2.style.transition = '';
+                 loaders[id].classList.remove('hidden');
+                 if (topicQueue[1]) { renderSlideText(id, topicQueue[1]); loadTopicImages(id, topicQueue[1]); }
+                 isTransitioning = false;
+             }, 500);
+        } else { isTransitioning = false; }
+    }
+    function goNext() { if (isTransitioning) return; const activeEl = slides[currentSlideIndex]; const nextIndex = currentSlideIndex === 0 ? 1 : 0; const nextEl = slides[nextIndex]; activeEl.classList.remove('active'); activeEl.classList.add('prev'); nextEl.classList.remove('next'); nextEl.classList.add('active'); finalizeSlideChange(nextIndex); }
+    async function goPrev() { 
+        if (isTransitioning || topicHistory.length === 0) return; 
+        const prevTopic = topicHistory.pop(); 
+        if (!prevTopic || prevTopic.isDummy || !prevTopic.facts) {
+             isTransitioning = false;
+             return;
+        }
+        topicQueue.unshift(prevTopic); 
+        const activeEl = slides[currentSlideIndex]; const prevIndex = currentSlideIndex === 0 ? 1 : 0; const prevEl = slides[prevIndex]; prevEl.style.transition = 'none'; prevEl.classList.remove('next'); prevEl.classList.add('prev'); void prevEl.offsetWidth; prevEl.style.transition = ''; renderSlideText(prevEl.dataset.id, prevTopic); const imgA = document.getElementById(`img-${prevEl.dataset.id}-a`); imgA.className = 'slide-bg active-layer'; if (prevTopic.facts[0].imageUrl) { imgA.src = prevTopic.facts[0].imageUrl; loaders[prevEl.dataset.id].classList.add('hidden'); } else { loadTopicImages(prevEl.dataset.id, prevTopic); } activeEl.classList.remove('active'); activeEl.classList.add('next'); prevEl.classList.remove('prev'); prevEl.classList.add('active'); currentSlideIndex = prevIndex; startTopic(currentSlideIndex, topicQueue[0]); setTimeout(() => { isTransitioning = false; }, 500); 
+    }
+    function setupGestures() { let startY = 0; let isDragging = false; let activeEl = null; let nextEl = null; viewport.addEventListener('touchstart', e => { startY = e.touches[0].clientY; isDragging = true; activeEl = slides[currentSlideIndex]; nextEl = slides[currentSlideIndex === 0 ? 1 : 0]; activeEl.classList.add('dragging'); nextEl.classList.add('dragging'); }); viewport.addEventListener('touchmove', e => { if (!isDragging) return; const currentY = e.touches[0].clientY; const deltaY = currentY - startY; if (deltaY < 0) { if (nextEl.classList.contains('prev')) { nextEl.classList.remove('prev'); nextEl.classList.add('next'); } activeEl.style.transform = `translateY(${deltaY}px)`; nextEl.style.transform = `translateY(calc(100% + ${deltaY}px))`; } else if (deltaY > 0) { if (topicHistory.length > 0) { if (!nextEl.classList.contains('prev')) { nextEl.classList.remove('next'); nextEl.classList.add('prev'); const prevData = topicHistory[topicHistory.length - 1]; renderSlideText(nextEl.dataset.id, prevData); const img = document.getElementById(`img-${nextEl.dataset.id}-a`); if(prevData.facts[0].imageUrl) img.src = prevData.facts[0].imageUrl; img.className = 'slide-bg active-layer'; } activeEl.style.transform = `translateY(${deltaY}px)`; nextEl.style.transform = `translateY(calc(-100% + ${deltaY}px))`; } else { activeEl.style.transform = `translateY(${deltaY * 0.3}px)`; } } }); viewport.addEventListener('touchend', e => { if (!isDragging) return; isDragging = false; const diff = startY - e.changedTouches[0].clientY; const threshold = window.innerHeight * 0.2; activeEl.classList.remove('dragging'); nextEl.classList.remove('dragging'); activeEl.style.transform = ''; nextEl.style.transform = ''; if (Math.abs(diff) < 10) { advanceSequence(); return; } if (diff > threshold) goNext(); else if (diff < -threshold && topicHistory.length > 0) goPrev(); else { if (diff < 0) { if (nextEl.classList.contains('prev')) { nextEl.classList.remove('prev'); nextEl.classList.add('next'); } } } }); viewport.addEventListener('click', (e) => { if (!('ontouchstart' in window)) advanceSequence(); }); window.addEventListener('keydown', e => { if (['ArrowUp', 'ArrowRight', ' '].includes(e.key)) goNext(); if (['ArrowDown'].includes(e.key)) goPrev(); }); viewport.addEventListener('wheel', e => { if (e.deltaY > 50) goNext(); if (e.deltaY < -50) goPrev(); }); bug.addEventListener('click', (e) => { e.stopPropagation(); generateTreemap(); modal.classList.add('active'); }); modal.addEventListener('click', (e) => { if (e.target === modal) modal.classList.remove('active'); }); }
+    function updateClock() { const now = new Date(); const m = String(now.getMinutes()).padStart(2, '0'); const h = now.getHours() % 12 || 12; document.getElementById('clock-time').innerText = `${h}:${m}`; if (topicHistory.length > 0) { swipeHint.innerHTML = "SWIPE UP: NEXT &bull; SWIPE DOWN: PREVIOUS <br> TAP: NEXT FACT"; } }
+    function generateTreemap() { const grid = document.getElementById('treemap-grid'); grid.innerHTML = ''; const hero = document.createElement('div'); hero.className = 'channel-tile w-full h-24 bg-gradient-to-r from-pink-500 to-purple-600 text-2xl'; hero.innerText = "SURPRISE ME"; hero.onclick = () => selectChannel("Random"); grid.appendChild(hero); const customData = JSON.parse(localStorage.getItem(STORAGE_CUSTOM) || '{}'); Object.keys(channels).forEach(cat => { const items = channels[cat]; const total = items.length; const seenCount = items.filter(t => seenTopics.has(t.id)).length; const pct = Math.round((seenCount / total) * 100); const isBlocked = blockedChannels.has(cat); const isCustom = customData.hasOwnProperty(cat); const tile = document.createElement('div'); tile.className = `channel-tile w-32 h-24 text-sm ${isBlocked ? 'blocked' : ''} ${isCustom ? 'custom' : ''}`; if (isBlocked) { tile.style.background = '#333'; } else { const r = 68 + (34 - 68) * (pct / 100); const g = 68 + (197 - 68) * (pct / 100); const b = 68 + (94 - 68) * (pct / 100); tile.style.background = `rgb(${r}, ${g}, ${b})`; } tile.style.border = cat === activeChannel ? '2px solid white' : (isCustom ? '2px dashed #00f2ff' : '2px solid transparent'); const showReset = seenCount > 0 && !isBlocked; tile.innerHTML = ` <div class="font-black uppercase leading-tight">${cat}</div> <div class="tile-progress mt-2">${seenCount}/${total} (${pct}%)</div> <div class="tile-block-btn" onclick="toggleBlock(event, '${cat}')"> ${isBlocked ? '+' : '🚫'} </div> ${showReset ? `<div class="tile-reset-btn" onclick="resetChannel(event, '${cat}')">🔄</div>` : ''} `; tile.onclick = () => selectChannel(cat); grid.appendChild(tile); }); }
+    function selectChannel(name) { activeChannel = name; modal.classList.remove('active'); topicQueue = []; topicHistory = []; clearTimeout(sceneTimer); clearTimeout(bubbleTimer); topicQueue.push({ isDummy: true }); isTransitioning = false; addTopicToQueue().then(() => addTopicToQueue()).then(() => { const nextIndex = currentSlideIndex === 0 ? 1 : 0; const targetTopic = topicQueue[1]; loaders[nextIndex].classList.remove('hidden'); const l1 = document.getElementById(`img-${nextIndex}-a`); const l2 = document.getElementById(`img-${nextIndex}-b`); l1.src = ""; l1.className = "slide-bg"; l2.src = ""; l2.className = "slide-bg"; renderSlideText(nextIndex, targetTopic); loadTopicImages(nextIndex, targetTopic); goNext(); }); }
+    init();
+</script>
+</body>
+</html>
