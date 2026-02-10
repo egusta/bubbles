@@ -1,7 +1,8 @@
 {
-  "name": "worker-name",
-  "compatibility_date": "2026-02-10",
-  "assets": {
-  "directory": "./dist"
-  }
+// wrangler.jsonc
+"name": "bubbles",
+"compatibility_date": "2026-02-10",
+"assets": {
+"directory": "./dist"
+}
 }
