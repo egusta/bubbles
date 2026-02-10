@@ -1,0 +1,356 @@
+{
+  "68th Annual Grammy Awards": [
+    {
+      "name": "General Field (Big Four)",
+      "facts": [
+        { "text": "Album of the Year: Bad Bunny won for 'Debí Tirar Más Fotos', the first all-Spanish winner.", "emoji": "📸" },
+        { "text": "Record of the Year: Kendrick Lamar & SZA took the trophy for 'Luther'.", "emoji": "🏆" },
+        { "text": "Song of the Year: Billie Eilish & Finneas won for writing 'Wildflower'.", "emoji": "🌼" },
+        { "text": "Best New Artist: Olivia Dean won, beating out a competitive field.", "emoji": "✨" }
+      ]
+    },
+    {
+      "name": "Pop & Dance/Electronic",
+      "facts": [
+        { "text": "Best Pop Vocal Album: Lady Gaga won for 'Mayhem'.", "emoji": "💥" },
+        { "text": "Best Dance Pop Recording: Lady Gaga also won for 'Abracadabra'.", "emoji": "🪄" },
+        { "text": "Best Dance/Electronic Album: FKA twigs took home the award for 'EUSEXUA'.", "emoji": "🪩" }
+      ]
+    },
+    {
+      "name": "Rap & R&B",
+      "facts": [
+        { "text": "Best Rap Album: Kendrick Lamar won for 'GNX'.", "emoji": "💿" },
+        { "text": "Best Rap Song: 'Luther' by Kendrick Lamar & SZA took the songwriting honor.", "emoji": "📝" },
+        { "text": "Best Melodic Rap Performance: 'Luther' secured its second genre win here.", "emoji": "🎶" },
+        { "text": "Best Rap Performance: Kendrick Lamar won solo for the title track 'GNX'.", "emoji": "🎤" },
+        { "text": "Best R&B Album: Leon Thomas won for 'MUTT'.", "emoji": "🐕" }
+      ]
+    },
+    {
+      "name": "Rock & Alternative",
+      "facts": [
+        { "text": "Best Rock Album: Turnstile won for 'Never Enough'.", "emoji": "🎸" },
+        { "text": "Best Rock Performance: Linkin Park won for 'From Zero'.", "emoji": "🤘" },
+        { "text": "Best Rock Song: Nine Inch Nails won for 'As Alive As You Need Me to Be'.", "emoji": "🎹" },
+        { "text": "Best Metal Performance: Turnstile won for 'BIRDS'.", "emoji": "🦅" },
+        { "text": "Best Alternative Album: The Cure won for 'Songs of a Lost World'.", "emoji": "🧟" },
+        { "text": "Best Alternative Performance: The Cure also won for 'Alone'.", "emoji": "🌑" }
+      ]
+    },
+    {
+      "name": "Country Field",
+      "facts": [
+        { "text": "Best Country Album: Jelly Roll won for 'Beautifully Broken'.", "emoji": "🤠" }
+      ]
+    },
+    {
+      "name": "Production & Visual Media",
+      "facts": [
+        { "text": "Producer of the Year: Jack Antonoff won for the fifth consecutive time.", "emoji": "🎧" },
+        { "text": "Best Music Film: Steven Spielberg won for 'Music By John Williams', completing his EGOT.", "emoji": "🎬" },
+        { "text": "Best Song for Visual Media: 'Golden' (KPop Demon Hunters) became the first K-Pop win.", "emoji": "🇰🇷" }
+      ]
+    },
+    {
+      "name": "General Field Winners",
+      "facts": [
+        { "text": "Bad Bunny's 'Debí Tirar Más Fotos' is the first all-Spanish album to win Album of the Year.", "emoji": "📸" },
+        { "text": "Kendrick Lamar & SZA won Record of the Year for 'Luther', a track that spent 8 weeks at #1.", "emoji": "🏆" },
+        { "text": "Billie Eilish and Finneas won Song of the Year for 'Wildflower', their third win in this category.", "emoji": "🌼" },
+        { "text": "Olivia Dean won Best New Artist, becoming the first British winner since Sam Smith.", "emoji": "🇬🇧" },
+        { "text": "Steven Spielberg is now an EGOT winner after taking Best Music Film for 'Music By John Williams'.", "emoji": "🎬" }
+      ]
+    },
+    {
+      "name": "Kendrick Lamar",
+      "facts": [
+        { "text": "He was the night's biggest winner, taking home 5 Grammys in total.", "emoji": "🖐️" },
+        { "text": "He officially became the most-awarded rapper in Grammy history, surpassing Jay-Z and Kanye West.", "emoji": "👑" },
+        { "text": "His album 'GNX' won Best Rap Album, continuing his streak of winning for every major studio release.", "emoji": "📀" },
+        { "text": "He shared two wins with SZA for their chart-topping collaboration 'Luther'.", "emoji": "🤝" },
+        { "text": "During his speech, he thanked Compton and the 'new generation' of west coast hip-hop.", "emoji": "📍" }
+      ]
+    },
+    {
+      "name": "Bad Bunny",
+      "facts": [
+        { "text": "His album 'Debí Tirar Más Fotos' made history as the first Spanish-language Album of the Year.", "emoji": "🇵🇷" },
+        { "text": "He dedicated his award to Puerto Rico, stating 'We are human beings, and we are Americans.'", "emoji": "🗣️" },
+        { "text": "This win marks his fourth Grammy Award overall, but his first in the General Field.", "emoji": "4️⃣" },
+        { "text": "He celebrated the win by lighting a cigar on stage before walking off.", "emoji": "🚬" },
+        { "text": "The album was praised for blending reggaeton with 70s salsa and trap influences.", "emoji": "💃" }
+      ]
+    },
+    {
+      "name": "SZA",
+      "facts": [
+        { "text": "SZA won Record of the Year and Best Rap Song for her feature on 'Luther'.", "emoji": "🏆" },
+        { "text": "She became the first female artist to win Best Rap Song since Megan Thee Stallion in 2021.", "emoji": "🥇" },
+        { "text": "Her vocals on the track were described by critics as the 'soul of the record'.", "emoji": "👻" },
+        { "text": "She wore a stunning dress made entirely of recycled ocean plastic mesh.", "emoji": "🌊" },
+        { "text": "SZA has now won Grammys in Pop, R&B, Rap, and General fields.", "emoji": "🎨" }
+      ]
+    },
+    {
+      "name": "Billie Eilish & Finneas",
+      "facts": [
+        { "text": "The siblings won Song of the Year for 'Wildflower' from the album 'Hit Me Hard and Soft'.", "emoji": "🌻" },
+        { "text": "This is their third win in the Song of the Year category, a rare songwriting feat.", "emoji": "📝" },
+        { "text": "Finneas accepted the award barefoot, maintaining a personal tradition.", "emoji": "🦶" },
+        { "text": "Billie thanked her vocal coach in her speech for helping her hit the high notes in 'Wildflower'.", "emoji": "🎤" },
+        { "text": "They beat out massive hits from Taylor Swift and Post Malone for the trophy.", "emoji": "🥊" }
+      ]
+    },
+    {
+      "name": "Olivia Dean",
+      "facts": [
+        { "text": "Olivia Dean won Best New Artist, capping off a breakout year in the UK and US.", "emoji": "🇬🇧" },
+        { "text": "She is the first British artist to win this specific award in over a decade.", "emoji": "🏰" },
+        { "text": "Her debut album 'Messy' was cited as a major influence on the voting academy.", "emoji": "💿" },
+        { "text": "She performed as part of the massive 8-person Best New Artist medley.", "emoji": "🎤" },
+        { "text": "In her speech, she shouted out her grandmother who bought her her first guitar.", "emoji": "👵" }
+      ]
+    },
+    {
+      "name": "Steven Spielberg",
+      "facts": [
+        { "text": "Spielberg completed his EGOT (Emmy, Grammy, Oscar, Tony) with a Best Music Film win.", "emoji": "🏆" },
+        { "text": "The winning film, 'Music By John Williams', is a documentary about his longtime composer.", "emoji": "🎼" },
+        { "text": "He jokingly thanked the mechanical shark from 'Jaws' for starting his musical career.", "emoji": "🦈" },
+        { "text": "At 79 years old, he is one of the oldest individuals to complete an EGOT.", "emoji": "👴" },
+        { "text": "He received a standing ovation from the music industry crowd upon winning.", "emoji": "👏" }
+      ]
+    },
+    {
+      "name": "Lady Gaga",
+      "facts": [
+        { "text": "She won Best Pop Vocal Album for her 2025 release, 'Mayhem'.", "emoji": "💥" },
+        { "text": "Her hit single 'Abracadabra' secured the Grammy for Best Dance Pop Recording.", "emoji": "🪄" },
+        { "text": "Gaga's performance was described as 'manic' and 'theatrical,' featuring a surrealist stage design.", "emoji": "🎭" },
+        { "text": "She arrived on the red carpet in a custom outfit that appeared to be made of liquid chrome.", "emoji": "👗" },
+        { "text": "This year's wins brought her career total to over 15 Grammy Awards.", "emoji": "📈" }
+      ]
+    },
+    {
+      "name": "Sabrina Carpenter",
+      "facts": [
+        { "text": "She performed her hit 'Manchild' on a stage built to look like a retro-futuristic airport terminal.", "emoji": "✈️" },
+        { "text": "The climax of her performance involved her releasing a live dove from a scaled-down airplane fuselage.", "emoji": "🕊️" },
+        { "text": "She was nominated for multiple 'Big Four' categories following her massive breakout year.", "emoji": "⭐" },
+        { "text": "Her performance was praised for its intricate choreography and 'campy' humor.", "emoji": "🎬" },
+        { "text": "Carpenter's 'Manchild' has become a staple of her 2025-2026 world tour setlist.", "emoji": "🗺️" }
+      ]
+    },
+    {
+      "name": "Justin Bieber",
+      "facts": [
+        { "text": "Bieber performed a stripped-down, acoustic version of his hit song 'Yukon'.", "emoji": "❄️" },
+        { "text": "In a bold fashion choice, he performed while wearing only grey boxers and socks.", "emoji": "🧦" },
+        { "text": "The minimalist performance used a single loop-pedal, a style often associated with Ed Sheeran.", "emoji": "🎸" },
+        { "text": "Despite the simple setup, it was cited by critics as one of the most vocally impressive sets of the night.", "emoji": "🎤" },
+        { "text": "The 'Yukon' performance marked his return to the Grammy stage after a multi-year hiatus.", "emoji": "🔙" }
+      ]
+    },
+    {
+      "name": "Rosé (Blackpink)",
+      "facts": [
+        { "text": "Rosé opened the 68th Grammy Awards, the first K-Pop soloist to ever hold that slot.", "emoji": "🇰🇷" },
+        { "text": "She performed the global smash hit 'APT.' alongside Bruno Mars.", "emoji": "🏢" },
+        { "text": "Her vocal run at the end of the song lasted 12 seconds, setting a personal record.", "emoji": "⏱️" },
+        { "text": "She wore a modern reinterpretation of a traditional Hanbok for the red carpet.", "emoji": "👘" },
+        { "text": "Confetti shaped like miniature apartment buildings fell during her finale.", "emoji": "🎉" }
+      ]
+    },
+    {
+      "name": "Bruno Mars",
+      "facts": [
+        { "text": "Bruno Mars joined Rosé to open the show with their duet 'APT.'.", "emoji": "🎤" },
+        { "text": "He played a traditional Korean drum during the song's bridge.", "emoji": "🥁" },
+        { "text": "Mars was seen teaching Rosé a few of his signature dance moves during rehearsal footage.", "emoji": "🕺" },
+        { "text": "He wore a customized silk jacket with 'APT' embroidered on the back.", "emoji": "🧥" },
+        { "text": "This performance marks his return to the Grammy stage after Silk Sonic's sweep.", "emoji": "🔙" }
+      ]
+    },
+    {
+      "name": "Post Malone",
+      "facts": [
+        { "text": "He led an emotional heavy metal tribute to the 'Prince of Darkness,' Ozzy Osbourne.", "emoji": "🦇" },
+        { "text": "He was joined on stage by rock legends Slash, Duff McKagan, and Chad Smith.", "emoji": "🔥" },
+        { "text": "The group performed a pyrotechnic-heavy rendition of Black Sabbath's 'War Pigs'.", "emoji": "🧨" },
+        { "text": "Post Malone, known for genre-blending, wore a classic leather biker vest for the set.", "emoji": "🧥" },
+        { "text": "The performance honored Osbourne, who passed away in July 2025.", "emoji": "🕯️" }
+      ]
+    },
+    {
+      "name": "Slash",
+      "facts": [
+        { "text": "The Guns N' Roses legend played lead guitar for the Ozzy Osbourne tribute.", "emoji": "🎸" },
+        { "text": "He played his iconic 'Jessica' Les Paul Standard guitar during the set.", "emoji": "🎩" },
+        { "text": "Slash and Ozzy were close friends and collaborators for decades.", "emoji": "🤝" },
+        { "text": "He delivered a 2-minute guitar solo that silenced the entire arena.", "emoji": "🤫" },
+        { "text": "Slash wore his signature top hat, which he tipped to the screen showing Ozzy.", "emoji": "🎩" }
+      ]
+    },
+    {
+      "name": "Duff McKagan",
+      "facts": [
+        { "text": "Duff provided the bass lines for the heavy metal tribute to Ozzy Osbourne.", "emoji": "🎸" },
+        { "text": "He played alongside his longtime bandmate Slash for the performance.", "emoji": "🤘" },
+        { "text": "Duff wore a shirt featuring a vintage photo of him and Ozzy from the 90s.", "emoji": "👕" },
+        { "text": "His bass tone was praised for capturing the original Black Sabbath heaviness.", "emoji": "🔊" },
+        { "text": "He was seen hugging Kelly Osbourne in the audience immediately after the set.", "emoji": "🫂" }
+      ]
+    },
+    {
+      "name": "Chad Smith",
+      "facts": [
+        { "text": "The Red Hot Chili Peppers drummer anchored the rhythm for the Ozzy tribute.", "emoji": "🥁" },
+        { "text": "Chad Smith had previously worked with Ozzy on his final studio album.", "emoji": "💿" },
+        { "text": "He broke three drumsticks during the high-energy performance of 'War Pigs'.", "emoji": "🪵" },
+        { "text": "His drum kit was elevated 10 feet in the air on a hydraulic riser.", "emoji": "🏗️" },
+        { "text": "He wore a sleeveless jumpsuit similar to what he wears for RHCP concerts.", "emoji": "🦺" }
+      ]
+    },
+    {
+      "name": "The Cure",
+      "facts": [
+        { "text": "The legendary band won Best Alternative Music Album for 'Songs of a Lost World'.", "emoji": "🧛" },
+        { "text": "These were the first Grammy wins in the band's 50-year career.", "emoji": "⏳" },
+        { "text": "Frontman Robert Smith gave a typically brief 10-word acceptance speech.", "emoji": "💬" },
+        { "text": "They also won Best Alternative Performance for the song 'Alone'.", "emoji": "🌑" },
+        { "text": "The wins validate their massive 2025 comeback tour and album.", "emoji": "🧟" }
+      ]
+    },
+    {
+      "name": "Turnstile",
+      "facts": [
+        { "text": "Turnstile dominated the rock categories, winning Best Rock Album for 'Never Enough'.", "emoji": "🎸" },
+        { "text": "They also won Best Metal Performance for 'BIRDS', proving their crossover appeal.", "emoji": "🐦" },
+        { "text": "The band accepted the award in matching pastel suits.", "emoji": "👔" },
+        { "text": "They are the first hardcore band to win Best Rock Album in Grammy history.", "emoji": "🤘" },
+        { "text": "Lead singer Brendan Yates did a cartwheel on the red carpet.", "emoji": "🤸" }
+      ]
+    },
+    {
+      "name": "Nine Inch Nails",
+      "facts": [
+        { "text": "Trent Reznor and Atticus Ross won Best Rock Song for 'As Alive As You Need Me to Be'.", "emoji": "🎹" },
+        { "text": "The song is featured on the soundtrack for the film 'Tron: Ares'.", "emoji": "💾" },
+        { "text": "This marks another win in a long line of soundtrack successes for the duo.", "emoji": "🎥" },
+        { "text": "The track features a unique blend of industrial rock and synthwave.", "emoji": "🤖" },
+        { "text": "They did not attend the ceremony, reportedly working on a new score.", "emoji": "📝" }
+      ]
+    },
+    {
+      "name": "Linkin Park",
+      "facts": [
+        { "text": "Linkin Park won Best Rock Performance for 'From Zero', their comeback anthem.", "emoji": "🔄" },
+        { "text": "This is the band's first Grammy win with their new lineup.", "emoji": "🆕" },
+        { "text": "Mike Shinoda gave a heartfelt speech about grief and moving forward.", "emoji": "❤️" },
+        { "text": "The band wore matching silver lapel pins shaped like their new logo.", "emoji": "📍" },
+        { "text": "They were praised for successfully reinventing their sound for a new era.", "emoji": "🔊" }
+      ]
+    },
+    {
+      "name": "Ms. Lauryn Hill",
+      "facts": [
+        { "text": "Lauryn Hill served as the Musical Director for the tribute to D'Angelo and Roberta Flack.", "emoji": "🎼" },
+        { "text": "She performed a mashup of 'Killing Me Softly' and 'Untitled (How Does It Feel)'.", "emoji": "🎤" },
+        { "text": "The tribute performance lasted 15 minutes, one of the longest in show history.", "emoji": "⏱️" },
+        { "text": "She was joined on stage by a 20-piece orchestra.", "emoji": "🎻" },
+        { "text": "Her vocals were praised as 'timeless' and 'technically flawless'.", "emoji": "💎" }
+      ]
+    },
+    {
+      "name": "John Legend",
+      "facts": [
+        { "text": "John Legend played piano and sang during the Roberta Flack portion of the tribute.", "emoji": "🎹" },
+        { "text": "He performed a soulful rendition of 'The First Time Ever I Saw Your Face'.", "emoji": "🥺" },
+        { "text": "Legend wore a velvet tuxedo that channeled 1970s soul style.", "emoji": "🤵" },
+        { "text": "He and Lauryn Hill harmonized for the finale of the tribute.", "emoji": "🎶" },
+        { "text": "As an EGOT winner himself, he presented the Best Music Film award later.", "emoji": "🏆" }
+      ]
+    },
+    {
+      "name": "Wyclef Jean",
+      "facts": [
+        { "text": "Wyclef made a surprise appearance during Lauryn Hill's tribute set.", "emoji": "😲" },
+        { "text": "This marked a rare mini-reunion of The Fugees on the Grammy stage.", "emoji": "🇭🇹" },
+        { "text": "He played his signature electric guitar during the bridge of 'Killing Me Softly'.", "emoji": "🎸" },
+        { "text": "Wyclef shouted 'One Love!' to the crowd before exiting the stage.", "emoji": "✌️" },
+        { "text": "His appearance was kept a complete secret from the press until the show.", "emoji": "🤫" }
+      ]
+    },
+    {
+      "name": "Andre 3000",
+      "facts": [
+        { "text": "Andre 3000 made a silent, unannounced cameo during the D'Angelo tribute.", "emoji": "😶" },
+        { "text": "He played a custom Mayan double-flute in the background of the set.", "emoji": "🪈" },
+        { "text": "He wore a bright orange jumpsuit and a knitted beanie.", "emoji": "🟧" },
+        { "text": "He did not sing or rap, strictly contributing instrumental ambiance.", "emoji": "🌬️" },
+        { "text": "Social media exploded with memes about his calm demeanor during the chaos.", "emoji": "🧘" }
+      ]
+    },
+    {
+      "name": "Trevor Noah",
+      "facts": [
+        { "text": "Trevor Noah hosted the Grammys for his sixth and officially final time.", "emoji": "🎙️" },
+        { "text": "He opened the show with a monologue poking fun at AI and ticket prices.", "emoji": "🤖" },
+        { "text": "Noah received a special commendation from the Academy for his years of hosting.", "emoji": "🎖️" },
+        { "text": "He handed out flowers to Beyoncé and Meryl Streep during a commercial break.", "emoji": "🌹" },
+        { "text": "His final sign-off was a simple 'Goodnight, and keep listening.'", "emoji": "👋" }
+      ]
+    },
+    {
+      "name": "Meryl Streep & Cher",
+      "facts": [
+        { "text": "The iconic duo reunited to present the Record of the Year award.", "emoji": "👯" },
+        { "text": "They walked out to the 'Mamma Mia!' soundtrack, dancing slightly.", "emoji": "💃" },
+        { "text": "Cher joked about her autotune legacy while Streep pretended to sing opera.", "emoji": "🎭" },
+        { "text": "Their banter was scripted but felt incredibly natural and warm.", "emoji": "📜" },
+        { "text": "They announced Kendrick Lamar and SZA as the winners.", "emoji": "🏆" }
+      ]
+    },
+    {
+      "name": "Reba McEntire",
+      "facts": [
+        { "text": "Country legend Reba McEntire led the emotional 'In Memoriam' segment.", "emoji": "🤠" },
+        { "text": "She performed a new song titled 'Trailblazer' written for the occasion.", "emoji": "🕯️" },
+        { "text": "Reba fought back tears while the names of fallen country stars appeared.", "emoji": "😢" },
+        { "text": "She was joined by Lukas Nelson for the second half of the song.", "emoji": "🤝" },
+        { "text": "Her performance was praised for its simplicity and grace.", "emoji": "✨" }
+      ]
+    },
+    {
+      "name": "Jack Antonoff",
+      "facts": [
+        { "text": "Jack Antonoff won Producer of the Year, Non-Classical for the 5th year in a row.", "emoji": "🎹" },
+        { "text": "He produced tracks on three of the Album of the Year nominated projects.", "emoji": "🎧" },
+        { "text": "Antonoff thanked his wife and frequent collaborator Margaret Qualley.", "emoji": "💍" },
+        { "text": "He wore his signature thick-rimmed glasses and a cropped tuxedo jacket.", "emoji": "🤓" },
+        { "text": "Critics are calling his winning streak unprecedented in modern pop history.", "emoji": "📈" }
+      ]
+    },
+    {
+      "name": "Killer Mike",
+      "facts": [
+        { "text": "Killer Mike presented the Best Rap Album award to Kendrick Lamar.", "emoji": "🏆" },
+        { "text": "He famously swept the Rap categories himself two years prior.", "emoji": "🧹" },
+        { "text": "Mike gave a passionate speech about the importance of Southern Hip-Hop.", "emoji": "🍑" },
+        { "text": "He called Kendrick's win a 'passing of the torch' moment.", "emoji": "🔥" },
+        { "text": "He wore a custom suit embroidered with the names of civil rights leaders.", "emoji": "⚖️" }
+      ]
+    },
+    {
+      "name": "Paramore",
+      "facts": [
+        { "text": "Paramore received the Global Impact Award during the pre-telecast ceremony.", "emoji": "🌎" },
+        { "text": "Hayley Williams gave a speech about women in the alternative rock scene.", "emoji": "🤘" },
+        { "text": "The band is the first female-fronted group to receive this specific honor.", "emoji": "👩‍🎤" },
+        { "text": "They announced a new scholarship fund for young female musicians.", "emoji": "🎓" },
+        { "text": "The trio posed with their award in a playful, punk-rock stance.", "emoji": "📸" }
+      ]
+    }
+  ]
+}

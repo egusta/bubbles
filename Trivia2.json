@@ -1,0 +1,496 @@
+{
+  "Movies": [
+    {
+      "name": "The Godfather",
+      "facts": [
+        { "text": "The cat Marlon Brando holds in the opening scene was a stray found on the Paramount lot.", "emoji": "🐈" },
+        { "text": "Al Pacino boycotted the Oscars because he was nominated for Best Supporting Actor despite having more screen time than Brando.", "emoji": "🏆" },
+        { "text": "The word 'Mafia' is never actually spoken in the first movie.", "emoji": "🤐" }
+      ]
+    },
+    {
+      "name": "Home Alone",
+      "facts": [
+        { "text": "The picture of Buzz's girlfriend was actually a boy in a wig because the director thought it would be too mean to make fun of a real girl.", "emoji": "📸" },
+        { "text": "Joe Pesci (Harry) avoided Macaulay Culkin on set so the child actor would genuinely be afraid of him.", "emoji": "😨" },
+        { "text": "The movie 'Angels with Filthy Souls' isn't real; it was filmed specifically for Home Alone.", "emoji": "🎞️" }
+      ]
+    },
+    {
+      "name": "Pulp Fiction",
+      "facts": [
+        { "text": "The 'F-word' is used 265 times during the movie.", "emoji": "🤬" },
+        { "text": "John Travolta's 1964 Chevelle Malibu was stolen during production and wasn't recovered until 2013.", "emoji": "🚗" },
+        { "text": "The famous dance scene was inspired by the Disney movie 'The Aristocats'.", "emoji": "💃" }
+      ]
+    },
+    {
+      "name": "The Dark Knight",
+      "facts": [
+        { "text": "Heath Ledger designed the Joker makeup himself using drugstore cosmetics.", "emoji": "🤡" },
+        { "text": "Michael Caine was so frightened by Ledger's performance upon first seeing him that he forgot his lines.", "emoji": "😱" },
+        { "text": "It was the first major feature film to be shot using IMAX cameras.", "emoji": "🎥" }
+      ]
+    },
+    {
+      "name": "Fight Club",
+      "facts": [
+        { "text": "Brad Pitt and Edward Norton actually learned how to make soap for the movie.", "emoji": "🧼" },
+        { "text": "Helena Bonham Carter wore platform shoes to be closer in height to Brad Pitt.", "emoji": "👠" },
+        { "text": "The Starbucks coffee cup appears in almost every single scene of the movie.", "emoji": "☕" }
+      ]
+    },
+    {
+      "name": "The Matrix",
+      "facts": [
+        { "text": "The famous 'code' rain is actually made of scanned sushi recipes.", "emoji": "🍣" },
+        { "text": "Keanu Reeves shared a significant portion of his earnings with the special effects and costume teams.", "emoji": "💰" },
+        { "text": "Will Smith turned down the role of Neo to star in 'Wild Wild West'.", "emoji": "🤠" }
+      ]
+    },
+    {
+      "name": "Psycho (1960)",
+      "facts": [
+        { "text": "It was the first American film to show a toilet flushing on screen.", "emoji": "🚽" },
+        { "text": "Alfred Hitchcock bought every copy of the original novel he could find so no one would know the ending.", "emoji": "📚" },
+        { "text": "The blood in the shower scene was actually chocolate syrup.", "emoji": "🍫" }
+      ]
+    },
+    {
+      "name": "Forrest Gump",
+      "facts": [
+        { "text": "Tom Hanks wasn't paid a salary; instead, he took percentage points which earned him $40 million.", "emoji": "💵" },
+        { "text": "The line 'My name is Forrest Gump. People call me Forrest Gump' was ad-libbed by Hanks.", "emoji": "🗣️" },
+        { "text": "Bill Murray, John Travolta, and Chevy Chase all turned down the role of Forrest.", "emoji": "🙅" }
+      ]
+    }
+  ],
+  "Television": [
+    {
+      "name": "Game of Thrones",
+      "facts": [
+        { "text": "Sophie Turner (Sansa) adopted the dog that played her direwolf, Lady.", "emoji": "🐺" },
+        { "text": "The 'horse heart' Daenerys ate was actually made of gummy bears and pasta.", "emoji": "🍝" },
+        { "text": "It is the most pirated television show in history.", "emoji": "🏴‍☠️" }
+      ]
+    },
+    {
+      "name": "The Simpsons",
+      "facts": [
+        { "text": "It is the longest-running scripted show in primetime television history.", "emoji": "📺" },
+        { "text": "God is the only character on the show drawn with five fingers.", "emoji": "✋" },
+        { "text": "The sound of Maggie sucking on her pacifier was recorded by creator Matt Groening.", "emoji": "👶" }
+      ]
+    },
+    {
+      "name": "Stranger Things",
+      "facts": [
+        { "text": "The show was rejected by over 15 networks before Netflix picked it up.", "emoji": "🚫" },
+        { "text": "Millie Bobby Brown (Eleven) actually shaved her head for the role.", "emoji": "💇‍♀️" },
+        { "text": "The Demogorgon was a practical suit with animatronic parts, not just CGI.", "emoji": "👹" }
+      ]
+    },
+    {
+      "name": "Breaking Bad",
+      "facts": [
+        { "text": "The blue meth was actually blue rock candy from a local candy shop.", "emoji": "🍬" },
+        { "text": "Bryan Cranston has a tattoo of the show's logo on his finger.", "emoji": "💉" },
+        { "text": "The scene where Walt throws the pizza on the roof was done in a single take.", "emoji": "🍕" }
+      ]
+    },
+    {
+      "name": "SpongeBob SquarePants",
+      "facts": [
+        { "text": "Creator Stephen Hillenburg was a marine biologist before he was an animator.", "emoji": "🐠" },
+        { "text": "SpongeBob's laugh was designed to sound like a dolphin sound made by a seagull.", "emoji": "🐬" },
+        { "text": "A species of mushroom discovered in 2011 was named Spongiforma squarepantsii.", "emoji": "🍄" }
+      ]
+    },
+    {
+      "name": "Doctor Who",
+      "facts": [
+        { "text": "The TARDIS sound is created by scraping a house key along a piano string.", "emoji": "🎹" },
+        { "text": "The show originally started in 1963 as an educational program for children.", "emoji": "🏫" },
+        { "text": "The scarf worn by the Fourth Doctor was created by accident when the knitter used all the provided wool.", "emoji": "🧣" }
+      ]
+    }
+  ],
+  "Video Games": [
+    {
+      "name": "Pokemon",
+      "facts": [
+        { "text": "Rhydon was the first Pokemon ever designed, which is why statues of it appear in the original gyms.", "emoji": "🦏" },
+        { "text": "Pikachu's name is a combination of 'pika' (sparkle sound) and 'chu' (squeak sound).", "emoji": "⚡" },
+        { "text": "Hitmonlee and Hitmonchan are named after Bruce Lee and Jackie Chan.", "emoji": "🥋" }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda",
+      "facts": [
+        { "text": "Link was inspired by Peter Pan, sharing the green tunic, pointed ears, and fairy companion.", "emoji": "🧚" },
+        { "text": "Robin Williams named his daughter Zelda after the princess in the game.", "emoji": "👸" },
+        { "text": "The iconic Triforce symbol is based on the crest of the Japanese Hojo clan.", "emoji": "🔼" }
+      ]
+    },
+    {
+      "name": "Fortnite",
+      "facts": [
+        { "text": "The game was originally going to be a horror survival game, not a battle royale.", "emoji": "🧟" },
+        { "text": "The 'Floss' dance move became a global phenomenon after being featured in the game.", "emoji": "🕺" },
+        { "text": "It generated over $9 billion in revenue in its first two years.", "emoji": "💵" }
+      ]
+    },
+    {
+      "name": "Minecraft",
+      "facts": [
+        { "text": "The Creeper was created by a coding error when the creator tried to make a pig but messed up the height/length.", "emoji": "💥" },
+        { "text": "Endermen language is actually English played backwards and distorted.", "emoji": "⏪" },
+        { "text": "It is the best-selling video game of all time.", "emoji": "🏆" }
+      ]
+    },
+    {
+      "name": "Super Mario Bros.",
+      "facts": [
+        { "text": "Mario hits blocks with his fist, not his head.", "emoji": "👊" },
+        { "text": "The clouds and the bushes in the original game use the exact same sprite, just colored differently.", "emoji": "☁️" },
+        { "text": "Mario was originally named 'Jumpman' and was a carpenter, not a plumber.", "emoji": "🔨" }
+      ]
+    }
+  ],
+  "Music": [
+    {
+      "name": "Elvis Presley",
+      "facts": [
+        { "text": "He bought Graceland when he was only 22 years old.", "emoji": "🎸" },
+        { "text": "He never performed a concert outside of North America.", "emoji": "🌎" },
+        { "text": "He is the best-selling solo artist in the history of recorded music.", "emoji": "💿" }
+      ]
+    },
+    {
+      "name": "David Bowie",
+      "facts": [
+        { "text": "His eyes were actually the same color; one pupil was permanently dilated due to a childhood fight.", "emoji": "👁️" },
+        { "text": "He voiced the character 'Lord Royal Highness' in SpongeBob SquarePants.", "emoji": "🧽" },
+        { "text": "He rejected a knighthood from the Queen in 2003.", "emoji": "⚔️" }
+      ]
+    },
+    {
+      "name": "Nirvana",
+      "facts": [
+        { "text": "The video for 'Smells Like Teen Spirit' was filmed in a real high school gym.", "emoji": "🏫" },
+        { "text": "Kurt Cobain was evicted from his apartment the same week 'Nevermind' was released.", "emoji": "📦" },
+        { "text": "Dave Grohl played drums for Nirvana before forming the Foo Fighters.", "emoji": "🥁" }
+      ]
+    },
+    {
+      "name": "Queen",
+      "facts": [
+        { "text": "Freddie Mercury had four extra teeth in his upper jaw, which he believed gave him his vocal range.", "emoji": "🦷" },
+        { "text": "Brian May built his guitar, the 'Red Special', out of an old fireplace mantel.", "emoji": "🔥" },
+        { "text": "The band is the only group in which every member has composed a #1 single.", "emoji": "🥇" }
+      ]
+    },
+    {
+      "name": "Eminem",
+      "facts": [
+        { "text": "His stage name comes from his initials, Marshall Mathers (M&M).", "emoji": "🍬" },
+        { "text": "He wrote the hook for 'Lose Yourself' on the set of the movie '8 Mile' between takes.", "emoji": "📝" },
+        { "text": "The word 'orange' is often said to have no rhyme, but Eminem has rhymed it with 'door hinge', 'syringe', and 'porridge'.", "emoji": "🍊" }
+      ]
+    }
+  ],
+  "History": [
+    {
+      "name": "The French Revolution",
+      "facts": [
+        { "text": "The guillotine was invented as a 'humane' method of execution.", "emoji": "🔪" },
+        { "text": "King Louis XVI and Marie Antoinette were caught fleeing because the King's face was recognized from a coin.", "emoji": "🪙" },
+        { "text": "They created a new 10-day week calendar to try and remove religious influence.", "emoji": "🗓️" }
+      ]
+    },
+    {
+      "name": "The Cold War",
+      "facts": [
+        { "text": "The CIA spent millions trying to train cats to be spies (Operation Acoustic Kitty). It failed immediately.", "emoji": "🐈" },
+        { "text": "The US planned to detonate a nuclear bomb on the moon just to show off force.", "emoji": "🌑" },
+        { "text": "There were enough nuclear weapons to destroy the world multiple times over.", "emoji": "☢️" }
+      ]
+    },
+    {
+      "name": "The Black Death",
+      "facts": [
+        { "text": "It killed approximately 60% of Europe's entire population.", "emoji": "💀" },
+        { "text": "The nursery rhyme 'Ring Around the Rosie' is widely believed to be about the plague.", "emoji": "🥀" },
+        { "text": "Some cities quarantined by bricking up the doors of infected houses with people still inside.", "emoji": "🧱" }
+      ]
+    },
+    {
+      "name": "Ancient Rome",
+      "facts": [
+        { "text": "Romans used crushed mouse brains as toothpaste.", "emoji": "🦷" },
+        { "text": "Wealthy Romans would eat flamingo tongues as a delicacy.", "emoji": "🦩" },
+        { "text": "They had a god named Crepitus who was the god of flatulence (though this is debated by historians).", "emoji": "💨" }
+      ]
+    },
+    {
+      "name": "The Vikings",
+      "facts": [
+        { "text": "Vikings never actually wore horned helmets; that was an invention of 19th-century opera costume designers.", "emoji": "🎭" },
+        { "text": "They used a special liquid called 'touchwood' made from tree fungus to start fires.", "emoji": "🔥" },
+        { "text": "Viking men carried customized combs and were very hygienic for their time.", "emoji": "💇‍♂️" }
+      ]
+    }
+  ],
+  "Science": [
+    {
+      "name": "Chemistry",
+      "facts": [
+        { "text": "Glass is actually a liquid that flows very, very slowly (an amorphous solid).", "emoji": "🍷" },
+        { "text": "Helium is the only element that cannot be frozen solid, even at absolute zero.", "emoji": "🎈" },
+        { "text": "Your body contains enough carbon to make 9,000 pencils.", "emoji": "✏️" }
+      ]
+    },
+    {
+      "name": "Weather",
+      "facts": [
+        { "text": "A single lightning bolt contains enough energy to toast 100,000 slices of bread.", "emoji": "⚡" },
+        { "text": "It can rain diamonds on Jupiter and Saturn due to high pressure.", "emoji": "💎" },
+        { "text": "The smell of rain is caused by a bacteria called actinomycetes.", "emoji": "🌧️" }
+      ]
+    },
+    {
+      "name": "Physics",
+      "facts": [
+        { "text": "If you could fold a piece of paper 42 times, it would reach the moon.", "emoji": "📃" },
+        { "text": "Time moves faster at the top of a building than at the bottom due to gravitational time dilation.", "emoji": "🕰️" },
+        { "text": "Hot water freezes faster than cold water (the Mpemba effect).", "emoji": "🧊" }
+      ]
+    },
+    {
+      "name": "Biology",
+      "facts": [
+        { "text": "The only part of the body that has no blood supply is the cornea of the eye; it gets oxygen directly from the air.", "emoji": "👁️" },
+        { "text": "Humans are bioluminescent and glow in the dark, but the light is too weak for our eyes to see.", "emoji": "✨" },
+        { "text": "Stomach acid is strong enough to dissolve razor blades.", "emoji": "🧪" }
+      ]
+    }
+  ],
+  "Animals": [
+    {
+      "name": "Cats",
+      "facts": [
+        { "text": "Cats spend 70% of their lives sleeping.", "emoji": "😴" },
+        { "text": "A group of kittens is called a 'kindle'.", "emoji": "🐱" },
+        { "text": "They cannot taste sweetness.", "emoji": "🍬" },
+        { "text": "A cat's purr has a frequency that can help heal bones and muscles.", "emoji": "🦴" }
+      ]
+    },
+    {
+      "name": "Wolves",
+      "facts": [
+        { "text": "Wolves howl to assemble the pack, not at the moon.", "emoji": "🐺" },
+        { "text": "They have webbed toes which help them swim and walk on snow.", "emoji": "🐾" },
+        { "text": "Once a wolf finds a mate, they usually stay together for life.", "emoji": "❤️" }
+      ]
+    },
+    {
+      "name": "Dolphins",
+      "facts": [
+        { "text": "They give each other names (specific whistles).", "emoji": "🗣️" },
+        { "text": "Dolphins sleep with one eye open and half their brain awake to watch for predators.", "emoji": "👁️" },
+        { "text": "The US Navy trains dolphins to find underwater mines.", "emoji": "💣" }
+      ]
+    },
+    {
+      "name": "Insects",
+      "facts": [
+        { "text": "Ants never sleep and they don't have lungs.", "emoji": "🐜" },
+        { "text": "A cockroach can live for weeks without its head before it dies of hunger.", "emoji": "🪳" },
+        { "text": "Butterflies taste with their feet.", "emoji": "🦋" },
+        { "text": "Dragonflies have been around for 300 million years, predating dinosaurs.", "emoji": "🐉" }
+      ]
+    },
+    {
+      "name": "Birds",
+      "facts": [
+        { "text": "Owls cannot move their eyes; they must turn their entire head.", "emoji": "🦉" },
+        { "text": "Crows have the intelligence of a 7-year-old child and can recognize human faces.", "emoji": "🧠" },
+        { "text": "The ostrich's eye is bigger than its brain.", "emoji": "👀" }
+      ]
+    }
+  ],
+  "Food": [
+    {
+      "name": "Ice Cream",
+      "facts": [
+        { "text": "Brain freeze happens when the cold hits the roof of your mouth, causing blood vessels to constrict.", "emoji": "🥶" },
+        { "text": "Vanilla was once rare and exotic; now it's the most common flavor.", "emoji": "🍦" },
+        { "text": "It takes about 12 pounds of milk to make just one gallon of ice cream.", "emoji": "🥛" }
+      ]
+    },
+    {
+      "name": "Sushi",
+      "facts": [
+        { "text": "Salmon sushi wasn't eaten in Japan until the Norwegians introduced it in the 1980s.", "emoji": "🍣" },
+        { "text": "Wasabi is traditionally used to kill bacteria in raw fish.", "emoji": "🌿" },
+        { "text": "Real wasabi is so expensive that most 'wasabi' is just dyed horseradish.", "emoji": "🟢" }
+      ]
+    },
+    {
+      "name": "Bananas",
+      "facts": [
+        { "text": "Bananas are technically berries, but strawberries are not.", "emoji": "🍌" },
+        { "text": "They are slightly radioactive due to their potassium content.", "emoji": "☢️" },
+        { "text": "Commercial bananas are clones; they are all genetically identical.", "emoji": "🧬" }
+      ]
+    },
+    {
+      "name": "Honey",
+      "facts": [
+        { "text": "Honey never spoils. Edible honey has been found in ancient Egyptian tombs.", "emoji": "🍯" },
+        { "text": "It takes 12 bees their entire lifetime to make one teaspoon of honey.", "emoji": "🐝" },
+        { "text": "Honey is the only food that includes all the substances necessary to sustain life, including enzymes and water.", "emoji": "💧" }
+      ]
+    },
+    {
+      "name": "Fast Food",
+      "facts": [
+        { "text": "McDonald's sells 75 burgers every second.", "emoji": "🍔" },
+        { "text": "Colonel Sanders, founder of KFC, was not a military colonel; it was an honorary title.", "emoji": "🍗" },
+        { "text": "Pizza Hut once delivered a pizza to the International Space Station.", "emoji": "🚀" }
+      ]
+    }
+  ],
+  "Geography": [
+    {
+      "name": "Japan",
+      "facts": [
+        { "text": "There is an island in Japan inhabited almost entirely by rabbits.", "emoji": "🐰" },
+        { "text": "It has the highest number of vending machines per person in the world.", "emoji": "🎰" },
+        { "text": "Square watermelons are grown by farmers for easier stacking and storage.", "emoji": "🍉" }
+      ]
+    },
+    {
+      "name": "The Nile River",
+      "facts": [
+        { "text": "It flows north, which is opposite to most major rivers.", "emoji": "⬆️" },
+        { "text": "It is generally considered the longest river in the world.", "emoji": "📏" },
+        { "text": "Nearly all of Egypt's cultural and historical sites are found along its banks.", "emoji": "🏛️" }
+      ]
+    },
+    {
+      "name": "Australia",
+      "facts": [
+        { "text": "There are more kangaroos than people in Australia.", "emoji": "🦘" },
+        { "text": "Australia is wider than the moon.", "emoji": "🌕" },
+        { "text": "They once lost a war against emus (The Great Emu War of 1932).", "emoji": "🐦" }
+      ]
+    },
+    {
+      "name": "Canada",
+      "facts": [
+        { "text": "Canada has more lakes than the rest of the world combined.", "emoji": "🌊" },
+        { "text": "The lowest temperature ever recorded in Canada was as cold as Mars.", "emoji": "🥶" },
+        { "text": "They eat more macaroni and cheese than any other nation.", "emoji": "🧀" }
+      ]
+    }
+  ],
+  "Literature": [
+    {
+      "name": "The Hobbit",
+      "facts": [
+        { "text": "Tolkien corrected the first sentence of the book from a student's exam paper.", "emoji": "📝" },
+        { "text": "It was originally written just for his own children.", "emoji": "🧒" },
+        { "text": "The first edition had a version where Gollum willingly bets the ring.", "emoji": "💍" }
+      ]
+    },
+    {
+      "name": "Pride and Prejudice",
+      "facts": [
+        { "text": "Jane Austen originally titled the novel 'First Impressions'.", "emoji": "📖" },
+        { "text": "It was rejected by a publisher without even being read.", "emoji": "🚫" },
+        { "text": "Mr. Darcy's first name is Fitzwilliam.", "emoji": "🎩" }
+      ]
+    },
+    {
+      "name": "Frankenstein",
+      "facts": [
+        { "text": "Mary Shelley wrote the story when she was only 18 years old.", "emoji": "🧟‍♂️" },
+        { "text": "The monster has no name in the book; Frankenstein is the doctor.", "emoji": "👨‍⚕️" },
+        { "text": "The story was inspired by a nightmare Shelley had during a ghost story competition.", "emoji": "👻" }
+      ]
+    }
+  ],
+  "Human Body": [
+    {
+      "name": "Bones",
+      "facts": [
+        { "text": "Babies are born with about 300 bones, but adults only have 206 because some fuse together.", "emoji": "🦴" },
+        { "text": "The femur (thigh bone) is stronger than concrete.", "emoji": "💪" },
+        { "text": "The smallest bone in the body is in the ear (the stapes).", "emoji": "👂" }
+      ]
+    },
+    {
+      "name": "The Brain",
+      "facts": [
+        { "text": "The brain uses 20% of the body's total oxygen and energy.", "emoji": "🧠" },
+        { "text": "It is physically impossible to tickle yourself because the brain predicts the sensation.", "emoji": "😂" },
+        { "text": "Information travels to your brain at speeds of up to 268 miles per hour.", "emoji": "🏎️" }
+      ]
+    }
+  ],
+  "Space": [
+    {
+      "name": "The Solar System",
+      "facts": [
+        { "text": "You could fit all the other planets in the solar system between Earth and the Moon.", "emoji": "🪐" },
+        { "text": "Sunset on Mars appears blue.", "emoji": "🔵" },
+        { "text": "Venus is the hottest planet, not Mercury, due to its thick atmosphere trapping heat.", "emoji": "🔥" }
+      ]
+    },
+    {
+      "name": "Stars",
+      "facts": [
+        { "text": "There are more stars in the universe than grains of sand on all the beaches on Earth.", "emoji": "🏖️" },
+        { "text": "Neutron stars are so dense that a teaspoon of them would weigh 6 billion tons.", "emoji": "⚖️" },
+        { "text": "When you look at a star, you are looking back in time because the light takes years to reach us.", "emoji": "⏳" }
+      ]
+    }
+  ],
+  "Sports": [
+    {
+      "name": "American Football",
+      "facts": [
+        { "text": "An NFL game lasts 3 hours, but the ball is typically in play for only 11 minutes.", "emoji": "🏈" },
+        { "text": "The huddle was invented by a deaf quarterback so the other team couldn't see his sign language.", "emoji": "🤟" },
+        { "text": "Super Bowl Sunday is the second largest food consumption day in the US, after Thanksgiving.", "emoji": "🦃" }
+      ]
+    },
+    {
+      "name": "Tennis",
+      "facts": [
+        { "text": "The yellow balls were introduced in 1986 just so they would show up better on color TV.", "emoji": "🎾" },
+        { "text": "Wimbledon is the only major tennis tournament played on grass.", "emoji": "🌱" },
+        { "text": "The longest tennis match in history lasted 11 hours and 5 minutes.", "emoji": "⏱️" }
+      ]
+    }
+  ],
+  "Technology": [
+    {
+      "name": "The Internet",
+      "facts": [
+        { "text": "The first website ever created is still online.", "emoji": "🌐" },
+        { "text": "About 300 hours of video are uploaded to YouTube every minute.", "emoji": "📹" },
+        { "text": "The first webcam was invented at Cambridge University to check if the coffee pot was full.", "emoji": "☕" }
+      ]
+    },
+    {
+      "name": "Smartphones",
+      "facts": [
+        { "text": "The average smartphone has more computing power than the computers used for the Apollo 11 moon landing.", "emoji": "📱" },
+        { "text": "People check their phones an average of 58 times a day.", "emoji": "👀" },
+        { "text": "Nomophobia is the fear of being without your mobile phone.", "emoji": "😨" }
+      ]
+    }
+  ]
+}

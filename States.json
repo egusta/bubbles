@@ -1,0 +1,510 @@
+{
+  "States": [
+    {
+      "name": "Alabama",
+      "facts": [
+        { "text": "(1819) Capital: Montgomery.", "emoji": "🏛️" },
+        { "text": "Home to the Unclaimed Baggage Center, where lost airline luggage is sold.", "emoji": "🧳" },
+        { "text": "Birthplace of the Saturn V rocket that took humans to the moon.", "emoji": "🚀" },
+        { "text": "It has an official 'State Spirit': Conecuh Ridge Whiskey.", "emoji": "🥃" },
+        { "text": "Windshield wipers were invented here by Mary Anderson in 1903.", "emoji": "🌧️" }
+      ]
+    },
+    {
+      "name": "Alaska",
+      "facts": [
+        { "text": "(1959) Capital: Juneau.", "emoji": "🏛️" },
+        { "text": "Boasts a coastline longer than all other 49 states combined.", "emoji": "🌊" },
+        { "text": "The name 'Alaska' can be typed on just one row of a QWERTY keyboard.", "emoji": "⌨️" },
+        { "text": "Experience 80 days of midnight sun in Barrow.", "emoji": "☀️" },
+        { "text": "The U.S. purchased it from Russia for just 2 cents an acre.", "emoji": "💸" },
+        { "text": "There are more caribou than people.", "emoji": "🦌" }
+      ]
+    },
+    {
+      "name": "Arizona",
+      "facts": [
+        { "text": "(1912) Capital: Phoenix.", "emoji": "🏛️" },
+        { "text": "The only state where Saguaro cacti grow wild.", "emoji": "🌵" },
+        { "text": "Home to the original London Bridge (bought and moved to Lake Havasu).", "emoji": "🌉" },
+        { "text": "The official state neckwear is the Bolo tie.", "emoji": "👔" },
+        { "text": "It does not observe Daylight Saving Time (except the Navajo Nation).", "emoji": "⏰" }
+      ]
+    },
+    {
+      "name": "Arkansas",
+      "facts": [
+        { "text": "(1836) Capital: Little Rock.", "emoji": "🏛️" },
+        { "text": "Home to the only active diamond mine in the US open to the public.", "emoji": "💎" },
+        { "text": "Sam Walton opened the first Walmart here in 1962.", "emoji": "🛒" },
+        { "text": "Cheese dip was allegedly invented here in 1935.", "emoji": "🧀" },
+        { "text": "Contains the naturally hottest springs in the country.", "emoji": "♨️" }
+      ]
+    },
+    {
+      "name": "California",
+      "facts": [
+        { "text": "(1850) Capital: Sacramento.", "emoji": "🏛️" },
+        { "text": "Home to the General Sherman tree, the largest living thing on Earth.", "emoji": "🌲" },
+        { "text": "If it were a country, it would be the 5th largest economy in the world.", "emoji": "💰" },
+        { "text": "Produces 80% of the world's almonds.", "emoji": "🥜" },
+        { "text": "Death Valley is the hottest, driest, and lowest place in North America.", "emoji": "🌡️" }
+      ]
+    },
+    {
+      "name": "Colorado",
+      "facts": [
+        { "text": "(1876) Capital: Denver.", "emoji": "🏛️" },
+        { "text": "The 13th step of the state capitol is exactly one mile above sea level.", "emoji": "📏" },
+        { "text": "The only state to turn down hosting the Olympics (1976 Winter Games).", "emoji": "🚫" },
+        { "text": "The cheeseburger trademark was first awarded here in 1935.", "emoji": "🍔" },
+        { "text": "Has the highest mean altitude of any state.", "emoji": "⛰️" }
+      ]
+    },
+    {
+      "name": "Connecticut",
+      "facts": [
+        { "text": "(1788) Capital: Hartford.", "emoji": "🏛️" },
+        { "text": "Home to the first phone book (it only had 50 names).", "emoji": "📖" },
+        { "text": "The first hamburger was served at Louis' Lunch in New Haven.", "emoji": "🍔" },
+        { "text": "Home to the USS Nautilus, the world's first nuclear submarine.", "emoji": "⚓" },
+        { "text": "The Scoville Scale for measuring chili heat was invented here.", "emoji": "🌶️" }
+      ]
+    },
+    {
+      "name": "Delaware",
+      "facts": [
+        { "text": "(1787) Capital: Dover.", "emoji": "🏛️" },
+        { "text": "The 'First State'—it was the first to ratify the Constitution.", "emoji": "🥇" },
+        { "text": "There is no sales tax, making it a shopping destination.", "emoji": "🛍️" },
+        { "text": "More corporations are incorporated here than there are people.", "emoji": "🏢" },
+        { "text": "The spacesuit was developed here by ILC Dover.", "emoji": "👨‍🚀" }
+      ]
+    },
+    {
+      "name": "Florida",
+      "facts": [
+        { "text": "(1845) Capital: Tallahassee.", "emoji": "🏛️" },
+        { "text": "The only place where alligators and crocodiles coexist in the wild.", "emoji": "🐊" },
+        { "text": "Key West once declared war on the US as the 'Conch Republic'.", "emoji": "🐚" },
+        { "text": "The flattest state in the nation.", "emoji": "🥞" },
+        { "text": "Gatorade was invented at the University of Florida.", "emoji": "🥤" },
+        { "text": "The lightning capital of the United States.", "emoji": "⚡" }
+      ]
+    },
+    {
+      "name": "Georgia",
+      "facts": [
+        { "text": "(1788) Capital: Atlanta.", "emoji": "🏛️" },
+        { "text": "Coca-Cola was invented here by a pharmacist in 1886.", "emoji": "🥤" },
+        { "text": "Vidalia onions can legally only be grown in 20 counties here.", "emoji": "🧅" },
+        { "text": "Hosted the 1996 Summer Olympics.", "emoji": "🔥" },
+        { "text": "The Masters golf tournament is played in Augusta every year.", "emoji": "⛳" }
+      ]
+    },
+    {
+      "name": "Hawaii",
+      "facts": [
+        { "text": "(1959) Capital: Honolulu.", "emoji": "🏛️" },
+        { "text": "The only state that grows coffee commercially.", "emoji": "☕" },
+        { "text": "Has the only royal palace in the US (Iolani Palace).", "emoji": "👑" },
+        { "text": "Billboards are banned state-wide to preserve the view.", "emoji": "🛑" },
+        { "text": "The state consists of 132 different islands.", "emoji": "🏝️" },
+        { "text": "Snakes are illegal here.", "emoji": "🐍" }
+      ]
+    },
+    {
+      "name": "Idaho",
+      "facts": [
+        { "text": "(1890) Capital: Boise.", "emoji": "🏛️" },
+        { "text": "Produces about one-third of all potatoes grown in the US.", "emoji": "🥔" },
+        { "text": "Hells Canyon is deeper than the Grand Canyon.", "emoji": "📉" },
+        { "text": "Television was invented here by Philo Farnsworth in a high school lab.", "emoji": "📺" },
+        { "text": "The state capital is geothermal, heated by underground hot springs.", "emoji": "♨️" }
+      ]
+    },
+    {
+      "name": "Illinois",
+      "facts": [
+        { "text": "(1818) Capital: Springfield.", "emoji": "🏛️" },
+        { "text": "The world's first skyscraper was built in Chicago in 1885.", "emoji": "🏙️" },
+        { "text": "Twinkies were invented here during the Great Depression.", "emoji": "🍰" },
+        { "text": "The Chicago River is dyed green every St. Patrick's Day.", "emoji": "☘️" },
+        { "text": "Route 66 begins in Chicago.", "emoji": "🛣️" }
+      ]
+    },
+    {
+      "name": "Indiana",
+      "facts": [
+        { "text": "(1816) Capital: Indianapolis.", "emoji": "🏛️" },
+        { "text": "Home to the Indy 500, the largest single-day sporting event.", "emoji": "🏎️" },
+        { "text": "The town of Santa Claus receives half a million letters a year.", "emoji": "🎅" },
+        { "text": "Produces more popcorn than any other state.", "emoji": "🍿" },
+        { "text": "The first professional baseball game was played here in 1871.", "emoji": "⚾" }
+      ]
+    },
+    {
+      "name": "Iowa",
+      "facts": [
+        { "text": "(1846) Capital: Des Moines.", "emoji": "🏛️" },
+        { "text": "Sliced bread was invented here by Otto Rohwedder in 1928.", "emoji": "🍞" },
+        { "text": "There are more pigs than people (about 7 to 1).", "emoji": "🐷" },
+        { "text": "Snake Alley is known as the 'Crookedest Street in the World'.", "emoji": "〰️" },
+        { "text": "The 'Field of Dreams' movie set is still a tourist attraction.", "emoji": "🌽" }
+      ]
+    },
+    {
+      "name": "Kansas",
+      "facts": [
+        { "text": "(1861) Capital: Topeka.", "emoji": "🏛️" },
+        { "text": "Helium was discovered here in 1905.", "emoji": "🎈" },
+        { "text": "Pizza Hut was founded here by two brothers in 1958.", "emoji": "🍕" },
+        { "text": "Produces enough wheat in a year to bake 36 billion loaves of bread.", "emoji": "🌾" },
+        { "text": "Dodge City is known as the 'Cowboy Capital of the World'.", "emoji": "🤠" }
+      ]
+    },
+    {
+      "name": "Kentucky",
+      "facts": [
+        { "text": "(1792) Capital: Frankfort.", "emoji": "🏛️" },
+        { "text": "Produces 95% of the world's bourbon.", "emoji": "🥃" },
+        { "text": "Mammoth Cave is the world's longest cave system.", "emoji": "🦇" },
+        { "text": "The 'Happy Birthday' song was created here.", "emoji": "🎂" },
+        { "text": "The Chevrolet Corvette is manufactured exclusively here.", "emoji": "🚗" }
+      ]
+    },
+    {
+      "name": "Louisiana",
+      "facts": [
+        { "text": "(1812) Capital: Baton Rouge.", "emoji": "🏛️" },
+        { "text": "The only state divided into 'parishes' instead of counties.", "emoji": "🗺️" },
+        { "text": "The birthplace of Jazz music.", "emoji": "🎷" },
+        { "text": "Tabasco sauce has been made on Avery Island since 1868.", "emoji": "🌶️" },
+        { "text": "Has the tallest state capitol building in the US.", "emoji": "🏢" }
+      ]
+    },
+    {
+      "name": "Maine",
+      "facts": [
+        { "text": "(1820) Capital: Augusta.", "emoji": "🏛️" },
+        { "text": "Harvests 90% of the country's lobster supply.", "emoji": "🦞" },
+        { "text": "The closest US state to Africa.", "emoji": "🌍" },
+        { "text": "The only state name with just one syllable.", "emoji": "☝️" },
+        { "text": "Produces 99% of all blueberries in the US.", "emoji": "🫐" }
+      ]
+    },
+    {
+      "name": "Maryland",
+      "facts": [
+        { "text": "(1788) Capital: Annapolis.", "emoji": "🏛️" },
+        { "text": "The US National Anthem was written here at Fort McHenry.", "emoji": "🇺🇸" },
+        { "text": "The official state sport is Jousting.", "emoji": "🛡️" },
+        { "text": "The Ouija board was named here (allegedly by the board itself).", "emoji": "👻" },
+        { "text": "Home to the first dental school in the world.", "emoji": "🦷" }
+      ]
+    },
+    {
+      "name": "Massachusetts",
+      "facts": [
+        { "text": "(1788) Capital: Boston.", "emoji": "🏛️" },
+        { "text": "Basketball was invented here by James Naismith in 1891.", "emoji": "🏀" },
+        { "text": "Harvard is the oldest institution of higher learning in the US.", "emoji": "🎓" },
+        { "text": "Chocolate chip cookies were invented at the Toll House Inn.", "emoji": "🍪" },
+        { "text": "The first subway system in America opened here in 1897.", "emoji": "🚇" }
+      ]
+    },
+    {
+      "name": "Michigan",
+      "facts": [
+        { "text": "(1837) Capital: Lansing.", "emoji": "🏛️" },
+        { "text": "The only state that touches four of the five Great Lakes.", "emoji": "🌊" },
+        { "text": "Battle Creek is known as the 'Cereal Capital of the World'.", "emoji": "🥣" },
+        { "text": "Home to the only floating post office in the world (the J.W. Westcott II).", "emoji": "🛳️" },
+        { "text": "The Model T was first mass-produced here by Ford.", "emoji": "🚗" }
+      ]
+    },
+    {
+      "name": "Minnesota",
+      "facts": [
+        { "text": "(1858) Capital: St. Paul.", "emoji": "🏛️" },
+        { "text": "Known as the 'Land of 10,000 Lakes' (actually has 11,842).", "emoji": "🚣" },
+        { "text": "The Mall of America is big enough to fit 7 Yankee Stadiums.", "emoji": "🛍️" },
+        { "text": "Scotch Tape and Post-It Notes were invented here at 3M.", "emoji": "🩹" },
+        { "text": "Water skiing was invented here in 1922.", "emoji": "⛷️" }
+      ]
+    },
+    {
+      "name": "Mississippi",
+      "facts": [
+        { "text": "(1817) Capital: Jackson.", "emoji": "🏛️" },
+        { "text": "Root beer was invented here by Edward Barq in 1898.", "emoji": "🍺" },
+        { "text": "The name 'Teddy Bear' originated here after a T. Roosevelt hunting trip.", "emoji": "🧸" },
+        { "text": "Produces 60% of the farm-raised catfish in the US.", "emoji": "🐟" },
+        { "text": "The first heart and lung transplant was performed here.", "emoji": "🩺" }
+      ]
+    },
+    {
+      "name": "Missouri",
+      "facts": [
+        { "text": "(1821) Capital: Jefferson City.", "emoji": "🏛️" },
+        { "text": "The Gateway Arch is the tallest man-made monument in the US.", "emoji": "🏗️" },
+        { "text": "Ice cream cones were popularized here at the 1904 World's Fair.", "emoji": "🍦" },
+        { "text": "Shares a border with 8 different states (tied with TN).", "emoji": "🗺️" },
+        { "text": "Home to Anheuser-Busch, one of the world's largest breweries.", "emoji": "🍻" }
+      ]
+    },
+    {
+      "name": "Montana",
+      "facts": [
+        { "text": "(1889) Capital: Helena.", "emoji": "🏛️" },
+        { "text": "The 'Big Sky Country' has a larger grizzly bear population than humans.", "emoji": "🐻" },
+        { "text": "Triple Divide Peak sends water to three different oceans.", "emoji": "⛰️" },
+        { "text": "The Roe River is one of the world's shortest rivers (201 ft).", "emoji": "💧" },
+        { "text": "It has the largest migratory elk herd in the nation.", "emoji": "🦌" }
+      ]
+    },
+    {
+      "name": "Nebraska",
+      "facts": [
+        { "text": "(1867) Capital: Lincoln.", "emoji": "🏛️" },
+        { "text": "Kool-Aid was invented here by Edwin Perkins in 1927.", "emoji": "🥤" },
+        { "text": "Home to Carhenge, a replica of Stonehenge made of vintage cars.", "emoji": "🚗" },
+        { "text": "The only state with a unicameral (one-house) legislature.", "emoji": "⚖️" },
+        { "text": "Arbor Day was founded here in 1872.", "emoji": "🌳" }
+      ]
+    },
+    {
+      "name": "Nevada",
+      "facts": [
+        { "text": "(1864) Capital: Carson City.", "emoji": "🏛️" },
+        { "text": "The most mountainous state in the US (over 300 ranges).", "emoji": "⛰️" },
+        { "text": "Las Vegas has more hotel rooms than any other city on Earth.", "emoji": "🎰" },
+        { "text": "Home to Area 51, a highly classified Air Force facility.", "emoji": "👽" },
+        { "text": "85% of the state is owned by the federal government.", "emoji": "🇺🇸" }
+      ]
+    },
+    {
+      "name": "New Hampshire",
+      "facts": [
+        { "text": "(1788) Capital: Concord.", "emoji": "🏛️" },
+        { "text": "Holds the first primary in the US presidential election cycle.", "emoji": "🗳️" },
+        { "text": "Mt. Washington held the world record for wind speed (231 mph) for decades.", "emoji": "🌬️" },
+        { "text": "The first free public library in the US was established here.", "emoji": "📚" },
+        { "text": "License plates famously read 'Live Free or Die'.", "emoji": "🚙" }
+      ]
+    },
+    {
+      "name": "New Jersey",
+      "facts": [
+        { "text": "(1787) Capital: Trenton.", "emoji": "🏛️" },
+        { "text": "Has the most diners in the world and is often called the 'Diner Capital'.", "emoji": "🍳" },
+        { "text": "Atlantic City has the longest boardwalk in the world.", "emoji": "🎡" },
+        { "text": "Salt water taffy was invented here in the 1880s.", "emoji": "🍬" },
+        { "text": "Thomas Edison invented the lightbulb at his Menlo Park lab.", "emoji": "💡" }
+      ]
+    },
+    {
+      "name": "New Mexico",
+      "facts": [
+        { "text": "(1912) Capital: Santa Fe.", "emoji": "🏛️" },
+        { "text": "Santa Fe is the highest and oldest state capital in the US.", "emoji": "🏰" },
+        { "text": "The first atomic bomb was detonated here at the Trinity site.", "emoji": "💣" },
+        { "text": "Hosts the largest hot air balloon festival in the world.", "emoji": "🎈" },
+        { "text": "Smokey Bear was found here as a cub after a forest fire.", "emoji": "🐻" }
+      ]
+    },
+    {
+      "name": "New York",
+      "facts": [
+        { "text": "(1788) Capital: Albany.", "emoji": "🏛️" },
+        { "text": "Home to the first pizzeria in the US (Lombardi's, 1905).", "emoji": "🍕" },
+        { "text": "The Federal Reserve Bank holds more gold than Fort Knox.", "emoji": "🪙" },
+        { "text": "Toilet paper was invented here in 1857.", "emoji": "🧻" },
+        { "text": "Yellow taxis were chosen because yellow is the easiest color to spot.", "emoji": "🚕" },
+        { "text": "Adirondack Park is larger than Yellowstone, Yosemite, and Grand Canyon combined.", "emoji": "🏞️" }
+      ]
+    },
+    {
+      "name": "North Carolina",
+      "facts": [
+        { "text": "(1789) Capital: Raleigh.", "emoji": "🏛️" },
+        { "text": "The Wright Brothers made the first powered flight here in 1903.", "emoji": "✈️" },
+        { "text": "Pepsi was invented here in New Bern in 1893.", "emoji": "🥤" },
+        { "text": "Krispy Kreme Doughnuts was founded here in 1937.", "emoji": "🍩" },
+        { "text": "Home to the 'Lost Colony' of Roanoke.", "emoji": "❓" }
+      ]
+    },
+    {
+      "name": "North Dakota",
+      "facts": [
+        { "text": "(1889) Capital: Bismarck.", "emoji": "🏛️" },
+        { "text": "The town of Rugby is the geographical center of North America.", "emoji": "📍" },
+        { "text": "It is consistently the least visited state in the US.", "emoji": "📉" },
+        { "text": "Holds the Guinness World Record for the most snow angels made at once.", "emoji": "👼" },
+        { "text": "Produces more honey than any other state.", "emoji": "🍯" }
+      ]
+    },
+    {
+      "name": "Ohio",
+      "facts": [
+        { "text": "(1803) Capital: Columbus.", "emoji": "🏛️" },
+        { "text": "Home to the Rock and Roll Hall of Fame.", "emoji": "🎸" },
+        { "text": "Produced 25 NASA astronauts, including Neil Armstrong and John Glenn.", "emoji": "👨‍🚀" },
+        { "text": "The first ambulance service was established here in 1865.", "emoji": "🚑" },
+        { "text": "50% of the US population lives within a 500-mile radius of Columbus.", "emoji": "🎯" }
+      ]
+    },
+    {
+      "name": "Oklahoma",
+      "facts": [
+        { "text": "(1907) Capital: Oklahoma City.", "emoji": "🏛️" },
+        { "text": "The shopping cart was invented here in 1937.", "emoji": "🛒" },
+        { "text": "The parking meter was invented here (first installed in 1935).", "emoji": "🅿️" },
+        { "text": "The movie 'Twister' was based on the NOAA lab here.", "emoji": "🌪️" },
+        { "text": "It has the largest Native American population of any state.", "emoji": "🪶" }
+      ]
+    },
+    {
+      "name": "Oregon",
+      "facts": [
+        { "text": "(1859) Capital: Salem.", "emoji": "🏛️" },
+        { "text": "Crater Lake is the deepest lake in the US.", "emoji": "💧" },
+        { "text": "Nike was founded here (originally as Blue Ribbon Sports).", "emoji": "👟" },
+        { "text": "Home to the world's smallest park (Mill Ends Park, 2 feet wide).", "emoji": "🤏" },
+        { "text": "It has no state sales tax.", "emoji": "💵" }
+      ]
+    },
+    {
+      "name": "Pennsylvania",
+      "facts": [
+        { "text": "(1787) Capital: Harrisburg.", "emoji": "🏛️" },
+        { "text": "Hershey is known as the 'Chocolate Capital of the World'.", "emoji": "🍫" },
+        { "text": "The Declaration of Independence was signed in Philadelphia.", "emoji": "📜" },
+        { "text": "Home to the first zoo in America (Philadelphia Zoo).", "emoji": "🦁" },
+        { "text": "The Slinky was invented here.", "emoji": "🌀" }
+      ]
+    },
+    {
+      "name": "Rhode Island",
+      "facts": [
+        { "text": "(1790) Capital: Providence.", "emoji": "🏛️" },
+        { "text": "The smallest US state (only 1,214 square miles).", "emoji": "🤏" },
+        { "text": "Coffee Milk is the official state drink.", "emoji": "🥛" },
+        { "text": "Home to the oldest operating tavern in the US (White Horse Tavern).", "emoji": "🍺" },
+        { "text": "Founded by Roger Williams on the principle of religious freedom.", "emoji": "🕊️" }
+      ]
+    },
+    {
+      "name": "South Carolina",
+      "facts": [
+        { "text": "(1788) Capital: Columbia.", "emoji": "🏛️" },
+        { "text": "The first state to secede from the Union in 1860.", "emoji": "⚔️" },
+        { "text": "Birthplace of Sweet Tea.", "emoji": "🍹" },
+        { "text": "Morgan Island is inhabited by over 3,000 free-ranging monkeys.", "emoji": "🐒" },
+        { "text": "Produces more peaches than Georgia (The Peach State).", "emoji": "🍑" }
+      ]
+    },
+    {
+      "name": "South Dakota",
+      "facts": [
+        { "text": "(1889) Capital: Pierre.", "emoji": "🏛️" },
+        { "text": "Home to Mount Rushmore.", "emoji": "🗿" },
+        { "text": "The Crazy Horse Memorial will be the world's largest sculpture when finished.", "emoji": "🐴" },
+        { "text": "Wall Drug is one of the world's most famous roadside attractions.", "emoji": "🛣️" },
+        { "text": "The Corn Palace is decorated with actual crop art every year.", "emoji": "🌽" }
+      ]
+    },
+    {
+      "name": "Tennessee",
+      "facts": [
+        { "text": "(1796) Capital: Nashville.", "emoji": "🏛️" },
+        { "text": "Nashville is the capital of country music.", "emoji": "🎸" },
+        { "text": "Graceland (Elvis's home) is the second most visited house in the US.", "emoji": "🕺" },
+        { "text": "Cotton candy was invented here by a dentist.", "emoji": "🍬" },
+        { "text": "Great Smoky Mountains is the most visited National Park.", "emoji": "⛰️" }
+      ]
+    },
+    {
+      "name": "Texas",
+      "facts": [
+        { "text": "(1845) Capital: Austin.", "emoji": "🏛️" },
+        { "text": "King Ranch is larger than the entire state of Rhode Island.", "emoji": "🤠" },
+        { "text": "Dr Pepper was invented in Waco in 1885.", "emoji": "🥤" },
+        { "text": "The frozen margarita machine was invented in Dallas.", "emoji": "🍹" },
+        { "text": "Uses its own power grid, separate from the rest of the US.", "emoji": "🔌" },
+        { "text": "The phrase 'Don't Mess with Texas' started as an anti-litter campaign.", "emoji": "🗑️" }
+      ]
+    },
+    {
+      "name": "Utah",
+      "facts": [
+        { "text": "(1896) Capital: Salt Lake City.", "emoji": "🏛️" },
+        { "text": "The Great Salt Lake is 3 to 5 times saltier than the ocean.", "emoji": "🧂" },
+        { "text": "Jell-O is the official state snack.", "emoji": "🍮" },
+        { "text": "The Transcontinental Railroad was completed here (Golden Spike).", "emoji": "🚂" },
+        { "text": "Has the greatest snow on earth (scientifically proven dry powder).", "emoji": "❄️" }
+      ]
+    },
+    {
+      "name": "Vermont",
+      "facts": [
+        { "text": "(1791) Capital: Montpelier.", "emoji": "🏛️" },
+        { "text": "The largest producer of maple syrup in the US.", "emoji": "🍁" },
+        { "text": "Ben & Jerry's Ice Cream was founded here in a renovated gas station.", "emoji": "🍦" },
+        { "text": "It is the only state capital without a McDonald's.", "emoji": "🍔" },
+        { "text": "Billboards are completely banned.", "emoji": "🚫" }
+      ]
+    },
+    {
+      "name": "Virginia",
+      "facts": [
+        { "text": "(1788) Capital: Richmond.", "emoji": "🏛️" },
+        { "text": "Birthplace of 8 US Presidents, more than any other state.", "emoji": "🇺🇸" },
+        { "text": "Home to the Pentagon, the world's largest office building.", "emoji": "🏢" },
+        { "text": "Jamestown was the first permanent English settlement (1607).", "emoji": "⛵" },
+        { "text": "About 70% of the world's internet traffic flows through Northern Virginia.", "emoji": "💻" }
+      ]
+    },
+    {
+      "name": "Washington",
+      "facts": [
+        { "text": "(1889) Capital: Olympia.", "emoji": "🏛️" },
+        { "text": "Starbucks was founded at Pike Place Market in Seattle.", "emoji": "☕" },
+        { "text": "Produces more apples than any other state.", "emoji": "🍎" },
+        { "text": "Home to the most glaciers in the contiguous US.", "emoji": "🧊" },
+        { "text": "The Space Needle was built for the 1962 World's Fair.", "emoji": "🚀" }
+      ]
+    },
+    {
+      "name": "West Virginia",
+      "facts": [
+        { "text": "(1863) Capital: Charleston.", "emoji": "🏛️" },
+        { "text": "The New River is actually one of the oldest rivers in the world.", "emoji": "🌊" },
+        { "text": "The first Mother's Day was celebrated here in 1908.", "emoji": "💐" },
+        { "text": "Home to the pepperoni roll, a coal miner's lunch staple.", "emoji": "🥖" },
+        { "text": "The New River Gorge Bridge is one of the highest in the western hemisphere.", "emoji": "🌉" }
+      ]
+    },
+    {
+      "name": "Wisconsin",
+      "facts": [
+        { "text": "(1848) Capital: Madison.", "emoji": "🏛️" },
+        { "text": "Produces more cheese than any other state.", "emoji": "🧀" },
+        { "text": "The Green Bay Packers are the only community-owned NFL team.", "emoji": "🏈" },
+        { "text": "Harley-Davidson was founded here in 1903.", "emoji": "🏍️" },
+        { "text": "Barbie is from the fictional town of Willows, Wisconsin.", "emoji": "👱‍♀️" }
+      ]
+    },
+    {
+      "name": "Wyoming",
+      "facts": [
+        { "text": "(1890) Capital: Cheyenne.", "emoji": "🏛️" },
+        { "text": "The first state to grant women the right to vote (1869).", "emoji": "🗳️" },
+        { "text": "Has the lowest population of all 50 states.", "emoji": "👥" },
+        { "text": "Home to Devils Tower, the first National Monument.", "emoji": "⛰️" },
+        { "text": "Yellowstone was the world's first national park.", "emoji": "🏞️" },
+        { "text": "There are only two escalators in the entire state.", "emoji": "🪜" }
+      ]
+    }
+  ]
+}

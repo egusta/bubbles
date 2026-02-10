@@ -1,0 +1,419 @@
+{
+  "U.S. Presidents": [
+    {
+      "name": "George Washington",
+      "facts": [
+        { "text": "The only president to be elected unanimously (twice).", "emoji": "🗳️" },
+        { "text": "He did not have wooden teeth; they were made of ivory, gold, and human teeth.", "emoji": "🦷" },
+        { "text": "He refused to shake hands, preferring a formal bow.", "emoji": "🙇" },
+        { "text": "The only president who didn't live in the White House (it wasn't built yet).", "emoji": "🏠" },
+        { "text": "He was an avid dog lover and coined names like 'Sweetlips' and 'Drunkard'.", "emoji": "🐶" }
+      ]
+    },
+    {
+      "name": "John Adams",
+      "facts": [
+        { "text": "The first president to live in the White House.", "emoji": "🏛️" },
+        { "text": "He defended the British soldiers involved in the Boston Massacre.", "emoji": "⚖️" },
+        { "text": "He died on July 4th, the same day as Thomas Jefferson.", "emoji": "🇺🇸" },
+        { "text": "His last words were 'Thomas Jefferson survives' (he was wrong; Jefferson had died hours earlier).", "emoji": "🗣️" }
+      ]
+    },
+    {
+      "name": "Thomas Jefferson",
+      "facts": [
+        { "text": "He spoke 6 languages and was an architect, musician, and inventor.", "emoji": "🎻" },
+        { "text": "He wrote the Declaration of Independence.", "emoji": "📜" },
+        { "text": "Doubled the size of the US with the Louisiana Purchase.", "emoji": "🗺️" },
+        { "text": "He introduced macaroni and cheese to the United States.", "emoji": "🧀" },
+        { "text": "He kept two grizzly bear cubs on the White House lawn.", "emoji": "🐻" }
+      ]
+    },
+    {
+      "name": "James Madison",
+      "facts": [
+        { "text": "The shortest president (5'4\" and 100 lbs).", "emoji": "📏" },
+        { "text": "Known as the 'Father of the Constitution'.", "emoji": "📖" },
+        { "text": "The White House was burned down by the British during his presidency.", "emoji": "🔥" },
+        { "text": "His face appeared on the $5,000 bill.", "emoji": "💵" }
+      ]
+    },
+    {
+      "name": "James Monroe",
+      "facts": [
+        { "text": "The last of the 'Founding Fathers' to serve as president.", "emoji": "👴" },
+        { "text": "He ran unopposed for his second term.", "emoji": "🚫" },
+        { "text": "Established the 'Monroe Doctrine' (telling Europe to stay out of the Americas).", "emoji": "🛑" },
+        { "text": "Like Adams and Jefferson, he also died on July 4th.", "emoji": "🎆" }
+      ]
+    },
+    {
+      "name": "John Quincy Adams",
+      "facts": [
+        { "text": "The first son of a president to become president.", "emoji": "👨‍👦" },
+        { "text": "He enjoyed skinny-dipping in the Potomac River every morning.", "emoji": "🏊" },
+        { "text": "He kept a pet alligator in the White House bathtub.", "emoji": "🐊" },
+        { "text": "After being president, he went back to serve in Congress for 17 years.", "emoji": "🏛️" }
+      ]
+    },
+    {
+      "name": "Andrew Jackson",
+      "facts": [
+        { "text": "He survived the first assassination attempt on a US president.", "emoji": "🔫" },
+        { "text": "He beat the would-be assassin with his cane.", "emoji": "🦯" },
+        { "text": "His pet parrot 'Poll' had to be removed from his funeral for swearing.", "emoji": "🦜" },
+        { "text": "He fought in over 100 duels.", "emoji": "⚔️" },
+        { "text": "He appears on the $20 bill, despite hating paper money.", "emoji": "💵" }
+      ]
+    },
+    {
+      "name": "Martin Van Buren",
+      "facts": [
+        { "text": "The first president born a US citizen (previous ones were British subjects).", "emoji": "🇺🇸" },
+        { "text": "English was his second language; he spoke Dutch at home.", "emoji": "🇳🇱" },
+        { "text": "His nickname 'Old Kinderhook' (O.K.) is why we say 'OK' today.", "emoji": "👌" },
+        { "text": "His autobiography doesn't mention his wife once.", "emoji": "📕" }
+      ]
+    },
+    {
+      "name": "William Henry Harrison",
+      "facts": [
+        { "text": "Gave the longest inaugural address in history (nearly 2 hours).", "emoji": "⏳" },
+        { "text": "Served the shortest term (died of pneumonia after 31 days).", "emoji": "⚰️" },
+        { "text": "He was the first president to die in office.", "emoji": "💀" },
+        { "text": "His campaign slogan was 'Tippecanoe and Tyler Too'.", "emoji": "🛶" }
+      ]
+    },
+    {
+      "name": "John Tyler",
+      "facts": [
+        { "text": "Dubbed 'His Accidency' because he took over after Harrison died.", "emoji": "👑" },
+        { "text": "He had 15 children, the most of any president.", "emoji": "👶" },
+        { "text": "He was expelled from his own political party while president.", "emoji": "👢" },
+        { "text": "He later joined the Confederacy during the Civil War.", "emoji": "⚔️" }
+      ]
+    },
+    {
+      "name": "James K. Polk",
+      "facts": [
+        { "text": "Promised to serve only one term, did exactly what he said, and retired.", "emoji": "✅" },
+        { "text": "Expanded the US more than any other president (Texas, Oregon, California).", "emoji": "🗺️" },
+        { "text": "He worked so hard he died 3 months after leaving office.", "emoji": "☠️" },
+        { "text": "He was the first 'Dark Horse' candidate (unexpected winner).", "emoji": "🐎" }
+      ]
+    },
+    {
+      "name": "Zachary Taylor",
+      "facts": [
+        { "text": "A war hero known as 'Old Rough and Ready'.", "emoji": "🎖️" },
+        { "text": "He never voted in an election until his own.", "emoji": "🗳️" },
+        { "text": "Died after eating too many cherries and drinking cold milk.", "emoji": "🍒" },
+        { "text": "His horse grazed on the White House lawn.", "emoji": "🐴" }
+      ]
+    },
+    {
+      "name": "Millard Fillmore",
+      "facts": [
+        { "text": "The last president from the Whig party.", "emoji": "🎩" },
+        { "text": "He installed the first library in the White House.", "emoji": "📚" },
+        { "text": "He refused an honorary degree from Oxford because he couldn't read Latin.", "emoji": "🎓" },
+        { "text": "Queen Victoria said he was the most handsome man she'd ever seen.", "emoji": "👸" }
+      ]
+    },
+    {
+      "name": "Franklin Pierce",
+      "facts": [
+        { "text": "Did not swear on the Bible, but 'affirmed' his oath on a law book.", "emoji": "⚖️" },
+        { "text": "Arrested for running over a woman with his horse (charges dropped).", "emoji": "🐎" },
+        { "text": "Widely considered one of the worst presidents due to escalating tension.", "emoji": "📉" },
+        { "text": "He installed the first central heating in the White House.", "emoji": "🔥" }
+      ]
+    },
+    {
+      "name": "James Buchanan",
+      "facts": [
+        { "text": "The only president to remain a bachelor his entire life.", "emoji": "💍" },
+        { "text": "He had one eye near-sighted and one far-sighted, causing a head tilt.", "emoji": "👀" },
+        { "text": "The Civil War began shortly after he left office.", "emoji": "💣" },
+        { "text": "He regularly bought slaves in Washington D.C. just to free them.", "emoji": "⛓️" }
+      ]
+    },
+    {
+      "name": "Abraham Lincoln",
+      "facts": [
+        { "text": "He is the tallest president in US history at 6'4\".", "emoji": "🎩" },
+        { "text": "He is enshrined in the Wrestling Hall of Fame (only lost 1 match out of ~300).", "emoji": "🤼" },
+        { "text": "He stored important documents inside his tall stovepipe hat.", "emoji": "📄" },
+        { "text": "He was the first president to be assassinated.", "emoji": "🥀" },
+        { "text": "He created the Secret Service hours before his death.", "emoji": "🕵️" }
+      ]
+    },
+    {
+      "name": "Andrew Johnson",
+      "facts": [
+        { "text": "He was a tailor by trade and made his own suits as president.", "emoji": "🧵" },
+        { "text": "He was the first president to be impeached.", "emoji": "🔨" },
+        { "text": "He never attended school; his wife taught him how to read and write.", "emoji": "🏫" },
+        { "text": "He was buried wrapped in a US flag with a copy of the Constitution under his head.", "emoji": "🇺🇸" }
+      ]
+    },
+    {
+      "name": "Ulysses S. Grant",
+      "facts": [
+        { "text": "The 'S' in his name didn't stand for anything; it was a clerical error.", "emoji": "🤷" },
+        { "text": "He was given a speeding ticket for riding his horse too fast in D.C.", "emoji": "🐎" },
+        { "text": "He smoked about 20 cigars a day, which eventually caused his throat cancer.", "emoji": "🚬" },
+        { "text": "He couldn't stand the sight of blood (despite being a General) and ate his steaks burnt to a crisp.", "emoji": "🥩" }
+      ]
+    },
+    {
+      "name": "Rutherford B. Hayes",
+      "facts": [
+        { "text": "He installed the first telephone in the White House.", "emoji": "☎️" },
+        { "text": "His phone number was simply '1'.", "emoji": "1️⃣" },
+        { "text": "He banished alcohol from the White House (his wife was nicknamed 'Lemonade Lucy').", "emoji": "🍋" },
+        { "text": "He won the election by only one electoral vote in a highly contested race.", "emoji": "🗳️" }
+      ]
+    },
+    {
+      "name": "James A. Garfield",
+      "facts": [
+        { "text": "He could write Latin with one hand and Greek with the other simultaneously.", "emoji": "✍️" },
+        { "text": "He served only 200 days before dying from an assassin's bullet infection.", "emoji": "🚑" },
+        { "text": "Doctors likely killed him by probing his wound with unwashed fingers.", "emoji": "🦠" },
+        { "text": "He was a preacher before he was a politician.", "emoji": "⛪" }
+      ]
+    },
+    {
+      "name": "Chester A. Arthur",
+      "facts": [
+        { "text": "He owned 80 pairs of pants and changed clothes several times a day.", "emoji": "👖" },
+        { "text": "He sold off old White House furniture (including Lincoln's) to buy modern decor.", "emoji": "🛋️" },
+        { "text": "He was a night owl who rarely went to bed before 2 AM.", "emoji": "🦉" },
+        { "text": "His citizenship was questioned, with rumors claiming he was Canadian.", "emoji": "🇨🇦" }
+      ]
+    },
+    {
+      "name": "Grover Cleveland",
+      "facts": [
+        { "text": "The only president to serve two non-consecutive terms (22nd and 24th).", "emoji": "✌️" },
+        { "text": "The 'Baby Ruth' candy bar was named after his daughter, not the baseball player.", "emoji": "🍫" },
+        { "text": "He personally answered the White House phone.", "emoji": "📞" },
+        { "text": "He had a secret surgery to remove a tumor from his mouth on a yacht.", "emoji": "⛵" }
+      ]
+    },
+    {
+      "name": "Benjamin Harrison",
+      "facts": [
+        { "text": "He was the first president to have electricity in the White House.", "emoji": "💡" },
+        { "text": "He was so afraid of getting shocked he refused to touch the light switches.", "emoji": "⚡" },
+        { "text": "He was the grandson of William Henry Harrison (9th president).", "emoji": "👴" },
+        { "text": "He gave the shortest inaugural address (if you don't count the words).", "emoji": "🎙️" }
+      ]
+    },
+    {
+      "name": "William McKinley",
+      "facts": [
+        { "text": "He always wore a red carnation on his lapel for good luck.", "emoji": "🌹" },
+        { "text": "He gave his lucky carnation to a little girl moments before being shot.", "emoji": "🔫" },
+        { "text": "His wife suffered from seizures, and he would cover her face with a handkerchief during state dinners.", "emoji": "🤧" },
+        { "text": "He was the first president to campaign by telephone.", "emoji": "☎️" }
+      ]
+    },
+    {
+      "name": "Theodore Roosevelt",
+      "facts": [
+        { "text": "The 'Teddy Bear' is named after him because he refused to shoot a tied-up bear cub.", "emoji": "🧸" },
+        { "text": "He was shot in the chest during a speech but continued speaking for 90 minutes.", "emoji": "🩺" },
+        { "text": "He was the first president to leave the country while in office (Panama).", "emoji": "🚢" },
+        { "text": "He went blind in one eye after a boxing match in the White House.", "emoji": "🥊" },
+        { "text": "He was the youngest person to become president (took office at 42).", "emoji": "👶" }
+      ]
+    },
+    {
+      "name": "William Howard Taft",
+      "facts": [
+        { "text": "He got stuck in the White House bathtub and had to have a larger one installed.", "emoji": "🛁" },
+        { "text": "He is the only person to serve as both President and Chief Justice of the Supreme Court.", "emoji": "⚖️" },
+        { "text": "He started the tradition of the president throwing the first pitch at baseball games.", "emoji": "⚾" },
+        { "text": "He was the last president to keep a cow (Pauline) at the White House for milk.", "emoji": "🐄" }
+      ]
+    },
+    {
+      "name": "Woodrow Wilson",
+      "facts": [
+        { "text": "The only president to hold a Ph.D. (Political Science).", "emoji": "🎓" },
+        { "text": "He kept a flock of sheep on the White House lawn to trim the grass during WWI.", "emoji": "🐑" },
+        { "text": "His face is on the $100,000 bill (which was never circulated).", "emoji": "💵" },
+        { "text": "He suffered a massive stroke, and his wife Edith essentially ran the country for the rest of his term.", "emoji": "🤫" }
+      ]
+    },
+    {
+      "name": "Warren G. Harding",
+      "facts": [
+        { "text": "He had the biggest feet of any president (Size 14).", "emoji": "🦶" },
+        { "text": "He once bet and lost the White House china set in a poker game.", "emoji": "🃏" },
+        { "text": "His administration was involved in the massive 'Teapot Dome' scandal.", "emoji": "☕" },
+        { "text": "He was the first president to speak on the radio.", "emoji": "📻" }
+      ]
+    },
+    {
+      "name": "Calvin Coolidge",
+      "facts": [
+        { "text": "Nicknamed 'Silent Cal' for being a man of very few words.", "emoji": "😶" },
+        { "text": "A woman bet she could get him to say 3 words; he replied, 'You lose.'", "emoji": "🤐" },
+        { "text": "He slept about 10 hours a night and took 2-hour naps daily.", "emoji": "💤" },
+        { "text": "He had a mechanical horse installed in the White House for exercise.", "emoji": "🐎" }
+      ]
+    },
+    {
+      "name": "Herbert Hoover",
+      "facts": [
+        { "text": "He and his wife spoke Mandarin Chinese when they wanted to speak privately.", "emoji": "🇨🇳" },
+        { "text": "He had a pet opossum named 'Billy Possum'.", "emoji": "🐾" },
+        { "text": "The Hoover Dam was named after him.", "emoji": "🌊" },
+        { "text": "He was a self-made millionaire in the mining industry before politics.", "emoji": "💰" }
+      ]
+    },
+    {
+      "name": "Franklin D. Roosevelt",
+      "facts": [
+        { "text": "The only president elected to four terms.", "emoji": "4️⃣" },
+        { "text": "He was paralyzed from the waist down due to polio and used a wheelchair.", "emoji": "♿" },
+        { "text": "He was related to 11 other presidents (including his cousin Teddy).", "emoji": "🧬" },
+        { "text": "He tried to hide his disability from the public.", "emoji": "🙈" },
+        { "text": "He was the first president to appear on television.", "emoji": "📺" }
+      ]
+    },
+    {
+      "name": "Harry S. Truman",
+      "facts": [
+        { "text": "The 'S' in his middle name doesn't stand for anything, but has a period anyway.", "emoji": "🔤" },
+        { "text": "He installed a bowling alley in the White House.", "emoji": "🎳" },
+        { "text": "He met his wife Bess in Sunday school when he was six years old.", "emoji": "🏫" },
+        { "text": "He had a sign on his desk that said 'The Buck Stops Here'.", "emoji": "🛑" }
+      ]
+    },
+    {
+      "name": "Dwight D. Eisenhower",
+      "facts": [
+        { "text": "He was a Five-Star General in WWII before becoming president.", "emoji": "⭐" },
+        { "text": "He loved golf so much he had a putting green installed at the White House.", "emoji": "⛳" },
+        { "text": "He was an accomplished oil painter in his spare time.", "emoji": "🎨" },
+        { "text": "He banished squirrels from the White House grounds for ruining his putting green.", "emoji": "🐿️" }
+      ]
+    },
+    {
+      "name": "John F. Kennedy",
+      "facts": [
+        { "text": "He was the youngest elected president (43 years old).", "emoji": "👶" },
+        { "text": "He won a Pulitzer Prize for his book 'Profiles in Courage'.", "emoji": "🏆" },
+        { "text": "He donated his entire presidential salary to charity.", "emoji": "💸" },
+        { "text": "He suffered from severe back pain and Addison's disease.", "emoji": "🏥" },
+        { "text": "He installed a secret taping system in the Oval Office.", "emoji": "📼" }
+      ]
+    },
+    {
+      "name": "Lyndon B. Johnson",
+      "facts": [
+        { "text": "He owned an amphibious car and would drive guests into a lake to scare them.", "emoji": "🚗" },
+        { "text": "He would often hold meetings while sitting on the toilet.", "emoji": "🚽" },
+        { "text": "He was a teacher before entering politics.", "emoji": "👨‍🏫" },
+        { "text": "He signed the Civil Rights Act of 1964.", "emoji": "✍️" }
+      ]
+    },
+    {
+      "name": "Richard Nixon",
+      "facts": [
+        { "text": "The only president to resign from office.", "emoji": "👋" },
+        { "text": "He could play five musical instruments, including the piano and accordion.", "emoji": "🎹" },
+        { "text": "He installed a one-lane bowling alley in the White House basement.", "emoji": "🎳" },
+        { "text": "He spoke to astronauts on the moon via telephone.", "emoji": "🌔" }
+      ]
+    },
+    {
+      "name": "Gerald Ford",
+      "facts": [
+        { "text": "The only president never elected as either President or Vice President.", "emoji": "🗳️" },
+        { "text": "He was a star football player at the University of Michigan.", "emoji": "🏈" },
+        { "text": "He turned down offers from the NFL (Lions and Packers) to go to law school.", "emoji": "📚" },
+        { "text": "He worked as a fashion model in his youth.", "emoji": "📸" }
+      ]
+    },
+    {
+      "name": "Jimmy Carter",
+      "facts": [
+        { "text": "He was a peanut farmer before becoming president.", "emoji": "🥜" },
+        { "text": "He filed an official report claiming he saw a UFO in 1969.", "emoji": "🛸" },
+        { "text": "He is the longest-living president in US history.", "emoji": "🎂" },
+        { "text": "He sold the presidential yacht to save money.", "emoji": "🛥️" }
+      ]
+    },
+    {
+      "name": "Ronald Reagan",
+      "facts": [
+        { "text": "He was a Hollywood actor and appeared in 53 films.", "emoji": "🎬" },
+        { "text": "He loved Jelly Belly jelly beans and kept them on his desk.", "emoji": "🍬" },
+        { "text": "He was the oldest president elected until Trump and Biden.", "emoji": "👴" },
+        { "text": "He broke the 'Curse of Tippecanoe' by surviving an assassination attempt.", "emoji": "🏥" }
+      ]
+    },
+    {
+      "name": "George H.W. Bush",
+      "facts": [
+        { "text": "He went skydiving for his 75th, 80th, 85th, and 90th birthdays.", "emoji": "🪂" },
+        { "text": "He famously hated broccoli and banned it from Air Force One.", "emoji": "🥦" },
+        { "text": "He was the youngest Navy pilot in WWII.", "emoji": "✈️" },
+        { "text": "He is the second president to be the father of another president.", "emoji": "👨‍👦" }
+      ]
+    },
+    {
+      "name": "Bill Clinton",
+      "facts": [
+        { "text": "He is a talented saxophone player.", "emoji": "🎷" },
+        { "text": "He won two Grammy Awards for spoken word albums.", "emoji": "🏆" },
+        { "text": "His cat, Socks, received more fan mail than him for a while.", "emoji": "🐱" },
+        { "text": "He claims to have watched every episode of 'My Little Pony' with his daughter.", "emoji": "🦄" }
+      ]
+    },
+    {
+      "name": "George W. Bush",
+      "facts": [
+        { "text": "He was the head cheerleader in high school.", "emoji": "📣" },
+        { "text": "He became an avid painter after leaving office.", "emoji": "🎨" },
+        { "text": "He owned the Texas Rangers baseball team before becoming president.", "emoji": "⚾" },
+        { "text": "He ran the first marathon by a sitting president (3 hours, 44 minutes).", "emoji": "🏃" }
+      ]
+    },
+    {
+      "name": "Barack Obama",
+      "facts": [
+        { "text": "He collects Spider-Man and Conan the Barbarian comics.", "emoji": "🕷️" },
+        { "text": "He won two Grammy Awards for audio versions of his memoirs.", "emoji": "🎧" },
+        { "text": "He worked at Baskin-Robbins as a teenager and hates ice cream now.", "emoji": "🍦" },
+        { "text": "His name means 'blessed' in Swahili.", "emoji": "🙏" },
+        { "text": "He is left-handed.", "emoji": "🤚" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "facts": [
+        { "text": "He is the only president to have no prior military or government service.", "emoji": "🏢" },
+        { "text": "He had a cameo in 'Home Alone 2: Lost in New York'.", "emoji": "🎥" },
+        { "text": "He does not drink alcohol, smoke, or drink coffee.", "emoji": "🚫" },
+        { "text": "He is a germaphobe and dislikes shaking hands.", "emoji": "🧼" },
+        { "text": "He has a star on the Hollywood Walk of Fame.", "emoji": "⭐" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "facts": [
+        { "text": "He overcame a severe stutter as a child by reciting poetry in a mirror.", "emoji": "🗣️" },
+        { "text": "He loves ice cream, especially chocolate chip.", "emoji": "🍦" },
+        { "text": "He was one of the youngest senators ever elected (age 29).", "emoji": "🏛️" },
+        { "text": "He bought a puppy named 'Commander' for the White House.", "emoji": "🐕" },
+        { "text": "He has visited the Amtrak station in Wilmington so often it is named after him.", "emoji": "🚆" }
+      ]
+    }
+  ]
+}

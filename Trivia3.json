@@ -1,0 +1,301 @@
+{
+  "Movies": [
+    {
+      "name": "Shrek",
+      "facts": [
+        { "text": "Shrek's movements were modeled after a professional bulldog.", "emoji": "🐶" },
+        { "text": "Chris Farley originally recorded nearly all of Shrek's dialogue before he passed away.", "emoji": "🎙️" },
+        { "text": "The movie is credited with saving DreamWorks from bankruptcy.", "emoji": "💰" }
+      ]
+    },
+    {
+      "name": "The Truman Show",
+      "facts": [
+        { "text": "There is a real psychological condition named after the movie called 'The Truman Show Delusion'.", "emoji": "🧠" },
+        { "text": "The film was originally going to be a dark sci-fi thriller set in a recreated New York City.", "emoji": "🏙️" },
+        { "text": "Jim Carrey took a pay cut just to show he could do dramatic acting.", "emoji": "🎭" }
+      ]
+    },
+    {
+      "name": "Pirates of the Caribbean",
+      "facts": [
+        { "text": "Johnny Depp based Jack Sparrow on a mix of Keith Richards and the cartoon skunk Pepe Le Pew.", "emoji": "🏴‍☠️" },
+        { "text": "Keira Knightley felt she didn't deserve the role and packed only enough for a few days, expecting to be fired.", "emoji": "🧳" },
+        { "text": "It was the first movie under the Disney brand to be rated PG-13.", "emoji": "🔞" }
+      ]
+    },
+    {
+      "name": "E.T. the Extra-Terrestrial",
+      "facts": [
+        { "text": "E.T.'s face was modeled after poet Carl Sandburg, Albert Einstein, and a pug.", "emoji": "👽" },
+        { "text": "Steven Spielberg shot the film in chronological order so the child actors' emotional goodbyes at the end would be real.", "emoji": "😢" },
+        { "text": "Harrison Ford filmed a cameo as the school principal, but it was cut.", "emoji": "✂️" }
+      ]
+    }
+  ],
+  "Television": [
+    {
+      "name": "Sesame Street",
+      "facts": [
+        { "text": "Oscar the Grouch was originally orange, not green.", "emoji": "🍊" },
+        { "text": "Cookie Monster's real name is Sid.", "emoji": "🍪" },
+        { "text": "It is the most widely viewed children's program in the world, broadcast in over 120 countries.", "emoji": "🌍" }
+      ]
+    },
+    {
+      "name": "Black Mirror",
+      "facts": [
+        { "text": "The title refers to the reflection you see on a powered-off screen (phone, TV, monitor).", "emoji": "🖥️" },
+        { "text": "Episodes are often set in the same universe, with Easter eggs linking them together.", "emoji": "🥚" },
+        { "text": "Stephen King is a huge fan of the show.", "emoji": "📚" }
+      ]
+    },
+    {
+      "name": "The Fresh Prince of Bel-Air",
+      "facts": [
+        { "text": "Will Smith only agreed to do the show because he was in massive debt to the IRS.", "emoji": "💸" },
+        { "text": "The taxi driver in the opening credits is actually Quincy Jones.", "emoji": "🚕" },
+        { "text": "Alfonso Ribeiro invented the 'Carlton Dance' by parodying Courteney Cox in the 'Dancing in the Dark' video.", "emoji": "🕺" }
+      ]
+    }
+  ],
+  "Video Games": [
+    {
+      "name": "Pac-Man",
+      "facts": [
+        { "text": "The game was designed to attract women to arcades because it wasn't violent.", "emoji": "👻" },
+        { "text": "Each ghost has a specific AI personality: Blinky chases, Pinky ambushes, Inky is unpredictable, and Clyde acts stupid.", "emoji": "🤖" },
+        { "text": "The highest possible score is 3,333,360.", "emoji": "💯" }
+      ]
+    },
+    {
+      "name": "Sonic the Hedgehog",
+      "facts": [
+        { "text": "Sonic was originally a rabbit that could pick up objects with its ears.", "emoji": "🐰" },
+        { "text": "He is blue solely to match the Sega logo.", "emoji": "🔵" },
+        { "text": "Michael Jackson was involved in composing the music for Sonic 3 but went uncredited.", "emoji": "🎶" }
+      ]
+    },
+    {
+      "name": "World of Warcraft",
+      "facts": [
+        { "text": "A plague in the game (Corrupted Blood incident) was studied by epidemiologists to understand how real-world viruses spread.", "emoji": "🦠" },
+        { "text": "At its peak, the game had a population larger than the country of Belgium.", "emoji": "🇧🇪" },
+        { "text": "Robin Williams was a huge fan and has a tribute character in the game.", "emoji": "🧞" }
+      ]
+    }
+  ],
+  "Music": [
+    {
+      "name": "Beyoncé",
+      "facts": [
+        { "text": "A species of horse fly with a golden butt was named after her (Scaptia beyonceae).", "emoji": "🪰" },
+        { "text": "She runs while singing on a treadmill to build lung capacity for concerts.", "emoji": "🏃‍♀️" },
+        { "text": "She was the first female artist to have her first six studio albums debut at number one.", "emoji": "🥇" }
+      ]
+    },
+    {
+      "name": "Mozart",
+      "facts": [
+        { "text": "He wrote a song literally titled 'Leck mich im Arsch' (Lick me in the arse) as a party joke.", "emoji": "🍑" },
+        { "text": "He could listen to a full song once and write it down perfectly from memory.", "emoji": "🎼" },
+        { "text": "He had a pet starling that could sing the theme of his Piano Concerto No. 17.", "emoji": "🐦" }
+      ]
+    },
+    {
+      "name": "The Rolling Stones",
+      "facts": [
+        { "text": "Keith Richards wrote the riff for '(I Can't Get No) Satisfaction' in his sleep and recorded it on a bedside tape deck.", "emoji": "😴" },
+        { "text": "The band name comes from a Muddy Waters song.", "emoji": "🎸" },
+        { "text": "They have performed together for over 60 years.", "emoji": "👅" }
+      ]
+    }
+  ],
+  "Weird Laws": [
+    {
+      "name": "United Kingdom",
+      "facts": [
+        { "text": "It is illegal to handle a salmon in suspicious circumstances (Salmon Act 1986).", "emoji": "🐟" },
+        { "text": "It is technically treason to place a postage stamp bearing the monarch's head upside down.", "emoji": "📮" },
+        { "text": "You are not allowed to wear a suit of armor in Parliament.", "emoji": "🛡️" }
+      ]
+    },
+    {
+      "name": "United States",
+      "facts": [
+        { "text": "In Arizona, it is illegal for a donkey to sleep in a bathtub.", "emoji": "🛁" },
+        { "text": "In Alabama, it is illegal to drive while blindfolded.", "emoji": "🙈" },
+        { "text": "In Vermont, a woman must get her husband's written permission to wear false teeth.", "emoji": "🦷" }
+      ]
+    }
+  ],
+  "Inventions": [
+    {
+      "name": "Accidental Inventions",
+      "facts": [
+        { "text": "Bubble wrap was originally invented to be 3D textured wallpaper.", "emoji": "📦" },
+        { "text": "The microwave was invented when a radar engineer noticed a chocolate bar melted in his pocket.", "emoji": "🍫" },
+        { "text": "Potato chips were created by a chef trying to annoy a customer who kept sending his fries back.", "emoji": "🥔" },
+        { "text": "Play-Doh was originally a wallpaper cleaner to remove coal soot.", "emoji": "🧱" }
+      ]
+    },
+    {
+      "name": "Ancient Tech",
+      "facts": [
+        { "text": "The first vending machine was invented in Ancient Egypt to dispense holy water.", "emoji": "💧" },
+        { "text": "Romans had a form of concrete that is actually stronger and more durable than modern concrete.", "emoji": "🏛️" },
+        { "text": "The first battery (Baghdad Battery) might have existed 2,000 years ago.", "emoji": "🔋" }
+      ]
+    }
+  ],
+  "Language": [
+    {
+      "name": "English Oddities",
+      "facts": [
+        { "text": "The sentence 'Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo' is grammatically correct.", "emoji": "🐃" },
+        { "text": "A 'jiffy' is an actual unit of time: 1/100th of a second.", "emoji": "⏱️" },
+        { "text": "The dot over the letter 'i' or 'j' is called a 'tittle'.", "emoji": "ℹ️" },
+        { "text": " 'Queue' is the only word that is pronounced the same way when the last four letters are removed.", "emoji": "🚶" }
+      ]
+    },
+    {
+      "name": "Untranslatable Words",
+      "facts": [
+        { "text": "'Tsundoku' (Japanese): Buying books and piling them up without reading them.", "emoji": "📚" },
+        { "text": "'Backpfeifengesicht' (German): A face that is begging to be slapped.", "emoji": "👋" },
+        { "text": "'Sobremesa' (Spanish): The time spent talking at the table after a meal is over.", "emoji": "🍽️" }
+      ]
+    }
+  ],
+  "Psychology": [
+    {
+      "name": "Mind Tricks",
+      "facts": [
+        { "text": "The 'Baader-Meinhof Phenomenon' is when you learn a new word and suddenly start seeing it everywhere.", "emoji": "👀" },
+        { "text": "Your brain treats rejection like physical pain.", "emoji": "💔" },
+        { "text": "Memories are easily manipulated; if you are asked 'How fast was the car going when it *smashed*?' vs '*hit*?', you recall higher speeds.", "emoji": "🚗" },
+        { "text": "The 'Doorway Effect' is why you forget what you were doing when you walk into a new room.", "emoji": "🚪" }
+      ]
+    }
+  ],
+  "Mythology": [
+    {
+      "name": "Mythical Creatures",
+      "facts": [
+        { "text": "Unicorns are mentioned in the King James Bible, but it's likely a mistranslation of a wild ox.", "emoji": "🦄" },
+        { "text": "In original folklore, fairies were often malicious pranksters, not cute Tinkerbells.", "emoji": "🧚" },
+        { "text": "The Kraken was likely based on sightings of giant squids.", "emoji": "🦑" }
+      ]
+    },
+    {
+      "name": "Gods & Goddesses",
+      "facts": [
+        { "text": "Loki once turned himself into a female horse, got pregnant, and gave birth to an eight-legged horse.", "emoji": "🐎" },
+        { "text": "Athena was born fully grown and armored out of Zeus's forehead.", "emoji": "🤯" },
+        { "text": "Egyptian god Anubis weighed hearts against a feather to decide who entered the afterlife.", "emoji": "⚖️" }
+      ]
+    }
+  ],
+  "Animals": [
+    {
+      "name": "The Platypus",
+      "facts": [
+        { "text": "They glow bio-fluorescent green under UV light.", "emoji": "🟢" },
+        { "text": "They don't have stomachs.", "emoji": "🥣" },
+        { "text": "Males have venomous spurs on their hind legs.", "emoji": "☠️" },
+        { "text": "When scientists first saw a platypus, they thought it was a fake animal sewn together.", "emoji": "🧵" }
+      ]
+    },
+    {
+      "name": "Corvids (Crows/Ravens)",
+      "facts": [
+        { "text": "Crows hold grudges and can teach their children to hate specific humans.", "emoji": "😠" },
+        { "text": "They sometimes leave 'gifts' like buttons or shiny glass for humans who feed them.", "emoji": "🎁" },
+        { "text": "Ravens can mimic human speech better than some parrots.", "emoji": "🗣️" }
+      ]
+    },
+    {
+      "name": "Wombats",
+      "facts": [
+        { "text": "Wombat poop is cube-shaped so it doesn't roll away.", "emoji": "🧊" },
+        { "text": "Their butts are armored with cartilage to crush predators' skulls against the roof of their burrows.", "emoji": "🛡️" }
+      ]
+    }
+  ],
+  "Food": [
+    {
+      "name": "Cheese",
+      "facts": [
+        { "text": "Cheese is the most stolen food in the world.", "emoji": "🧀" },
+        { "text": "Mice actually prefer sweet foods like fruit or grain over cheese.", "emoji": "🐭" },
+        { "text": "Casu Marzu is a Sardinian cheese containing live maggots (and it's illegal in many places).", "emoji": "🐛" }
+      ]
+    },
+    {
+      "name": "Coffee",
+      "facts": [
+        { "text": "The world's most expensive coffee (Kopi Luwak) comes from beans digested and pooped out by a civet cat.", "emoji": "☕" },
+        { "text": "Voltaire reportedly drank 40 to 50 cups of coffee a day.", "emoji": "😵" },
+        { "text": "Coffee was nearly banned in 17th-century England because women complained it made their husbands useless.", "emoji": "🚫" }
+      ]
+    }
+  ],
+  "Human Body": [
+    {
+      "name": "Gross but True",
+      "facts": [
+        { "text": "You produce enough saliva in your lifetime to fill two swimming pools.", "emoji": "🏊" },
+        { "text": "Demodex mites live in your eyelashes and come out at night to mate on your face.", "emoji": "🐜" },
+        { "text": "Your stomach lining replaces itself every few days so it doesn't digest itself.", "emoji": "🤢" }
+      ]
+    },
+    {
+      "name": "Superpowers",
+      "facts": [
+        { "text": "Humans are the best long-distance runners in the animal kingdom; we can outrun horses in a marathon.", "emoji": "🏃" },
+        { "text": "Your liver is the only organ that can completely regenerate itself.", "emoji": "♻️" },
+        { "text": "If uncoiled, the DNA in all your cells would stretch to the sun and back hundreds of times.", "emoji": "🧬" }
+      ]
+    }
+  ],
+  "Geography": [
+    {
+      "name": "Island Oddities",
+      "facts": [
+        { "text": "There is an island in Brazil (Snake Island) so dangerous the government banned visitors.", "emoji": "🐍" },
+        { "text": "North Sentinel Island is home to a tribe that has rejected all contact with the modern world.", "emoji": "🏝️" },
+        { "text": "Vulcan Point is an island in a lake on an island in a lake on an island.", "emoji": "🤯" }
+      ]
+    },
+    {
+      "name": "Cities",
+      "facts": [
+        { "text": "The Vatican City has the highest crime rate per capita in the world (mostly pickpockets).", "emoji": "🇻🇦" },
+        { "text": "Istanbul is the only major city located on two continents (Europe and Asia).", "emoji": "🇹🇷" },
+        { "text": "There is a town in Norway called 'Hell' that freezes over every winter.", "emoji": "❄️" }
+      ]
+    }
+  ],
+  "Celebrities": [
+    {
+      "name": "Unexpected Jobs",
+      "facts": [
+        { "text": "Steve Buscemi was a firefighter and returned to his old firehouse to help during 9/11.", "emoji": "🚒" },
+        { "text": "Christopher Walken used to be a lion tamer in a circus.", "emoji": "🦁" },
+        { "text": "Danny DeVito was a beautician and hairstylist before acting.", "emoji": "💇" },
+        { "text": "Hugh Jackman used to be a PE teacher (and once recognized a student on the red carpet).", "emoji": "🏋️" }
+      ]
+    }
+  ],
+  "Phobias": [
+    {
+      "name": "Strange Fears",
+      "facts": [
+        { "text": "Hippopotomonstrosesquippedaliophobia is the fear of long words.", "emoji": "📖" },
+        { "text": "Anatidaephobia is the fear that somewhere, somehow, a duck is watching you.", "emoji": "🦆" },
+        { "text": "Pogonophobia is the fear of beards.", "emoji": "🧔" },
+        { "text": "Nomophobia is the fear of being without your mobile phone.", "emoji": "📱" }
+      ]
+    }
+  ]
+}

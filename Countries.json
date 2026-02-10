@@ -1,0 +1,1912 @@
+{
+  "Countries": [
+    {
+      "name": "Afghanistan",
+      "facts": [
+        { "text": "The national game, Buzkashi, involves players on horses dragging a goat carcass.", "emoji": "🐐" },
+        { "text": "Home to the world's oldest known oil paintings (dating to 650 AD).", "emoji": "🎨" },
+        { "text": "New Year's is celebrated on the first day of spring (Nowruz).", "emoji": "🌷" },
+        { "text": "Lapis lazuli has been mined here for over 6,000 years.", "emoji": "💎" },
+        { "text": "Poetry is a massive part of the culture; 'poetry night' is a common pastime.", "emoji": "📜" }
+      ]
+    },
+    {
+      "name": "Albania",
+      "facts": [
+        { "text": "There are over 173,000 concrete bunkers scattered across the country.", "emoji": "🪖" },
+        { "text": "Nodding your head means 'no' and shaking it means 'yes'.", "emoji": "🙃" },
+        { "text": "Mother Teresa was of Albanian descent.", "emoji": "🙏" },
+        { "text": "Xhiro is a tradition where everyone walks outdoors at sunset to socialize.", "emoji": "🚶" },
+        { "text": "It was the world's first atheist state (declared in 1967).", "emoji": "🚫" }
+      ]
+    },
+    {
+      "name": "Algeria",
+      "facts": [
+        { "text": "The largest country in Africa by land area.", "emoji": "🌍" },
+        { "text": "The Sahara Desert covers more than 80% of the land.", "emoji": "🏜️" },
+        { "text": "Home to the Fennec fox, the national animal.", "emoji": "🦊" },
+        { "text": "It has 7 UNESCO World Heritage sites, including Roman ruins like Timgad.", "emoji": "🏛️" },
+        { "text": "Petrol is cheaper than water in some areas.", "emoji": "⛽" }
+      ]
+    },
+    {
+      "name": "Andorra",
+      "facts": [
+        { "text": "The only country in the world with two princes: the President of France and a Spanish Bishop.", "emoji": "👑" },
+        { "text": "It has no airport and no train station.", "emoji": "🚌" },
+        { "text": "The capital, Andorra la Vella, is the highest in Europe.", "emoji": "⛰️" },
+        { "text": "It has never been in a war in 1,000 years.", "emoji": "🕊️" },
+        { "text": "Home to one of the highest life expectancies in the world.", "emoji": "👴" }
+      ]
+    },
+    {
+      "name": "Angola",
+      "facts": [
+        { "text": "The capital, Luanda, is often ranked the most expensive city for expats.", "emoji": "💸" },
+        { "text": "Kizomba music and dance originated here.", "emoji": "💃" },
+        { "text": "Home to the Giant Sable Antelope, thought to be extinct until recently.", "emoji": "🦌" },
+        { "text": "The Kalandula Falls are one of the largest waterfalls in Africa.", "emoji": "🌊" },
+        { "text": "The country is twice the size of Texas.", "emoji": "📏" }
+      ]
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "facts": [
+        { "text": "It has 365 beaches, one for every day of the year.", "emoji": "🏖️" },
+        { "text": "Mount Obama was named after the US President (briefly).", "emoji": "⛰️" },
+        { "text": "Home to the Frigate Bird sanctuary.", "emoji": "🐦" },
+        { "text": "Cricket is the national sport and a religion here.", "emoji": "🏏" },
+        { "text": "There are no rivers on the island of Antigua.", "emoji": "💧" }
+      ]
+    },
+    {
+      "name": "Argentina",
+      "facts": [
+        { "text": "The birthplace of Tango.", "emoji": "💃" },
+        { "text": "Has the highest number of psychiatrists per capita in the world.", "emoji": "🧠" },
+        { "text": "Home to the southernmost city in the world, Ushuaia.", "emoji": "❄️" },
+        { "text": "The name comes from the Latin word for silver ('argentum').", "emoji": "🥈" },
+        { "text": "Pope Francis used to work as a nightclub bouncer in Buenos Aires.", "emoji": "⛪" }
+      ]
+    },
+    {
+      "name": "Armenia",
+      "facts": [
+        { "text": "The first country to adopt Christianity as its state religion (301 AD).", "emoji": "✝️" },
+        { "text": "Chess is a mandatory subject in schools.", "emoji": "♟️" },
+        { "text": "Home to the world's oldest winery (6,100 years old).", "emoji": "🍷" },
+        { "text": "The national symbol, Mount Ararat, is actually located in Turkey.", "emoji": "⛰️" },
+        { "text": "The apricot is the national fruit.", "emoji": "🍑" }
+      ]
+    },
+    {
+      "name": "Australia",
+      "facts": [
+        { "text": "Home to the Great Barrier Reef, the largest living structure.", "emoji": "🐠" },
+        { "text": "There are more kangaroos than humans.", "emoji": "🦘" },
+        { "text": "The country is wider than the moon.", "emoji": "🌕" },
+        { "text": "It has over 10,000 beaches; you could visit one a day for 27 years.", "emoji": "🏖️" },
+        { "text": "They once lost a war against Emus.", "emoji": "🐦" }
+      ]
+    },
+    {
+      "name": "Austria",
+      "facts": [
+        { "text": "Home to the oldest zoo in the world (Tiergarten Schönbrunn).", "emoji": "🦁" },
+        { "text": "Arnold Schwarzenegger was born here.", "emoji": "💪" },
+        { "text": "Postcards were invented here.", "emoji": "✉️" },
+        { "text": "The sewing machine was invented here by Josef Madersperger.", "emoji": "🧵" },
+        { "text": "About 62% of the country is covered by the Alps.", "emoji": "🏔️" }
+      ]
+    },
+    {
+      "name": "Azerbaijan",
+      "facts": [
+        { "text": "Known as the 'Land of Fire' due to natural gas vents.", "emoji": "🔥" },
+        { "text": "Pancakes are often cooked on the back of a shovel here.", "emoji": "🥞" },
+        { "text": "Home to the first modern oil well (1846).", "emoji": "🛢️" },
+        { "text": "Tea is the national drink, served in pear-shaped glasses.", "emoji": "☕" },
+        { "text": "Neft Daşları is a full city built on stilts over the sea.", "emoji": "🌊" }
+      ]
+    },
+    {
+      "name": "Bahamas",
+      "facts": [
+        { "text": "Home to the swimming pigs of Exuma.", "emoji": "🐷" },
+        { "text": "It has the clearest water on Earth with visibility over 200 feet.", "emoji": "💧" },
+        { "text": "It actually snowed here once in 1977.", "emoji": "❄️" },
+        { "text": "Once a haven for pirates like Blackbeard.", "emoji": "🏴‍☠️" },
+        { "text": "The name comes from Spanish 'baja mar' (shallow sea).", "emoji": "🌊" }
+      ]
+    },
+    {
+      "name": "Bahrain",
+      "facts": [
+        { "text": "Home to the 'Tree of Life', a 400-year-old tree in the desert with no water source.", "emoji": "🌳" },
+        { "text": "It is an archipelago of 33 islands.", "emoji": "🏝️" },
+        { "text": "It was the site of the ancient Dilmun civilization.", "emoji": "🏺" },
+        { "text": "Weekends are Friday and Saturday.", "emoji": "🗓️" },
+        { "text": "The British Grand Prix of the Middle East is held here.", "emoji": "🏎️" }
+      ]
+    },
+    {
+      "name": "Bangladesh",
+      "facts": [
+        { "text": "It has six seasons, including 'Monsoon' and 'Late Autumn'.", "emoji": "🌧️" },
+        { "text": "Home to the world's longest natural sea beach (Cox's Bazar).", "emoji": "🏖️" },
+        { "text": "The Royal Bengal Tiger is the national animal.", "emoji": "🐅" },
+        { "text": "More people live here than in Russia.", "emoji": "👥" },
+        { "text": "It is the river delta capital of the world.", "emoji": "🚣" }
+      ]
+    },
+    {
+      "name": "Barbados",
+      "facts": [
+        { "text": "The birthplace of Rihanna.", "emoji": "🎤" },
+        { "text": "Rum was invented here in 1703.", "emoji": "🍹" },
+        { "text": "The country's name means 'The Bearded Ones' (after fig trees).", "emoji": "🧔" },
+        { "text": "It has never been invaded by a foreign power.", "emoji": "🛡️" },
+        { "text": "Flying fish is the national dish.", "emoji": "🐟" }
+      ]
+    },
+    {
+      "name": "Belarus",
+      "facts": [
+        { "text": "Home to the last dictatorship in Europe.", "emoji": "🏛️" },
+        { "text": "40% of the country is covered in forests.", "emoji": "🌲" },
+        { "text": "Potatoes are considered 'second bread' here.", "emoji": "🥔" },
+        { "text": "The BelAZ 75710, the world's largest dump truck, is made here.", "emoji": "🚛" },
+        { "text": "Bisons (Wisents) still roam the primeval forests.", "emoji": "🦬" }
+      ]
+    },
+    {
+      "name": "Belgium",
+      "facts": [
+        { "text": "Produces over 220,000 tons of chocolate per year.", "emoji": "🍫" },
+        { "text": "French Fries were invented here (not France).", "emoji": "🍟" },
+        { "text": "Home to the Smurfs.", "emoji": "🍄" },
+        { "text": "Belgium holds the record for the longest time without a government (589 days).", "emoji": "🏛️" },
+        { "text": "Billiards balls were originally made here.", "emoji": "🎱" }
+      ]
+    },
+    {
+      "name": "Belize",
+      "facts": [
+        { "text": "The only Central American country where English is the official language.", "emoji": "🗣️" },
+        { "text": "Home to the Great Blue Hole, a giant marine sinkhole.", "emoji": "🕳️" },
+        { "text": "It was the center of the Mayan Empire.", "emoji": "🏛️" },
+        { "text": "Jaguar crossing signs are common on highways.", "emoji": "🐆" },
+        { "text": "Their currency features the Queen of England.", "emoji": "💵" }
+      ]
+    },
+    {
+      "name": "Benin",
+      "facts": [
+        { "text": "The birthplace of Voodoo religion.", "emoji": "🔮" },
+        { "text": "Home to the 'Venice of Africa' (Ganvié), a village on stilts.", "emoji": "🛶" },
+        { "text": "It was formerly known as the Kingdom of Dahomey.", "emoji": "👑" },
+        { "text": "The Amazons of Dahomey were an all-female military regiment here.", "emoji": "⚔️" },
+        { "text": "Snakes are revered, especially pythons.", "emoji": "🐍" }
+      ]
+    },
+    {
+      "name": "Bhutan",
+      "facts": [
+        { "text": "Measures success by 'Gross National Happiness' instead of GDP.", "emoji": "😊" },
+        { "text": "The only carbon-negative country in the world.", "emoji": "🌳" },
+        { "text": "Plastic bags and tobacco are completely banned.", "emoji": "🚫" },
+        { "text": "TV and Internet were illegal until 1999.", "emoji": "📺" },
+        { "text": "The national animal is the Takin, a goat-antelope hybrid.", "emoji": "🐐" }
+      ]
+    },
+    {
+      "name": "Bolivia",
+      "facts": [
+        { "text": "Home to the Salar de Uyuni, the world's largest salt flat.", "emoji": "🧂" },
+        { "text": "The capital, La Paz, is the highest administrative capital in the world.", "emoji": "🏙️" },
+        { "text": "They have a navy despite being landlocked.", "emoji": "⚓" },
+        { "text": "Guinea pig (Cuy) is a traditional delicacy.", "emoji": "🐹" },
+        { "text": "Zebra crossings are often manned by people in zebra costumes.", "emoji": "🦓" }
+      ]
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "facts": [
+        { "text": "Sarajevo hosted the 1984 Winter Olympics.", "emoji": "🎿" },
+        { "text": "Known as the 'Heart Shaped Land' due to its borders.", "emoji": "❤️" },
+        { "text": "Home to one of the last jungles in Europe (Perućica).", "emoji": "🌳" },
+        { "text": "The Stari Most bridge is a UNESCO site that divers jump from.", "emoji": "🌉" },
+        { "text": "Coffee drinking is a massive ritual here.", "emoji": "☕" }
+      ]
+    },
+    {
+      "name": "Botswana",
+      "facts": [
+        { "text": "Africa's oldest continuous democracy.", "emoji": "🗳️" },
+        { "text": "Home to the world's largest concentration of African elephants.", "emoji": "🐘" },
+        { "text": "Nearly 40% of the land is dedicated to national parks.", "emoji": "🦁" },
+        { "text": "The Okavango Delta can be seen from space.", "emoji": "🛰️" },
+        { "text": "A leading producer of gem-quality diamonds.", "emoji": "💎" }
+      ]
+    },
+    {
+      "name": "Brazil",
+      "facts": [
+        { "text": "Home to the largest Japanese population outside Japan.", "emoji": "🇯🇵" },
+        { "text": "The Amazon River is the largest river by discharge volume.", "emoji": "🌊" },
+        { "text": "They have won the FIFA World Cup more than any other country.", "emoji": "⚽" },
+        { "text": "Snake Island is so dangerous civilians are banned.", "emoji": "🐍" },
+        { "text": "Prisoners can reduce their sentence by reading books.", "emoji": "📚" }
+      ]
+    },
+    {
+      "name": "Brunei",
+      "facts": [
+        { "text": "The Sultan was once the richest man in the world.", "emoji": "💰" },
+        { "text": "Citizens pay zero income tax.", "emoji": "🆓" },
+        { "text": "The Istana Nurul Iman palace has 1,788 rooms.", "emoji": "🏰" },
+        { "text": "Alcohol is banned publicly.", "emoji": "🚫" },
+        { "text": "Located completely on the island of Borneo.", "emoji": "🏝️" }
+      ]
+    },
+    {
+      "name": "Bulgaria",
+      "facts": [
+        { "text": "Produces 70% of the world's rose oil.", "emoji": "🌹" },
+        { "text": "The oldest golden treasure in the world was found here (Varna).", "emoji": "⚱️" },
+        { "text": "Nodding means 'no' and shaking means 'yes' (like Albania).", "emoji": "🙃" },
+        { "text": "Home to the Cyrillic alphabet origin.", "emoji": "🔤" },
+        { "text": "Bagpipes (Gaida) are the national instrument.", "emoji": "🎵" }
+      ]
+    },
+    {
+      "name": "Burkina Faso",
+      "facts": [
+        { "text": "The name means 'Land of Incorruptible People'.", "emoji": "✊" },
+        { "text": "Ouagadougou is the capital with a rhythmic name.", "emoji": "🥁" },
+        { "text": "Known for the FESPACO film festival, Africa's largest.", "emoji": "🎬" },
+        { "text": "White crocodiles are sacred in the town of Sabou.", "emoji": "🐊" },
+        { "text": "Gold is the main export.", "emoji": "🥇" }
+      ]
+    },
+    {
+      "name": "Burundi",
+      "facts": [
+        { "text": "Home to Gustave, a man-eating crocodile rumored to have eaten 300 people.", "emoji": "🐊" },
+        { "text": "Jogging in groups was once banned to prevent uprisings.", "emoji": "🏃" },
+        { "text": "It is one of the smallest countries in Africa.", "emoji": "🤏" },
+        { "text": "Banana beer is a traditional beverage.", "emoji": "🍌" },
+        { "text": "The source of the Nile River is often cited here.", "emoji": "💧" }
+      ]
+    },
+    {
+      "name": "Cabo Verde",
+      "facts": [
+        { "text": "Also known as Cape Verde.", "emoji": "🇨🇻" },
+        { "text": "It is an archipelago of 10 volcanic islands.", "emoji": "🌋" },
+        { "text": "Charles Darwin studied flora here before the Galapagos.", "emoji": "🐢" },
+        { "text": "There are more Cabo Verdeans living abroad than in the country.", "emoji": "✈️" },
+        { "text": "Traditional music 'Morna' was made famous by Cesária Évora.", "emoji": "🎶" }
+      ]
+    },
+    {
+      "name": "Cambodia",
+      "facts": [
+        { "text": "Home to Angkor Wat, the largest religious monument in the world.", "emoji": "🏛️" },
+        { "text": "The only national flag to feature a building.", "emoji": "🏁" },
+        { "text": "Tarantulas are a common street food snack.", "emoji": "🕷️" },
+        { "text": "New Year is celebrated in April.", "emoji": "📅" },
+        { "text": "There was no money during the Khmer Rouge regime.", "emoji": "💵" }
+      ]
+    },
+    {
+      "name": "Cameroon",
+      "facts": [
+        { "text": "Known as 'Africa in Miniature' due to its diverse geography.", "emoji": "🌍" },
+        { "text": "Home to over 250 local languages.", "emoji": "🗣️" },
+        { "text": "The Goliath Frog, the world's largest frog, lives here.", "emoji": "🐸" },
+        { "text": "The national soccer team is the Indomitable Lions.", "emoji": "🦁" },
+        { "text": "Features a lake (Nyos) that exploded in 1986.", "emoji": "💥" }
+      ]
+    },
+    {
+      "name": "Canada",
+      "facts": [
+        { "text": "Has more lakes than the rest of the world combined.", "emoji": "🛶" },
+        { "text": "Produces 70% of the world's maple syrup.", "emoji": "🍁" },
+        { "text": "The national animal is the Beaver.", "emoji": "🦫" },
+        { "text": "Santa Claus officially has Canadian citizenship.", "emoji": "🎅" },
+        { "text": "It has the longest street in the world (Yonge St).", "emoji": "🛣️" }
+      ]
+    },
+    {
+      "name": "Central African Republic",
+      "facts": [
+        { "text": "Home to the Dzanga-Sangha Special Reserve for gorillas.", "emoji": "🦍" },
+        { "text": "It is considered the best place to stargaze in Africa due to low light pollution.", "emoji": "✨" },
+        { "text": "Despite immense diamond wealth, it is one of the poorest nations.", "emoji": "💎" },
+        { "text": "Forest elephants here are smaller than savannah elephants.", "emoji": "🐘" },
+        { "text": "The Boali Waterfalls are 50 meters high.", "emoji": "🌊" }
+      ]
+    },
+    {
+      "name": "Chad",
+      "facts": [
+        { "text": "The national flag is almost identical to Romania's.", "emoji": "🇹🇩" },
+        { "text": "Lake Chad has shrunk by 95% since 1963.", "emoji": "📉" },
+        { "text": "Known as the 'Dead Heart of Africa' due to its distance from the sea.", "emoji": "💔" },
+        { "text": "Camel racing is a popular sport.", "emoji": "🐪" },
+        { "text": "The Kakaki is a long metal trumpet used in traditional music.", "emoji": "🎺" }
+      ]
+    },
+    {
+      "name": "Chile",
+      "facts": [
+        { "text": "The longest and narrowest country in the world.", "emoji": "📏" },
+        { "text": "Home to the Atacama Desert, the driest place on Earth.", "emoji": "🏜️" },
+        { "text": "Easter Island (Rapa Nui) and its giant heads are part of Chile.", "emoji": "🗿" },
+        { "text": "They have the world's largest swimming pool.", "emoji": "🏊" },
+        { "text": "Produces excellent wine, especially Carmenere.", "emoji": "🍷" }
+      ]
+    },
+    {
+      "name": "China",
+      "facts": [
+        { "text": "The Great Wall is over 13,000 miles long.", "emoji": "🧱" },
+        { "text": "Pandas are considered a national treasure and are loaned, not sold.", "emoji": "🐼" },
+        { "text": "The Forbidden City has 9,999 rooms.", "emoji": "🏯" },
+        { "text": "Ice cream was invented here around 200 BC.", "emoji": "🍦" },
+        { "text": "They have only one time zone despite being huge.", "emoji": "⏰" }
+      ]
+    },
+    {
+      "name": "Colombia",
+      "facts": [
+        { "text": "Produces around 70-90% of the world's emeralds.", "emoji": "💎" },
+        { "text": "The 'River of Five Colors' (Caño Cristales) turns red in summer.", "emoji": "🌈" },
+        { "text": "It has the second highest biodiversity in the world.", "emoji": "🦋" },
+        { "text": "Tejo is a national sport that involves throwing disks at gunpowder.", "emoji": "💥" },
+        { "text": "Shakira and Sofia Vergara are from here.", "emoji": "💃" }
+      ]
+    },
+    {
+      "name": "Comoros",
+      "facts": [
+        { "text": "Known as the 'Perfume Isles' due to Ylang-Ylang production.", "emoji": "🌸" },
+        { "text": "It is the only Arab country entirely in the Southern Hemisphere.", "emoji": "🌍" },
+        { "text": "The Coelacanth fish, a 'living fossil', was found here.", "emoji": "🐟" },
+        { "text": "It has experienced over 20 coups since independence.", "emoji": "⚔️" },
+        { "text": "Grand Comore has an active volcano, Mount Karthala.", "emoji": "🌋" }
+      ]
+    },
+    {
+      "name": "Congo (Democratic Republic)",
+      "facts": [
+        { "text": "Formerly known as Zaire.", "emoji": "🗺️" },
+        { "text": "Home to the Bonobo, the closest relative to humans.", "emoji": "🐵" },
+        { "text": "The second largest country in Africa.", "emoji": "📏" },
+        { "text": "Kinshasa and Brazzaville are the closest capital cities in the world.", "emoji": "🏙️" },
+        { "text": "Musician Papa Wemba popularized the 'Sapeurs' fashion movement.", "emoji": "👔" }
+      ]
+    },
+    {
+      "name": "Congo (Republic)",
+      "facts": [
+        { "text": "Often called 'Congo-Brazzaville' to distinguish it.", "emoji": "🏷️" },
+        { "text": "Home to the Western Lowland Gorilla.", "emoji": "🦍" },
+        { "text": "80% of the country is covered in rainforest.", "emoji": "🌳" },
+        { "text": "The Congo River is the deepest river in the world.", "emoji": "💧" },
+        { "text": "Oil is the primary export.", "emoji": "🛢️" }
+      ]
+    },
+    {
+      "name": "Costa Rica",
+      "facts": [
+        { "text": "It has no standing army (abolished in 1948).", "emoji": "☮️" },
+        { "text": "Home to 5% of the world's biodiversity.", "emoji": "🐸" },
+        { "text": "Uses 99% renewable energy.", "emoji": "⚡" },
+        { "text": "'Pura Vida' (Pure Life) is the national motto.", "emoji": "🤙" }
+      ]
+    },
+    {
+      "name": "Croatia",
+      "facts": [
+        { "text": "The necktie (cravat) was invented here by mercenaries in the 1600s.", "emoji": "👔" },
+        { "text": "Game of Thrones (King's Landing) was filmed in Dubrovnik.", "emoji": "🏰" },
+        { "text": "Home to the world's smallest town, Hum, with a population of ~20.", "emoji": "🏘️" },
+        { "text": "Nikola Tesla was born in Smiljan, Croatia.", "emoji": "⚡" },
+        { "text": "The Sea Organ in Zadar plays music via ocean waves.", "emoji": "🎹" }
+      ]
+    },
+    {
+      "name": "Cuba",
+      "facts": [
+        { "text": "Classic American cars from the 1950s are still widely used.", "emoji": "🚗" },
+        { "text": "The recipe for Coca-Cola is illegal here (one of only two countries).", "emoji": "🚫" },
+        { "text": "Home to the Bee Hummingbird, the world's smallest bird.", "emoji": "🐦" },
+        { "text": "Dancing is a huge part of life; the birthplace of Salsa and Mambo.", "emoji": "💃" },
+        { "text": "Dominoes is considered a national pastime.", "emoji": "🎲" }
+      ]
+    },
+    {
+      "name": "Cyprus",
+      "facts": [
+        { "text": "The entire city of Paphos is a UNESCO World Heritage site.", "emoji": "🏺" },
+        { "text": "Halloumi cheese originated here.", "emoji": "🧀" },
+        { "text": "Legend says Aphrodite, goddess of love, was born here from sea foam.", "emoji": "🧜‍♀️" },
+        { "text": "It is the only foreign country to host a Royal Wedding (Richard the Lionheart).", "emoji": "👑" },
+        { "text": "Cats outnumber humans on the island.", "emoji": "🐈" }
+      ]
+    },
+    {
+      "name": "Czechia",
+      "facts": [
+        { "text": "Also known as the Czech Republic.", "emoji": "🇨🇿" },
+        { "text": "Czechs drink the most beer per capita in the world.", "emoji": "🍺" },
+        { "text": "Prague Castle is the largest ancient castle in the world.", "emoji": "🏰" },
+        { "text": "Soft contact lenses were invented here by Otto Wichterle.", "emoji": "👁️" },
+        { "text": "Sugar cubes were invented here in 1843.", "emoji": "☕" }
+      ]
+    },
+    {
+      "name": "Denmark",
+      "facts": [
+        { "text": "LEGO was invented here (the name means 'play well').", "emoji": "🧱" },
+        { "text": "It has the two oldest amusement parks in the world (Bakken and Tivoli).", "emoji": "🎢" },
+        { "text": "There is no word for 'please' in the Danish language.", "emoji": "🗣️" },
+        { "text": "Cyclists in Copenhagen cycle the equivalent of 35 times around the world daily.", "emoji": "🚲" },
+        { "text": "The national flag (Dannebrog) is the oldest used flag in the world.", "emoji": "🇩🇰" }
+      ]
+    },
+    {
+      "name": "Djibouti",
+      "facts": [
+        { "text": "Home to Lake Assal, the lowest point in Africa.", "emoji": "📉" },
+        { "text": "Whale sharks congregate here in the Gulf of Tadjoura.", "emoji": "🦈" },
+        { "text": "It is a major transit point for Red Sea shipping.", "emoji": "🚢" },
+        { "text": "Khat (a stimulant plant) is widely chewed socially.", "emoji": "🌿" },
+        { "text": "The landscape is often described as 'extraterrestrial'.", "emoji": "👽" }
+      ]
+    },
+    {
+      "name": "Dominica",
+      "facts": [
+        { "text": "Known as the 'Nature Island of the Caribbean'.", "emoji": "🌿" },
+        { "text": "Home to the second largest boiling lake in the world.", "emoji": "♨️" },
+        { "text": "It has 365 rivers, one for every day of the year.", "emoji": "💧" },
+        { "text": "Mountain Chicken (a giant frog) is the national dish.", "emoji": "🐸" },
+        { "text": "Filming location for 'Pirates of the Caribbean: Dead Man's Chest'.", "emoji": "🏴‍☠️" }
+      ]
+    },
+    {
+      "name": "Dominican Republic",
+      "facts": [
+        { "text": "Shares the island of Hispaniola with Haiti.", "emoji": "🏝️" },
+        { "text": "Baseball is the most popular sport.", "emoji": "⚾" },
+        { "text": "Santo Domingo is the oldest permanent European settlement in the Americas.", "emoji": "🏛️" },
+        { "text": "The only national flag to feature a Bible.", "emoji": "📖" },
+        { "text": "Invented the Merengue dance style.", "emoji": "💃" }
+      ]
+    },
+    {
+      "name": "East Timor",
+      "facts": [
+        { "text": "Also known as Timor-Leste.", "emoji": "🇹🇱" },
+        { "text": "One of the world's youngest countries (independent in 2002).", "emoji": "👶" },
+        { "text": "Home to the Tour de Timor, one of the toughest mountain bike races.", "emoji": "🚴" },
+        { "text": "Crocodiles are considered sacred ancestors.", "emoji": "🐊" },
+        { "text": "Coffee is the main export and is strictly organic.", "emoji": "☕" }
+      ]
+    },
+    {
+      "name": "Ecuador",
+      "facts": [
+        { "text": "Named after the Equator, which runs through it.", "emoji": "📏" },
+        { "text": "Owns the Galápagos Islands, famous for biodiversity.", "emoji": "🐢" },
+        { "text": "Mount Chimborazo is the closest point to the sun (due to Earth's bulge).", "emoji": "☀️" },
+        { "text": "Panama hats actually originated here.", "emoji": "👒" },
+        { "text": "Bananas are the top export.", "emoji": "🍌" }
+      ]
+    },
+    {
+      "name": "Egypt",
+      "facts": [
+        { "text": "Home to the only surviving Ancient Wonder (Great Pyramid of Giza).", "emoji": "🔺" },
+        { "text": "The 365-day calendar was invented here.", "emoji": "🗓️" },
+        { "text": "Ancient Egyptians loved board games (like Senet).", "emoji": "🎲" },
+        { "text": "Cats were considered sacred animals.", "emoji": "🐈" },
+        { "text": "The Nile is the longest river in the world.", "emoji": "🚣" }
+      ]
+    },
+    {
+      "name": "El Salvador",
+      "facts": [
+        { "text": "Known as the 'Land of Volcanoes'.", "emoji": "🌋" },
+        { "text": "It is the smallest country in Central America.", "emoji": "🤏" },
+        { "text": "Pupusas (stuffed tortillas) are the national dish.", "emoji": "🌮" },
+        { "text": "Adopted Bitcoin as legal tender in 2021.", "emoji": "₿" },
+        { "text": "Surfing capital of the region due to Punta Roca waves.", "emoji": "🏄" }
+      ]
+    },
+    {
+      "name": "Equatorial Guinea",
+      "facts": [
+        { "text": "The only Spanish-speaking country in Africa.", "emoji": "🗣️" },
+        { "text": "The capital (Malabo) is on an island, not the mainland.", "emoji": "🏝️" },
+        { "text": "It is one of the richest countries in Africa per capita (oil).", "emoji": "🛢️" },
+        { "text": "Home to the Goliath Frog.", "emoji": "🐸" }
+      ]
+    },
+    {
+      "name": "Eritrea",
+      "facts": [
+        { "text": "The capital, Asmara, is known as 'Little Rome' for its architecture.", "emoji": "🏛️" },
+        { "text": "It has no official national language.", "emoji": "🤐" },
+        { "text": "One of the hottest places on Earth (Danakil Depression).", "emoji": "🌡️" },
+        { "text": "Women fought alongside men in the war for independence.", "emoji": "⚔️" },
+        { "text": "The name comes from the Greek 'Erythra Thalassa' (Red Sea).", "emoji": "🌊" }
+      ]
+    },
+    {
+      "name": "Estonia",
+      "facts": [
+        { "text": "Skype was created here.", "emoji": "💻" },
+        { "text": "The first country to allow online voting in general elections.", "emoji": "🗳️" },
+        { "text": "They have a sport called 'Wife Carrying'.", "emoji": "🏃‍♂️" },
+        { "text": "Free public transport for residents of Tallinn.", "emoji": "🚌" },
+        { "text": "Over 50% of the land is forest.", "emoji": "🌲" }
+      ]
+    },
+    {
+      "name": "Eswatini",
+      "facts": [
+        { "text": "Formerly known as Swaziland.", "emoji": "🔄" },
+        { "text": "One of the last absolute monarchies in the world.", "emoji": "👑" },
+        { "text": "The Reed Dance is a massive annual cultural event.", "emoji": "💃" },
+        { "text": "Known for the Rhino Wars (strict anti-poaching).", "emoji": "🦏" },
+        { "text": "The King has many wives.", "emoji": "💍" }
+      ]
+    },
+    {
+      "name": "Ethiopia",
+      "facts": [
+        { "text": "The only African nation never colonized.", "emoji": "🛡️" },
+        { "text": "Coffee was discovered here (legend of Kaldi the goat herder).", "emoji": "☕" },
+        { "text": "They follow a calendar that is 7 years behind the West.", "emoji": "📅" },
+        { "text": "Home to 'Lucy', the famous Australopithecus fossil.", "emoji": "🦴" },
+        { "text": "Addis Ababa is the diplomatic capital of Africa.", "emoji": "🌍" }
+      ]
+    },
+    {
+      "name": "Fiji",
+      "facts": [
+        { "text": "Made up of 333 islands.", "emoji": "🏝️" },
+        { "text": "Rugby is the national obsession.", "emoji": "🏉" },
+        { "text": "Firewalking originated here on the island of Beqa.", "emoji": "🔥" },
+        { "text": "Cannibalism was practiced here until the late 19th century.", "emoji": "🦴" },
+        { "text": "Fiji Water is their most famous export.", "emoji": "💧" }
+      ]
+    },
+    {
+      "name": "Finland",
+      "facts": [
+        { "text": "Ranked the happiest country in the world multiple times.", "emoji": "😊" },
+        { "text": "There are more saunas than cars.", "emoji": "🧖" },
+        { "text": "Home to the Heavy Metal Knitting World Championship.", "emoji": "🤘" },
+        { "text": "Angry Birds was created here.", "emoji": "🐦" },
+        { "text": "They invented the 'Baby Box' for newborns.", "emoji": "📦" }
+      ]
+    },
+    {
+      "name": "France",
+      "facts": [
+        { "text": "The most visited country in the world.", "emoji": "✈️" },
+        { "text": "The Louvre is so big it would take 100 days to see every piece.", "emoji": "🖼️" },
+        { "text": "Invented the cinema (Lumière brothers).", "emoji": "🎥" },
+        { "text": "First country to ban supermarkets from throwing away food.", "emoji": "🗑️" },
+        { "text": "Produces over 400 types of cheese.", "emoji": "🧀" }
+      ]
+    },
+    {
+      "name": "Gabon",
+      "facts": [
+        { "text": "home to the 'Surfing Hippos' (they swim in the ocean).", "emoji": "🦛" },
+        { "text": "88% of the country is rainforest.", "emoji": "🌳" },
+        { "text": "The 'Land of the Gabons' (Portuguese coat shape).", "emoji": "🧥" },
+        { "text": "Known for the Iboga plant, used in spiritual rituals.", "emoji": "🌿" },
+        { "text": "Safe haven for lowland gorillas.", "emoji": "🦍" }
+      ]
+    },
+    {
+      "name": "Gambia",
+      "facts": [
+        { "text": "The smallest country on mainland Africa.", "emoji": "🤏" },
+        { "text": "Voters use marbles instead of paper ballots.", "emoji": "🔮" },
+        { "text": "Almost entirely surrounded by Senegal.", "emoji": "🗺️" },
+        { "text": "Known as the 'Smiling Coast of Africa'.", "emoji": "🙂" },
+        { "text": "Named after the Gambia River.", "emoji": "🛶" }
+      ]
+    },
+    {
+      "name": "Georgia",
+      "facts": [
+        { "text": "Considered the birthplace of wine (8,000 years of history).", "emoji": "🍷" },
+        { "text": "The language has its own unique alphabet.", "emoji": "🔤" },
+        { "text": "Hosts the deepest cave in the world (Veryovkina).", "emoji": "🕳️" },
+        { "text": "Guests are considered gifts from God.", "emoji": "🎁" },
+        { "text": "Stalin was born here.", "emoji": "👨" }
+      ]
+    },
+    {
+      "name": "Germany",
+      "facts": [
+        { "text": "There are over 1,500 types of beer.", "emoji": "🍺" },
+        { "text": "The Autobahn has no speed limit in many sections.", "emoji": "🏎️" },
+        { "text": "The Christmas tree tradition started here.", "emoji": "🎄" },
+        { "text": "Berlin has more bridges than Venice.", "emoji": "🌉" },
+        { "text": "Escape is not illegal (it's human nature to want freedom).", "emoji": "🏃" }
+      ]
+    },
+    {
+      "name": "Ghana",
+      "facts": [
+        { "text": "The second-largest producer of cocoa in the world.", "emoji": "🍫" },
+        { "text": "Home to Lake Volta, the world's largest man-made lake.", "emoji": "🌊" },
+        { "text": "Coffins are often fantasy-shaped (cars, shoes, fish).", "emoji": "⚰️" },
+        { "text": "The name means 'Warrior King'.", "emoji": "⚔️" },
+        { "text": "Kente cloth originated here.", "emoji": "👘" }
+      ]
+    },
+    {
+      "name": "Greece",
+      "facts": [
+        { "text": "The birthplace of democracy, philosophy, and the Olympics.", "emoji": "🏛️" },
+        { "text": "Has more archaeological museums than any other country.", "emoji": "🏺" },
+        { "text": "No point in Greece is more than 85 miles from the sea.", "emoji": "🌊" },
+        { "text": "The Evil Eye (Mati) is a common superstition.", "emoji": "🧿" },
+        { "text": "They produce 7% of the world's marble.", "emoji": "🗿" }
+      ]
+    },
+    {
+      "name": "Grenada",
+      "facts": [
+        { "text": "Known as the 'Island of Spice' (Nutmeg is key).", "emoji": "🌰" },
+        { "text": "Home to the world's first underwater sculpture park.", "emoji": "🗿" },
+        { "text": "The national bird is the Grenada Dove.", "emoji": "🕊️" },
+        { "text": "Leatherback turtles nest here.", "emoji": "🐢" },
+        { "text": "Chocolate tourism is a growing industry.", "emoji": "🍫" }
+      ]
+    },
+    {
+      "name": "Guatemala",
+      "facts": [
+        { "text": "Home to Tikal, a massive Mayan city ruin.", "emoji": "🏛️" },
+        { "text": "Invented the chocolate bar (Mayans worshipped cacao).", "emoji": "🍫" },
+        { "text": "Volcán de Fuego is constantly active.", "emoji": "🌋" },
+        { "text": "Instant coffee was invented here.", "emoji": "☕" },
+        { "text": "Colorful 'chicken buses' are the main transport.", "emoji": "🚌" }
+      ]
+    },
+    {
+      "name": "Guinea",
+      "facts": [
+        { "text": "Has the world's largest bauxite reserves (aluminum ore).", "emoji": "⛏️" },
+        { "text": "The Niger River originates here.", "emoji": "💧" },
+        { "text": "Traditional Djembe drums are a cultural staple.", "emoji": "🥁" },
+        { "text": "Chimpanzees here have been seen using tools.", "emoji": "🐵" }
+      ]
+    },
+    {
+      "name": "Guinea-Bissau",
+      "facts": [
+        { "text": "Known for the Bijagós Archipelago (biosphere reserve).", "emoji": "🏝️" },
+        { "text": "Saltwater hippos live here.", "emoji": "🦛" },
+        { "text": "Cashew nuts are the main export.", "emoji": "🥜" },
+        { "text": "Carnival here is huge and colorful.", "emoji": "🎭" }
+      ]
+    },
+    {
+      "name": "Guyana",
+      "facts": [
+        { "text": "The only English-speaking country in South America.", "emoji": "🗣️" },
+        { "text": "Kaieteur Falls is the world's largest single-drop waterfall.", "emoji": "🌊" },
+        { "text": "75% of the land is covered in rainforest.", "emoji": "🌳" },
+        { "text": "Home to the giant anteater.", "emoji": "🐜" },
+        { "text": "Jim Jones and Jonestown happened here.", "emoji": "🥤" }
+      ]
+    },
+    {
+      "name": "Haiti",
+      "facts": [
+        { "text": "The first independent black republic in the world (1804).", "emoji": "✊" },
+        { "text": "Voodoo is a recognized official religion.", "emoji": "🔮" },
+        { "text": "Citadelle Laferrière is a massive mountaintop fortress.", "emoji": "🏰" },
+        { "text": "Once the wealthiest colony in the Americas (sugar).", "emoji": "🍬" },
+        { "text": "Shares the island of Hispaniola.", "emoji": "🏝️" }
+      ]
+    },
+    {
+      "name": "Honduras",
+      "facts": [
+        { "text": "Known as the 'Banana Republic' originally.", "emoji": "🍌" },
+        { "text": "It rains fish in the city of Yoro (Lluvia de Peces).", "emoji": "🐟" },
+        { "text": "Home to the Copán Mayan ruins.", "emoji": "🏛️" },
+        { "text": "The Scarlet Macaw is the national bird.", "emoji": "🦜" },
+        { "text": "They had a 'Football War' with El Salvador in 1969.", "emoji": "⚽" }
+      ]
+    },
+    {
+      "name": "Hungary",
+      "facts": [
+        { "text": "The Rubik's Cube was invented here.", "emoji": "🟩" },
+        { "text": "Budapest has the highest number of thermal springs.", "emoji": "♨️" },
+        { "text": "Harry Houdini was born here.", "emoji": "🎩" },
+        { "text": "Their language is unrelated to most European neighbors.", "emoji": "🗣️" },
+        { "text": "Paprika is the national spice.", "emoji": "🌶️" }
+      ]
+    },
+    {
+      "name": "Iceland",
+      "facts": [
+        { "text": "There are no mosquitoes here.", "emoji": "🦟" },
+        { "text": "Beer was illegal until 1989.", "emoji": "🍺" },
+        { "text": "Uses 100% renewable energy for electricity.", "emoji": "⚡" },
+        { "text": "Many locals believe in elves (Huldufólk).", "emoji": "🧝" },
+        { "text": "They publish more books per capita than anywhere else.", "emoji": "📚" }
+      ]
+    },
+    {
+      "name": "India",
+      "facts": [
+        { "text": "Chess was invented here.", "emoji": "♟️" },
+        { "text": "Home to the wettest place on Earth (Mawsynram).", "emoji": "🌧️" },
+        { "text": "Shampoo was invented here (from the word 'champu').", "emoji": "🧴" },
+        { "text": "Cows are sacred and often roam freely.", "emoji": "🐄" },
+        { "text": "The Kumbh Mela gathering is visible from space.", "emoji": "🛰️" }
+      ]
+    },
+    {
+      "name": "Indonesia",
+      "facts": [
+        { "text": "The world's largest archipelago (over 17,000 islands).", "emoji": "🏝️" },
+        { "text": "Home to the Komodo Dragon.", "emoji": "🦎" },
+        { "text": "Has the largest Muslim population in the world.", "emoji": "🕌" },
+        { "text": "Krakatoa volcano is located here.", "emoji": "🌋" },
+        { "text": "Instant noodles (Indomie) are a staple diet.", "emoji": "🍜" }
+      ]
+    },
+    {
+      "name": "Iran",
+      "facts": [
+        { "text": "The Persian Empire was one of the world's first superpowers.", "emoji": "🏺" },
+        { "text": "Rugs are their second biggest export after oil.", "emoji": "🧶" },
+        { "text": "Rhinoplasty (nose jobs) is incredibly popular.", "emoji": "👃" },
+        { "text": "Home to the hottest surface temperature recorded (Lut Desert).", "emoji": "🌡️" },
+        { "text": "Windmills were invented here.", "emoji": "🌬️" }
+      ]
+    },
+    {
+      "name": "Iraq",
+      "facts": [
+        { "text": "Often called the 'Cradle of Civilization' (Mesopotamia).", "emoji": "🏺" },
+        { "text": "Writing was invented here (Cuneiform).", "emoji": "📝" },
+        { "text": "Baghdad was once the center of learning in the world.", "emoji": "📚" },
+        { "text": "The wheel was invented here.", "emoji": "🎡" },
+        { "text": "Masgouf (grilled carp) is the national dish.", "emoji": "🐟" }
+      ]
+    },
+    {
+      "name": "Ireland",
+      "facts": [
+        { "text": "Halloween originated here (Samhain festival).", "emoji": "🎃" },
+        { "text": "The Titanic was built in Belfast.", "emoji": "🚢" },
+        { "text": "There are no snakes (thanks to the Ice Age, not St. Patrick).", "emoji": "🐍" },
+        { "text": "Guinness is the most famous export.", "emoji": "🍺" },
+        { "text": "More Irish people live abroad than in Ireland.", "emoji": "🌍" }
+      ]
+    },
+    {
+      "name": "Israel",
+      "facts": [
+        { "text": "The Dead Sea is so salty you can float without trying.", "emoji": "🌊" },
+        { "text": "Waze navigation technology was developed here.", "emoji": "🚗" },
+        { "text": "Cherry tomatoes were engineered here.", "emoji": "🍅" },
+        { "text": "Banknotes have braille on them for the blind.", "emoji": "💵" },
+        { "text": "Hummus and falafel are national staples.", "emoji": "🧆" }
+      ]
+    },
+    {
+      "name": "Italy",
+      "facts": [
+        { "text": "Home to the most UNESCO World Heritage sites.", "emoji": "🏛️" },
+        { "text": "Tourists throw €3,000 into the Trevi Fountain daily.", "emoji": "🪙" },
+        { "text": "The Vatican is an independent country inside Rome.", "emoji": "🇻🇦" },
+        { "text": "Pizza was invented in Naples in the 1800s.", "emoji": "🍕" },
+        { "text": "It has three active volcanoes: Etna, Stromboli, and Vesuvius.", "emoji": "🌋" }
+      ]
+    },
+    {
+      "name": "Ivory Coast",
+      "facts": [
+        { "text": "Also known as Côte d'Ivoire.", "emoji": "🇨🇮" },
+        { "text": "The world's largest producer of cocoa beans.", "emoji": "🍫" },
+        { "text": "Home to the largest church in the world (Basilica of Our Lady of Peace).", "emoji": "⛪" },
+        { "text": "Didier Drogba is credited with pausing a civil war.", "emoji": "⚽" },
+        { "text": "Abidjan is known as the 'Manhattan of the Tropics'.", "emoji": "🏙️" }
+      ]
+    },
+    {
+      "name": "Jamaica",
+      "facts": [
+        { "text": "Ian Fleming wrote all the James Bond novels here.", "emoji": "🕵️" },
+        { "text": "Home to the fastest runners in the world.", "emoji": "🏃" },
+        { "text": "The birthplace of Reggae music.", "emoji": "🇯🇲" },
+        { "text": "Has the most Rum bars per square mile.", "emoji": "🍹" },
+        { "text": "Ackee and Saltfish is the national dish.", "emoji": "🐟" }
+      ]
+    },
+    {
+      "name": "Japan",
+      "facts": [
+        { "text": "Square watermelons are grown for easier stacking.", "emoji": "🍉" },
+        { "text": "There are more pets than children.", "emoji": "🐶" },
+        { "text": "Trains are so punctual that a 1-minute delay is a crisis.", "emoji": "🚅" },
+        { "text": "Vending machines sell everything from eggs to underwear.", "emoji": "🎰" },
+        { "text": "Home to the world's oldest company (founded 578 AD).", "emoji": "🏗️" }
+      ]
+    },
+    {
+      "name": "Jordan",
+      "facts": [
+        { "text": "Home to Petra, the city carved into rock cliffs.", "emoji": "🗿" },
+        { "text": "The lowest point on Earth (Dead Sea shore) is here.", "emoji": "📉" },
+        { "text": "Mansaf (lamb and yogurt) is the national dish.", "emoji": "🥘" },
+        { "text": "Filming location for 'The Martian' and 'Lawrence of Arabia'.", "emoji": "🎬" },
+        { "text": "Bedouin hospitality is legendary.", "emoji": "☕" }
+      ]
+    },
+    {
+      "name": "Kazakhstan",
+      "facts": [
+        { "text": "The birthplace of apples (wild ancestors still grow here).", "emoji": "🍎" },
+        { "text": "The largest landlocked country in the world.", "emoji": "🗺️" },
+        { "text": "Humans launched into space from the Baikonur Cosmodrome.", "emoji": "🚀" },
+        { "text": "Horse meat is a standard part of the diet.", "emoji": "🐴" },
+        { "text": "Traditional hunters use Golden Eagles.", "emoji": "🦅" }
+      ]
+    },
+    {
+      "name": "Kenya",
+      "facts": [
+        { "text": "The Great Migration involves millions of wildebeest.", "emoji": "🐂" },
+        { "text": "Home to the Maasai people, famous for jumping dances.", "emoji": "🕺" },
+        { "text": "They produce some of the world's best long-distance runners.", "emoji": "🥇" },
+        { "text": "The first African woman to win a Nobel Peace Prize was Kenyan.", "emoji": "🕊️" },
+        { "text": "Coffee is a major export, but locals prefer tea.", "emoji": "🍵" }
+      ]
+    },
+    {
+      "name": "Kiribati",
+      "facts": [
+        { "text": "The only nation in all four hemispheres.", "emoji": "🌐" },
+        { "text": "The first country to welcome the New Year.", "emoji": "🎆" },
+        { "text": "Islands are sinking due to climate change.", "emoji": "🌊" },
+        { "text": "Pronounced 'Kir-i-bas'.", "emoji": "🗣️" }
+      ]
+    },
+    {
+      "name": "Kosovo",
+      "facts": [
+        { "text": "The youngest country in Europe (declared independence 2008).", "emoji": "👶" },
+        { "text": "Many boys are named 'Tonibler' after Tony Blair.", "emoji": "🇬🇧" },
+        { "text": "The population is the youngest in Europe.", "emoji": "🎓" },
+        { "text": "Coffee culture is massive; macchiatos are everywhere.", "emoji": "☕" }
+      ]
+    },
+    {
+      "name": "Kuwait",
+      "facts": [
+        { "text": "There is zero income tax.", "emoji": "🆓" },
+        { "text": "The currency (Dinar) is the highest valued in the world.", "emoji": "💵" },
+        { "text": "Falconry is a beloved tradition.", "emoji": "🦅" },
+        { "text": "Temperatures can reach 54°C (129°F).", "emoji": "🌡️" },
+        { "text": "Lunch is the main meal of the day.", "emoji": "🥘" }
+      ]
+    },
+    {
+      "name": "Kyrgyzstan",
+      "facts": [
+        { "text": "Home to the Epic of Manas, one of the longest poems.", "emoji": "📜" },
+        { "text": "The flag looks like an Xbox logo (it's actually a yurt roof).", "emoji": "⛺" },
+        { "text": "Nomadic culture is still very prevalent.", "emoji": "🐎" },
+        { "text": "Contains the world's largest natural walnut forest.", "emoji": "🌰" }
+      ]
+    },
+    {
+      "name": "Laos",
+      "facts": [
+        { "text": "The most bombed country in history per capita.", "emoji": "💣" },
+        { "text": "Known as the 'Land of a Million Elephants'.", "emoji": "🐘" },
+        { "text": "Sticky rice is the staple food eaten by hand.", "emoji": "🍚" },
+        { "text": "The Mekong River is the lifeblood of the nation.", "emoji": "🛶" },
+        { "text": "Beerlao is the national pride.", "emoji": "🍺" }
+      ]
+    },
+    {
+      "name": "Latvia",
+      "facts": [
+        { "text": "Jeans were invented by a Latvian tailor (Jacob W. Davis).", "emoji": "👖" },
+        { "text": "One of the tallest nations in the world (women especially).", "emoji": "📏" },
+        { "text": "Has the widest waterfall in Europe (Ventas Rumba).", "emoji": "🌊" },
+        { "text": "Over 50% of the country is forest.", "emoji": "🌲" }
+      ]
+    },
+    {
+      "name": "Lebanon",
+      "facts": [
+        { "text": "Byblos is one of the oldest continuously inhabited cities.", "emoji": "🏛️" },
+        { "text": "The Cedar tree is the national symbol on the flag.", "emoji": "🌲" },
+        { "text": "Has more holidays than almost any other country.", "emoji": "🎉" },
+        { "text": "Historically known as Phoenicia.", "emoji": "⛵" },
+        { "text": "Renowned for its cuisine and wine.", "emoji": "🍷" }
+      ]
+    },
+    {
+      "name": "Lesotho",
+      "facts": [
+        { "text": "A kingdom entirely surrounded by South Africa.", "emoji": "⭕" },
+        { "text": "The only country entirely above 1,000m elevation.", "emoji": "☁️" },
+        { "text": "Locals wear traditional wool blankets as coats.", "emoji": "🧥" },
+        { "text": "Has one of the scariest runways in the world.", "emoji": "✈️" },
+        { "text": "Home to the 'Pub in the Sky'.", "emoji": "🍻" }
+      ]
+    },
+    {
+      "name": "Liberia",
+      "facts": [
+        { "text": "Founded by freed slaves from the US.", "emoji": "🇺🇸" },
+        { "text": "The flag is modeled after the US flag.", "emoji": "🇱🇷" },
+        { "text": "Africa's first female president was elected here.", "emoji": "👩‍⚖️" },
+        { "text": "One of only three countries that don't use the metric system.", "emoji": "📏" }
+      ]
+    },
+    {
+      "name": "Libya",
+      "facts": [
+        { "text": "90% of the country is desert.", "emoji": "🏜️" },
+        { "text": "Home to Leptis Magna, a pristine Roman ruin.", "emoji": "🏛️" },
+        { "text": "Recorded the hottest temperature ever (though contested).", "emoji": "🔥" },
+        { "text": "Oil reserves are the largest in Africa.", "emoji": "🛢️" }
+      ]
+    },
+    {
+      "name": "Liechtenstein",
+      "facts": [
+        { "text": "The world's largest producer of false teeth.", "emoji": "🦷" },
+        { "text": "You can 'rent' the country for corporate events.", "emoji": "🏰" },
+        { "text": "Double-landlocked (surrounded by landlocked countries).", "emoji": "🔒" },
+        { "text": "Has no army; the last time they went to war, they came back with a friend.", "emoji": "🤝" }
+      ]
+    },
+    {
+      "name": "Lithuania",
+      "facts": [
+        { "text": "Basketball is the second religion here.", "emoji": "🏀" },
+        { "text": "The geographical center of Europe is here (according to some).", "emoji": "📍" },
+        { "text": "They have a national scent called 'The Scent of Lithuania'.", "emoji": "👃" },
+        { "text": "One of the last pagan nations in Europe to convert.", "emoji": "🔥" }
+      ]
+    },
+    {
+      "name": "Luxembourg",
+      "facts": [
+        { "text": "The first country to make all public transport free.", "emoji": "🚌" },
+        { "text": "The only Grand Duchy left in the world.", "emoji": "👑" },
+        { "text": "Skype's HQ is technically here for tax reasons.", "emoji": "💼" },
+        { "text": "Almost half the workforce commutes from another country.", "emoji": "🚗" }
+      ]
+    },
+    {
+      "name": "Madagascar",
+      "facts": [
+        { "text": "90% of its wildlife is found nowhere else.", "emoji": "🦎" },
+        { "text": "Home to Lemurs (King Julien!).", "emoji": "🐒" },
+        { "text": "Produces most of the world's vanilla.", "emoji": "🍦" },
+        { "text": "The 4th largest island in the world.", "emoji": "🏝️" },
+        { "text": "Baobab Avenue features massive, ancient trees.", "emoji": "🌳" }
+      ]
+    },
+    {
+      "name": "Malawi",
+      "facts": [
+        { "text": "Known as the 'Warm Heart of Africa'.", "emoji": "❤️" },
+        { "text": "Lake Malawi contains more fish species than any other lake.", "emoji": "🐠" },
+        { "text": "Carlsberg beer has a massive brewery here.", "emoji": "🍺" },
+        { "text": "Tea is a major export.", "emoji": "🍵" }
+      ]
+    },
+    {
+      "name": "Malaysia",
+      "facts": [
+        { "text": "Home to the Petronas Towers, once the world's tallest.", "emoji": "🏙️" },
+        { "text": "The King is elected every 5 years from 9 Sultans.", "emoji": "👑" },
+        { "text": "Durian (the stinky fruit) is worshipped here.", "emoji": "🤢" },
+        { "text": "Home to the world's largest flower, the Rafflesia.", "emoji": "🌺" }
+      ]
+    },
+    {
+      "name": "Maldives",
+      "facts": [
+        { "text": "The lowest country on Earth (average 1.5m above sea level).", "emoji": "🌊" },
+        { "text": "They held a cabinet meeting underwater to protest climate change.", "emoji": "🤿" },
+        { "text": "Weekends are Friday and Saturday.", "emoji": "🗓️" },
+        { "text": "Shells were used as currency in ancient times.", "emoji": "🐚" }
+      ]
+    },
+    {
+      "name": "Mali",
+      "facts": [
+        { "text": "Home to Timbuktu, an ancient center of learning.", "emoji": "📚" },
+        { "text": "Mansa Musa, the richest man in history, was Emperor here.", "emoji": "💰" },
+        { "text": "The Great Mosque of Djenné is made of mud.", "emoji": "🕌" },
+        { "text": "Music is central; the 'Blues' has roots here.", "emoji": "🎸" }
+      ]
+    },
+    {
+      "name": "Malta",
+      "facts": [
+        { "text": "Filming location for 'Gladiator' and 'Game of Thrones'.", "emoji": "🎬" },
+        { "text": "The most bombed place on Earth during WWII.", "emoji": "💣" },
+        { "text": "Left-hand traffic is a relic of British rule.", "emoji": "🚗" },
+        { "text": "There are 365 churches, one for every day.", "emoji": "⛪" }
+      ]
+    },
+    {
+      "name": "Marshall Islands",
+      "facts": [
+        { "text": "Home to the world's largest shark sanctuary.", "emoji": "🦈" },
+        { "text": "Bikini Atoll was the site of nuclear tests (and inspiration for Bikini Bottom).", "emoji": "☢️" },
+        { "text": "There are no monkeys, but plenty of flame of the forest flowers.", "emoji": "🌺" },
+        { "text": "Composed of over 1,000 islands.", "emoji": "🏝️" }
+      ]
+    },
+    {
+      "name": "Mauritania",
+      "facts": [
+        { "text": "Home to the 'Eye of the Sahara', visible from space.", "emoji": "👁️" },
+        { "text": "One of the last countries to abolish slavery (1981).", "emoji": "⛓️" },
+        { "text": "The Tea ceremony is a ritual of three cups.", "emoji": "🍵" },
+        { "text": "The iron ore train is one of the longest in the world.", "emoji": "🚂" }
+      ]
+    },
+    {
+      "name": "Mauritius",
+      "facts": [
+        { "text": "The only known home of the extinct Dodo bird.", "emoji": "🦤" },
+        { "text": "Mark Twain said heaven was copied after Mauritius.", "emoji": "😇" },
+        { "text": "Rainbow-colored earth exists at Chamarel.", "emoji": "🌈" },
+        { "text": "Hinduism is the major religion.", "emoji": "🕉️" }
+      ]
+    },
+    {
+      "name": "Mexico",
+      "facts": [
+        { "text": "Chichen Itza is one of the New Seven Wonders.", "emoji": "🏛️" },
+        { "text": "Chocolate originated here (Aztec Xocolatl).", "emoji": "🍫" },
+        { "text": "Mexico City is sinking 10 inches per year.", "emoji": "📉" },
+        { "text": "Color TV was invented by a Mexican engineer.", "emoji": "📺" },
+        { "text": "Caesar Salad was invented in Tijuana.", "emoji": "🥗" }
+      ]
+    },
+    {
+      "name": "Micronesia",
+      "facts": [
+        { "text": "On the island of Yap, giant stone discs are used as money.", "emoji": "🪨" },
+        { "text": "Also known as the Federated States of Micronesia.", "emoji": "🇫🇲" },
+        { "text": "Nan Madol is an ancient ruined city built on coral reefs.", "emoji": "🏰" },
+        { "text": "US Dollar is the official currency.", "emoji": "💵" }
+      ]
+    },
+    {
+      "name": "Moldova",
+      "facts": [
+        { "text": "Home to Mileștii Mici, the world's largest wine cellar.", "emoji": "🍷" },
+        { "text": "Often the least visited country in Europe.", "emoji": "🧳" },
+        { "text": "Their national animal is the Aurochs (an extinct cow).", "emoji": "🐮" },
+        { "text": "Very famous for walnuts.", "emoji": "🌰" }
+      ]
+    },
+    {
+      "name": "Monaco",
+      "facts": [
+        { "text": "The second smallest country in the world.", "emoji": "🤏" },
+        { "text": "Citizens are legally banned from gambling in the casino.", "emoji": "🎰" },
+        { "text": "Has the highest GDP per capita.", "emoji": "💰" },
+        { "text": "Home to the most famous F1 Grand Prix.", "emoji": "🏎️" },
+        { "text": "Policing is so strict, there is almost zero crime.", "emoji": "👮" }
+      ]
+    },
+    {
+      "name": "Mongolia",
+      "facts": [
+        { "text": "The least densely populated country in the world.", "emoji": "⛺" },
+        { "text": "Genghis Khan established the largest contiguous empire ever.", "emoji": "⚔️" },
+        { "text": "Fermented mare's milk (Airag) is a drink.", "emoji": "🐴" },
+        { "text": "Snow leopards are native here.", "emoji": "🐆" },
+        { "text": "Almost half the population lives in the capital, Ulaanbaatar.", "emoji": "🏙️" }
+      ]
+    },
+    {
+      "name": "Montenegro",
+      "facts": [
+        { "text": "The name means 'Black Mountain'.", "emoji": "⛰️" },
+        { "text": "Brad Pitt's first movie was filmed here.", "emoji": "🎥" },
+        { "text": "Home to one of the oldest olive trees (2,000+ years).", "emoji": "🫒" },
+        { "text": "People here are among the tallest in the world.", "emoji": "🦒" }
+      ]
+    },
+    {
+      "name": "Morocco",
+      "facts": [
+        { "text": "Home to the world's oldest university (Al Quaraouiyine).", "emoji": "🎓" },
+        { "text": "Argan oil is produced exclusively here.", "emoji": "🧴" },
+        { "text": "Chefchaouen is known as the 'Blue City'.", "emoji": "🔵" },
+        { "text": "The movie 'Casablanca' was not filmed here.", "emoji": "🎬" },
+        { "text": "Mint tea is called 'Berber Whiskey'.", "emoji": "🍵" }
+      ]
+    },
+    {
+      "name": "Mozambique",
+      "facts": [
+        { "text": "The only national flag featuring an AK-47 assault rifle.", "emoji": "🔫" },
+        { "text": "Famous for peri-peri prawns.", "emoji": "🍤" },
+        { "text": "The coastline is a major scuba diving destination.", "emoji": "🤿" },
+        { "text": "Maputo is known as the City of Acacias.", "emoji": "🌳" }
+      ]
+    },
+    {
+      "name": "Myanmar",
+      "facts": [
+        { "text": "Locals wear Thanaka paste on their faces for sun protection.", "emoji": "🌞" },
+        { "text": "Home to thousands of ancient temples in Bagan.", "emoji": "🏯" },
+        { "text": "Tea Leaf Salad (Lahpet) is a delicacy.", "emoji": "🥗" },
+        { "text": "Men wear skirt-like Longyis.", "emoji": "👗" },
+        { "text": "Formerly known as Burma.", "emoji": "🗺️" }
+      ]
+    },
+    {
+      "name": "Namibia",
+      "facts": [
+        { "text": "Home to the Namib, the oldest desert in the world.", "emoji": "🏜️" },
+        { "text": "The Skeleton Coast is filled with shipwrecks.", "emoji": "☠️" },
+        { "text": "Contains the largest population of free-roaming cheetahs.", "emoji": "🐆" },
+        { "text": "Sand dunes here are the highest in the world.", "emoji": "⛰️" }
+      ]
+    },
+    {
+      "name": "Nauru",
+      "facts": [
+        { "text": "The smallest island republic in the world.", "emoji": "🤏" },
+        { "text": "Once the richest nation per capita due to bird poop (phosphate).", "emoji": "🐦" },
+        { "text": "It has no official capital city.", "emoji": "🏛️" },
+        { "text": "Obesity rates are among the highest globally.", "emoji": "🍔" }
+      ]
+    },
+    {
+      "name": "Nepal",
+      "facts": [
+        { "text": "The only country with a non-rectangular flag.", "emoji": "🚩" },
+        { "text": "Home to Mount Everest, the highest point on Earth.", "emoji": "🏔️" },
+        { "text": "The Yeti is said to roam the Himalayas.", "emoji": "👣" },
+        { "text": "Cows are sacred and killing them is illegal.", "emoji": "🐄" },
+        { "text": "Kathmandu was once a lake.", "emoji": "🌊" }
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "facts": [
+        { "text": "There are more bicycles than people.", "emoji": "🚲" },
+        { "text": "Dutch men are the tallest in the world.", "emoji": "📏" },
+        { "text": "Orange carrots were bred here to honor the Royal Family.", "emoji": "🥕" },
+        { "text": "One-third of the country is below sea level.", "emoji": "🌊" },
+        { "text": "Wooden shoes (clogs) are still used by some farmers.", "emoji": "👞" }
+      ]
+    },
+    {
+      "name": "New Zealand",
+      "facts": [
+        { "text": "The Lord of the Rings movies were filmed here.", "emoji": "💍" },
+        { "text": "Sheep outnumber people 6 to 1.", "emoji": "🐑" },
+        { "text": "Home to the Kiwi, a flightless bird.", "emoji": "🥝" },
+        { "text": "Bungee jumping was invented here.", "emoji": "🤸" },
+        { "text": "Auckland is the 'City of Sails'.", "emoji": "⛵" }
+      ]
+    },
+    {
+      "name": "Nicaragua",
+      "facts": [
+        { "text": "Lake Nicaragua is home to freshwater sharks.", "emoji": "🦈" },
+        { "text": "There are no official street names; directions use landmarks.", "emoji": "🗺️" },
+        { "text": "The largest country in Central America.", "emoji": "📏" },
+        { "text": "Baseball is more popular here than soccer.", "emoji": "⚾" }
+      ]
+    },
+    {
+      "name": "Niger",
+      "facts": [
+        { "text": "Home to a massive dinosaur graveyard in the desert.", "emoji": "🦕" },
+        { "text": "It has the youngest population in the world.", "emoji": "👶" },
+        { "text": "Named after the Niger River.", "emoji": "💧" },
+        { "text": "Most of the country is part of the Sahara.", "emoji": "🏜️" }
+      ]
+    },
+    {
+      "name": "Nigeria",
+      "facts": [
+        { "text": "Nollywood is the second largest film industry by volume.", "emoji": "🎬" },
+        { "text": "The most populous country in Africa.", "emoji": "👥" },
+        { "text": "Igbo-Ora is known as the 'Nation of Twins'.", "emoji": "👯" },
+        { "text": "Home to the largest diversity of butterflies.", "emoji": "🦋" }
+      ]
+    },
+    {
+      "name": "North Korea",
+      "facts": [
+        { "text": "They use their own calendar based on Kim Il-sung's birth.", "emoji": "📅" },
+        { "text": "Home to the largest stadium in the world.", "emoji": "🏟️" },
+        { "text": "Only sanctioned haircuts are allowed.", "emoji": "💇" },
+        { "text": "It has a 'propaganda village' near the border.", "emoji": "🏘️" }
+      ]
+    },
+    {
+      "name": "North Macedonia",
+      "facts": [
+        { "text": "Mother Teresa was born in the capital, Skopje.", "emoji": "🙏" },
+        { "text": "Produces some of the strongest opium in the world (for medicine).", "emoji": "💊" },
+        { "text": "Lake Ohrid is one of Europe's oldest and deepest lakes.", "emoji": "🌊" },
+        { "text": "The country has two official flags.", "emoji": "🇲🇰" }
+      ]
+    },
+    {
+      "name": "Norway",
+      "facts": [
+        { "text": "A penguin was knighted by the King's Guard.", "emoji": "🐧" },
+        { "text": "Home to the Nobel Peace Prize ceremony.", "emoji": "🏅" },
+        { "text": "The sun doesn't set in summer (Midnight Sun).", "emoji": "☀️" },
+        { "text": "They invented the cheese slicer.", "emoji": "🧀" },
+        { "text": "Electric cars are more common here than anywhere else.", "emoji": "🔌" }
+      ]
+    },
+    {
+      "name": "Oman",
+      "facts": [
+        { "text": "The oldest independent state in the Arab world.", "emoji": "🕌" },
+        { "text": "Famous for producing the world's best frankincense.", "emoji": "💨" },
+        { "text": "Coffee (Qahwa) is served with dates as a sign of hospitality.", "emoji": "☕" },
+        { "text": "There is no personal income tax.", "emoji": "💰" },
+        { "text": "Doors are often ornately carved and very famous.", "emoji": "🚪" }
+      ]
+    },
+    {
+      "name": "Pakistan",
+      "facts": [
+        { "text": "Produces over 40% of the world's soccer balls.", "emoji": "⚽" },
+        { "text": "Home to K2, the second highest mountain in the world.", "emoji": "🏔️" },
+        { "text": "The Karakoram Highway is the highest paved international road.", "emoji": "🛣️" },
+        { "text": "Home to the Indus Valley Civilization, one of the oldest ever.", "emoji": "🏺" },
+        { "text": "Spicy food is a staple; they love heat.", "emoji": "🌶️" }
+      ]
+    },
+    {
+      "name": "Palau",
+      "facts": [
+        { "text": "Home to Jellyfish Lake, where millions of jellyfish have no stingers.", "emoji": "🪼" },
+        { "text": "Created the world's first shark sanctuary.", "emoji": "🦈" },
+        { "text": "Visitors must sign an eco-pledge stamped into their passports.", "emoji": "🛂" },
+        { "text": "Society is matrilineal; women hold the power.", "emoji": "👩" }
+      ]
+    },
+    {
+      "name": "Palestine",
+      "facts": [
+        { "text": "Home to some of the oldest olive trees in the world.", "emoji": "🫒" },
+        { "text": "The lowest point on Earth (Dead Sea) borders the West Bank.", "emoji": "📉" },
+        { "text": "Knafeh, a sweet cheese pastry, is a national treasure.", "emoji": "🍰" },
+        { "text": "Bethlehem is home to the Church of the Nativity.", "emoji": "⛪" }
+      ]
+    },
+    {
+      "name": "Panama",
+      "facts": [
+        { "text": "The only place you can see the sun rise on the Pacific and set on the Atlantic.", "emoji": "🌅" },
+        { "text": "The Panama Canal generates one-third of the country's economy.", "emoji": "🚢" },
+        { "text": "Panama Hats are actually from Ecuador.", "emoji": "👒" },
+        { "text": "The US Dollar is the official paper currency.", "emoji": "💵" },
+        { "text": "Home to the Golden Frog, which brings good luck.", "emoji": "🐸" }
+      ]
+    },
+    {
+      "name": "Papua New Guinea",
+      "facts": [
+        { "text": "The most linguistically diverse country (850+ languages).", "emoji": "🗣️" },
+        { "text": "Home to the Hooded Pitohui, a poisonous bird.", "emoji": "🐦" },
+        { "text": "Shell money is still used in some bridal traditions.", "emoji": "🐚" },
+        { "text": "Many tribes were uncontacted by the outside world until the 1930s.", "emoji": "🏹" },
+        { "text": "One of the few places where snow falls near the equator.", "emoji": "❄️" }
+      ]
+    },
+    {
+      "name": "Paraguay",
+      "facts": [
+        { "text": "Houses have no doorbells; guests clap their hands to announce arrival.", "emoji": "👏" },
+        { "text": "Has the largest navy of any landlocked country.", "emoji": "⚓" },
+        { "text": "Guaraní is an official language alongside Spanish.", "emoji": "📜" },
+        { "text": "Tereré (cold herbal tea) is the national drink.", "emoji": "🧉" }
+      ]
+    },
+    {
+      "name": "Peru",
+      "facts": [
+        { "text": "Home to Machu Picchu, the Lost City of the Incas.", "emoji": "⛰️" },
+        { "text": "The potato originated here (over 3,000 varieties).", "emoji": "🥔" },
+        { "text": "Guinea Pig (Cuy) is a traditional roasted dish.", "emoji": "🐹" },
+        { "text": "The Amazon River starts here.", "emoji": "🌊" },
+        { "text": "The Nazca Lines are giant geoglyphs visible only from the air.", "emoji": "✈️" }
+      ]
+    },
+    {
+      "name": "Philippines",
+      "facts": [
+        { "text": "Composed of over 7,600 islands.", "emoji": "🏝️" },
+        { "text": "Known as the 'Texting Capital of the World'.", "emoji": "📱" },
+        { "text": "Karaoke is a national obsession (and invented here).", "emoji": "🎤" },
+        { "text": "Jeepneys (colorful buses) were made from WWII leftovers.", "emoji": "🚌" },
+        { "text": "Produces the most coconuts globally.", "emoji": "🥥" }
+      ]
+    },
+    {
+      "name": "Poland",
+      "facts": [
+        { "text": "Marie Curie was Polish (born Maria Sklodowska).", "emoji": "🧪" },
+        { "text": "Bagels originated here in the 17th century.", "emoji": "🥯" },
+        { "text": "The Wieliczka Salt Mine has an underground cathedral.", "emoji": "⛪" },
+        { "text": "They have a 'reversed' name day tradition.", "emoji": "📅" },
+        { "text": "The European bison was saved from extinction here.", "emoji": "🦬" }
+      ]
+    },
+    {
+      "name": "Portugal",
+      "facts": [
+        { "text": "Produces 50% of the world's cork.", "emoji": "🍾" },
+        { "text": "Has the oldest defined borders in Europe.", "emoji": "🗺️" },
+        { "text": "Nazaré has the biggest surfable waves in the world.", "emoji": "🌊" },
+        { "text": "Tempura was actually introduced to Japan by Portuguese sailors.", "emoji": "🍤" },
+        { "text": "Port wine is named after the city of Porto.", "emoji": "🍷" }
+      ]
+    },
+    {
+      "name": "Qatar",
+      "facts": [
+        { "text": "The richest country in the world per capita.", "emoji": "💰" },
+        { "text": "Hamad International Airport is often voted the world's best.", "emoji": "✈️" },
+        { "text": "Falconry is a prestigious sport.", "emoji": "🦅" },
+        { "text": "Robots are used as jockeys in camel racing.", "emoji": "🤖" },
+        { "text": "It is a peninsula jutting into the Persian Gulf.", "emoji": "🌊" }
+      ]
+    },
+    {
+      "name": "Romania",
+      "facts": [
+        { "text": "Home to the legend of Dracula (Vlad the Impaler).", "emoji": "🧛" },
+        { "text": "The Palace of the Parliament is the heaviest building in the world.", "emoji": "⚖️" },
+        { "text": "The Merry Cemetery features colorful, funny tombstones.", "emoji": "🪦" },
+        { "text": "Home to the most brown bears in Europe.", "emoji": "🐻" },
+        { "text": "The currency (Leu) is made of plastic.", "emoji": "💵" }
+      ]
+    },
+    {
+      "name": "Russia",
+      "facts": [
+        { "text": "The largest country in the world (11 time zones).", "emoji": "🌍" },
+        { "text": "Lake Baikal holds 20% of the world's unfrozen fresh water.", "emoji": "💧" },
+        { "text": "Tetris was invented here.", "emoji": "🎮" },
+        { "text": "The Trans-Siberian Railway is the longest in the world.", "emoji": "🚂" },
+        { "text": "There are 9 million more women than men.", "emoji": "👩" }
+      ]
+    },
+    {
+      "name": "Rwanda",
+      "facts": [
+        { "text": "Plastic bags are completely banned and confiscated at the border.", "emoji": "🚫" },
+        { "text": "One of the best places to see Mountain Gorillas.", "emoji": "🦍" },
+        { "text": "Parliament has more women than men (highest % in the world).", "emoji": "👩‍⚖️" },
+        { "text": "Known as the 'Land of a Thousand Hills'.", "emoji": "⛰️" },
+        { "text": "Umuganda is a mandatory community service day once a month.", "emoji": "🧹" }
+      ]
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "facts": [
+        { "text": "The smallest country in the Americas.", "emoji": "🤏" },
+        { "text": "Known for Green Vervet Monkeys (more monkeys than people).", "emoji": "🐒" },
+        { "text": "You can buy citizenship through investment.", "emoji": "🛂" },
+        { "text": "Alexander Hamilton was born on Nevis.", "emoji": "💵" }
+      ]
+    },
+    {
+      "name": "Saint Lucia",
+      "facts": [
+        { "text": "Home to the Pitons, two famous volcanic plugs.", "emoji": "⛰️" },
+        { "text": "Features the world's only 'drive-in' volcano.", "emoji": "🌋" },
+        { "text": "Has the highest number of Nobel Prize winners per capita.", "emoji": "🏆" },
+        { "text": "Cocoa tea is a popular breakfast drink.", "emoji": "☕" }
+      ]
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "facts": [
+        { "text": "Filming location for 'Pirates of the Caribbean'.", "emoji": "🏴‍☠️" },
+        { "text": "Made up of 32 islands and cays.", "emoji": "🏝️" },
+        { "text": "La Soufrière is an active volcano on the main island.", "emoji": "🌋" },
+        { "text": "Home to the oldest botanical gardens in the Western Hemisphere.", "emoji": "🌺" }
+      ]
+    },
+    {
+      "name": "Samoa",
+      "facts": [
+        { "text": "Traditional tattoos (Pe'a) cover the body from waist to knees.", "emoji": "🖊️" },
+        { "text": "Skipped a whole day (Dec 30, 2011) to switch time zones.", "emoji": "⏰" },
+        { "text": "Men wear skirts called Lava-Lavas.", "emoji": "👗" },
+        { "text": "Robert Louis Stevenson ('Treasure Island') is buried here.", "emoji": "📚" }
+      ]
+    },
+    {
+      "name": "San Marino",
+      "facts": [
+        { "text": "The world's oldest surviving republic (founded 301 AD).", "emoji": "📜" },
+        { "text": "There are more cars than people.", "emoji": "🚗" },
+        { "text": "It is completely surrounded by Italy.", "emoji": "🇮🇹" },
+        { "text": "Postage stamps are a major source of revenue.", "emoji": "✉️" },
+        { "text": "Abraham Lincoln was an honorary citizen.", "emoji": "🎩" }
+      ]
+    },
+    {
+      "name": "Sao Tome and Principe",
+      "facts": [
+        { "text": "The second smallest African country.", "emoji": "🤏" },
+        { "text": "Known as the 'Chocolate Islands' for cocoa production.", "emoji": "🍫" },
+        { "text": "Located near the point where the Equator meets the Prime Meridian.", "emoji": "📍" },
+        { "text": "It was uninhabited until the Portuguese arrived in 1470.", "emoji": "⛵" }
+      ]
+    },
+    {
+      "name": "Saudi Arabia",
+      "facts": [
+        { "text": "Home to the largest sand desert in the world (Rub' al Khali).", "emoji": "🏜️" },
+        { "text": "There are no permanent rivers.", "emoji": "💧" },
+        { "text": "Mecca and Medina, Islam's holiest cities, are here.", "emoji": "🕌" },
+        { "text": "They are building 'The Line', a 170km mirror city.", "emoji": "🏗️" },
+        { "text": "Women were granted the right to drive in 2018.", "emoji": "🚗" }
+      ]
+    },
+    {
+      "name": "Senegal",
+      "facts": [
+        { "text": "Lake Retba is naturally pink due to algae.", "emoji": "🩷" },
+        { "text": "Home to the African Renaissance Monument (tallest in Africa).", "emoji": "🗿" },
+        { "text": "Known for 'Teranga' (extreme hospitality).", "emoji": "🤝" },
+        { "text": "Griot storytellers keep oral history alive.", "emoji": "🗣️" },
+        { "text": "Dakar is the westernmost city on the African mainland.", "emoji": "⬅️" }
+      ]
+    },
+    {
+      "name": "Serbia",
+      "facts": [
+        { "text": "Produces one-third of the world's raspberries.", "emoji": "🍇" },
+        { "text": "The word 'Vampire' originated here.", "emoji": "🧛" },
+        { "text": "18 Roman Emperors were born in modern-day Serbia.", "emoji": "👑" },
+        { "text": "Clock-making industry here is older than the Swiss one.", "emoji": "🕰️" }
+      ]
+    },
+    {
+      "name": "Seychelles",
+      "facts": [
+        { "text": "The Coco de Mer nut looks like a human bottom.", "emoji": "🍑" },
+        { "text": "Legend says the Garden of Eden was here (Vallée de Mai).", "emoji": "🍎" },
+        { "text": "Home to giant tortoises that roam freely.", "emoji": "🐢" },
+        { "text": "Prince William and Kate honeymooned here.", "emoji": "💍" },
+        { "text": "Nearly 50% of the land is protected nature reserve.", "emoji": "🌿" }
+      ]
+    },
+    {
+      "name": "Sierra Leone",
+      "facts": [
+        { "text": "Freetown was founded for repatriated former slaves.", "emoji": "⛓️" },
+        { "text": "Famous for the 'Star of Sierra Leone' diamond.", "emoji": "💎" },
+        { "text": "Has one of the world's largest natural harbors.", "emoji": "🚢" },
+        { "text": "The Cotton Tree in Freetown is a historic symbol of freedom.", "emoji": "🌳" }
+      ]
+    },
+    {
+      "name": "Singapore",
+      "facts": [
+        { "text": "Chewing gum is banned (except for medical use).", "emoji": "🚫" },
+        { "text": "It is a city, a capital, and a state all at once.", "emoji": "🏙️" },
+        { "text": "Street food stalls (hawkers) have Michelin stars.", "emoji": "🍜" },
+        { "text": "Known as the 'Garden City' for its greenery.", "emoji": "🌳" },
+        { "text": "The national anthem is in microtext on the $1000 note.", "emoji": "💵" }
+      ]
+    },
+    {
+      "name": "Slovakia",
+      "facts": [
+        { "text": "Has the highest number of castles per capita.", "emoji": "🏰" },
+        { "text": "Produces the most cars per capita in the world.", "emoji": "🚗" },
+        { "text": "The geographical midpoint of Europe is claimed to be here.", "emoji": "📍" },
+        { "text": "Features over 6,000 caves.", "emoji": "🕳️" }
+      ]
+    },
+    {
+      "name": "Slovenia",
+      "facts": [
+        { "text": "The only country with the word 'LOVE' in its name.", "emoji": "❤️" },
+        { "text": "Beekeeping is a massive part of the culture.", "emoji": "🐝" },
+        { "text": "Postojna Cave has a baby dragon (the olm salamander).", "emoji": "🐉" },
+        { "text": "Melania Trump was born here.", "emoji": "👩" },
+        { "text": "Lake Bled has a church on an island in the middle.", "emoji": "⛪" }
+      ]
+    },
+    {
+      "name": "Solomon Islands",
+      "facts": [
+        { "text": "Dolphin teeth were traditionally used as currency.", "emoji": "🦷" },
+        { "text": "John F. Kennedy was shipwrecked here during WWII (PT-109).", "emoji": "⚓" },
+        { "text": "Some locals have naturally blonde hair despite dark skin.", "emoji": "👱" },
+        { "text": "Home to the world's largest raised coral atoll.", "emoji": "🪸" }
+      ]
+    },
+    {
+      "name": "Somalia",
+      "facts": [
+        { "text": "Has the longest coastline on mainland Africa.", "emoji": "🌊" },
+        { "text": "Known to Ancient Egyptians as the 'Land of Punt'.", "emoji": "🏺" },
+        { "text": "Home to the largest population of camels in the world.", "emoji": "🐪" },
+        { "text": "Poetry is a vital form of communication and politics.", "emoji": "📜" },
+        { "text": "Locals often eat bananas with every meal (even pasta).", "emoji": "🍌" }
+      ]
+    },
+    {
+      "name": "South Africa",
+      "facts": [
+        { "text": "It has three capital cities (Pretoria, Cape Town, Bloemfontein).", "emoji": "🏛️" },
+        { "text": "The first human heart transplant was performed here.", "emoji": "❤️" },
+        { "text": "Table Mountain is one of the oldest mountains on Earth.", "emoji": "⛰️" },
+        { "text": "Home to the 'Big Five' game animals.", "emoji": "🦁" },
+        { "text": "Nelson Mandela's prison cell on Robben Island is a museum.", "emoji": "🕊️" }
+      ]
+    },
+    {
+      "name": "South Korea",
+      "facts": [
+        { "text": "Kimchi is so vital they have a special museum for it.", "emoji": "🥬" },
+        { "text": "Has the fastest average internet speeds in the world.", "emoji": "🚀" },
+        { "text": "Plastic surgery is a graduation gift for many students.", "emoji": "🏥" },
+        { "text": "Couples often wear matching outfits.", "emoji": "👕" },
+        { "text": "Samsung alone accounts for roughly 20% of the GDP.", "emoji": "📱" }
+      ]
+    },
+    {
+      "name": "South Sudan",
+      "facts": [
+        { "text": "The youngest country in the world (gained independence in 2011).", "emoji": "👶" },
+        { "text": "The Dinka people are among the tallest in the world.", "emoji": "📏" },
+        { "text": "Cows are used as currency for dowries.", "emoji": "🐄" },
+        { "text": "It has significant oil reserves but remains very poor.", "emoji": "🛢️" }
+      ]
+    },
+    {
+      "name": "Spain",
+      "facts": [
+        { "text": "Produces over 40% of the world's olive oil.", "emoji": "🫒" },
+        { "text": "The national anthem has no official words.", "emoji": "🎵" },
+        { "text": "La Tomatina is a festival where people throw tomatoes at each other.", "emoji": "🍅" },
+        { "text": "Home to the world's oldest operating restaurant (Sobrino de Botín).", "emoji": "🍽️" },
+        { "text": "The stapler was invented here for King Louis XV.", "emoji": "🖇️" }
+      ]
+    },
+    {
+      "name": "Sri Lanka",
+      "facts": [
+        { "text": "Cinnamon originated here.", "emoji": "🍂" },
+        { "text": "Known as the 'Teardrop of India' due to its shape.", "emoji": "💧" },
+        { "text": "Home to the oldest living tree planted by a human (288 BC).", "emoji": "🌳" },
+        { "text": "Tea is the biggest export.", "emoji": "☕" },
+        { "text": "Locals shake their head side-to-side to say 'yes'.", "emoji": "🙃" }
+      ]
+    },
+    {
+      "name": "Sudan",
+      "facts": [
+        { "text": "Has more pyramids than Egypt.", "emoji": "🔺" },
+        { "text": "The White Nile and Blue Nile merge here (Khartoum).", "emoji": "🌊" },
+        { "text": "It was once the largest country in Africa before splitting.", "emoji": "🗺️" },
+        { "text": "Hibiscus tea (Karkade) is the national drink.", "emoji": "🌺" }
+      ]
+    },
+    {
+      "name": "Suriname",
+      "facts": [
+        { "text": "The only country outside Europe where Dutch is the main language.", "emoji": "🗣️" },
+        { "text": "The most forested country in the world (90%+ cover).", "emoji": "🌳" },
+        { "text": "Home to a synagogue and a mosque right next to each other.", "emoji": "🤝" },
+        { "text": "Cars drive on the left, a holdover from British rule.", "emoji": "🚗" }
+      ]
+    },
+    {
+      "name": "Sweden",
+      "facts": [
+        { "text": "They import trash from other countries to power recycling plants.", "emoji": "♻️" },
+        { "text": "Fika (coffee break) is a mandatory social institution.", "emoji": "☕" },
+        { "text": "Home to IKEA and Spotify.", "emoji": "🛋️" },
+        { "text": "The pacemaker was invented here.", "emoji": "❤️" },
+        { "text": "They have a hotel made entirely of ice.", "emoji": "🧊" }
+      ]
+    },
+    {
+      "name": "Switzerland",
+      "facts": [
+        { "text": "By law, every citizen must have access to a nuclear bunker.", "emoji": "☢️" },
+        { "text": "The flag is square, not rectangular.", "emoji": "🟥" },
+        { "text": "Eats the most chocolate per capita in the world.", "emoji": "🍫" },
+        { "text": "Assisted suicide is legal.", "emoji": "⚖️" },
+        { "text": "Home to CERN and the Large Hadron Collider.", "emoji": "🔬" }
+      ]
+    },
+    {
+      "name": "Syria",
+      "facts": [
+        { "text": "Damascus is the oldest continuously inhabited capital.", "emoji": "🏛️" },
+        { "text": "The first alphabet (Ugaritic) was developed here.", "emoji": "🔤" },
+        { "text": "Famous for Damascus Steel, used in legendary swords.", "emoji": "⚔️" },
+        { "text": "Aleppo soap is considered the world's oldest soap.", "emoji": "🧼" }
+      ]
+    },
+    {
+      "name": "Taiwan",
+      "facts": [
+        { "text": "Bubble Tea was invented here in the 1980s.", "emoji": "🧋" },
+        { "text": "Garbage trucks play Beethoven's 'Für Elise'.", "emoji": "🚛" },
+        { "text": "Night markets are a massive part of food culture.", "emoji": "🍢" },
+        { "text": "Home to TSMC, producing most of the world's microchips.", "emoji": "💻" },
+        { "text": "Convenience stores have the highest density in the world.", "emoji": "🏪" }
+      ]
+    },
+    {
+      "name": "Tajikistan",
+      "facts": [
+        { "text": "93% of the country is mountainous.", "emoji": "⛰️" },
+        { "text": "A unibrow is considered a standard of beauty for women.", "emoji": "🤨" },
+        { "text": "Home to the world's second highest dam (Nurek Dam).", "emoji": "🌊" },
+        { "text": "The Pamir Highway is one of the world's wildest road trips.", "emoji": "🚙" }
+      ]
+    },
+    {
+      "name": "Tanzania",
+      "facts": [
+        { "text": "Home to Mount Kilimanjaro, Africa's highest peak.", "emoji": "🏔️" },
+        { "text": "The Serengeti hosts the largest mammal migration.", "emoji": "🦓" },
+        { "text": "Freddie Mercury (Queen) was born in Zanzibar.", "emoji": "🎤" },
+        { "text": "Home to the unique Tanzanite gemstone.", "emoji": "💎" },
+        { "text": "Tree-climbing lions live in Lake Manyara Park.", "emoji": "🦁" }
+      ]
+    },
+    {
+      "name": "Thailand",
+      "facts": [
+        { "text": "The only Southeast Asian country never colonized by Europe.", "emoji": "🛡️" },
+        { "text": "Bangkok's real ceremonial name is the longest in the world.", "emoji": "📜" },
+        { "text": "It is illegal to step on money (it has the King's face).", "emoji": "🦶" },
+        { "text": "Red Bull was originally a Thai energy drink (Krating Daeng).", "emoji": "🐂" },
+        { "text": "Monkey Buffet Festival involves feeding thousands of macaques.", "emoji": "🐒" }
+      ]
+    },
+    {
+      "name": "Togo",
+      "facts": [
+        { "text": "Home to the world's largest Voodoo market.", "emoji": "💀" },
+        { "text": "The country is only 71 miles wide.", "emoji": "📏" },
+        { "text": "Named 'Coast of Clay'.", "emoji": "🏺" },
+        { "text": "Known for having incredibly polite people.", "emoji": "😊" }
+      ]
+    },
+    {
+      "name": "Tonga",
+      "facts": [
+        { "text": "The only Pacific monarchy never colonized.", "emoji": "👑" },
+        { "text": "One of the first countries to see the new day (Date Line).", "emoji": "🌅" },
+        { "text": "Traditional dress involves wearing a woven mat (Ta'ovala).", "emoji": "🥋" },
+        { "text": "Humpback whales migrate here to give birth.", "emoji": "🐋" }
+      ]
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "facts": [
+        { "text": "The Steelpan drum was invented here.", "emoji": "🥁" },
+        { "text": "Home to the Limbo dance.", "emoji": "💃" },
+        { "text": "Has the world's largest natural deposit of asphalt (Pitch Lake).", "emoji": "⚫" },
+        { "text": "Carnival here is one of the biggest in the world.", "emoji": "🎉" }
+      ]
+    },
+    {
+      "name": "Tunisia",
+      "facts": [
+        { "text": "Star Wars (Tatooine) was filmed here in the desert.", "emoji": "🪐" },
+        { "text": "Home to the ancient city of Carthage.", "emoji": "🏛️" },
+        { "text": "The northernmost point of Africa.", "emoji": "📍" },
+        { "text": "Doors are painted blue to ward off evil spirits.", "emoji": "🚪" }
+      ]
+    },
+    {
+      "name": "Turkey (Türkiye)",
+      "facts": [
+        { "text": "Istanbul is the only city built on two continents.", "emoji": "🌍" },
+        { "text": "Santa Claus (St. Nicholas) was born here.", "emoji": "🎅" },
+        { "text": "Tulips originated here, not the Netherlands.", "emoji": "🌷" },
+        { "text": "Coffee was introduced to Europe through here.", "emoji": "☕" },
+        { "text": "The Evil Eye (Nazar) is everywhere.", "emoji": "🧿" }
+      ]
+    },
+    {
+      "name": "Turkmenistan",
+      "facts": [
+        { "text": "Home to the 'Door to Hell', a gas crater burning since 1971.", "emoji": "🔥" },
+        { "text": "Ashgabat holds the record for most white marble buildings.", "emoji": "🏛️" },
+        { "text": "Black cars were banned in the capital (only white allowed).", "emoji": "🚗" },
+        { "text": "One of the least visited countries in the world.", "emoji": "🚫" }
+      ]
+    },
+    {
+      "name": "Tuvalu",
+      "facts": [
+        { "text": "Earns millions by licensing its internet domain '.tv'.", "emoji": "📺" },
+        { "text": "It is the least visited country in the world.", "emoji": "🧳" },
+        { "text": "The highest point is only 4.6 meters above sea level.", "emoji": "📏" },
+        { "text": "The entire population could fit in a football stadium.", "emoji": "🏟️" }
+      ]
+    },
+    {
+      "name": "Uganda",
+      "facts": [
+        { "text": "Winston Churchill called it the 'Pearl of Africa'.", "emoji": "🦪" },
+        { "text": "Home to half of the world's mountain gorillas.", "emoji": "🦍" },
+        { "text": "A 'Rolex' here is a rolled chapati sandwich, not a watch.", "emoji": "🌯" },
+        { "text": "Pan-fried grasshoppers are a favorite snack.", "emoji": "🦗" }
+      ]
+    },
+    {
+      "name": "Ukraine",
+      "facts": [
+        { "text": "Home to the deepest metro station in the world (Arsenalna).", "emoji": "🚇" },
+        { "text": "The world's largest producer of sunflower oil.", "emoji": "🌻" },
+        { "text": "The Chernobyl disaster site is now a tourist attraction.", "emoji": "☢️" },
+        { "text": "Invented the gas lamp.", "emoji": "🏮" },
+        { "text": "Chicken Kiev originated here.", "emoji": "🍗" }
+      ]
+    },
+    {
+      "name": "United Arab Emirates",
+      "facts": [
+        { "text": "Home to the Burj Khalifa, the world's tallest building.", "emoji": "🏙️" },
+        { "text": "Dubai police use supercars like Ferraris and Bugattis.", "emoji": "🚓" },
+        { "text": "There are gold bar vending machines.", "emoji": "🏧" },
+        { "text": "They have a Minister of Happiness.", "emoji": "😊" },
+        { "text": "Falconry is a major status symbol.", "emoji": "🦅" }
+      ]
+    },
+    {
+      "name": "United Kingdom",
+      "facts": [
+        { "text": "The Queen/King owns all the swans in the Thames.", "emoji": "🦢" },
+        { "text": "Stonehenge is older than the Pyramids.", "emoji": "🪨" },
+        { "text": "They drink 165 million cups of tea per day.", "emoji": "🍵" },
+        { "text": "There is no single written constitution.", "emoji": "📜" },
+        { "text": "Stamps don't have the country name, just the Monarch's head.", "emoji": "👑" }
+      ]
+    },
+    {
+      "name": "United States",
+      "facts": [
+        { "text": "The only country to land humans on the moon.", "emoji": "🌕" },
+        { "text": "Home to the world's largest economy.", "emoji": "💰" },
+        { "text": "Invented the internet, GPS, and the airplane.", "emoji": "✈️" },
+        { "text": "The flag has 50 stars (states) and 13 stripes (colonies).", "emoji": "🇺🇸" },
+        { "text": "There is no official language at the federal level.", "emoji": "🗣️" }
+      ]
+    },
+    {
+      "name": "Uruguay",
+      "facts": [
+        { "text": "Hosted and won the first FIFA World Cup (1930).", "emoji": "⚽" },
+        { "text": "There are 4 cows for every person.", "emoji": "🐄" },
+        { "text": "The first country to fully legalize marijuana.", "emoji": "🌿" },
+        { "text": "The national anthem is the longest in the world.", "emoji": "🎵" },
+        { "text": "98% of electricity comes from renewable sources.", "emoji": "⚡" }
+      ]
+    },
+    {
+      "name": "Uzbekistan",
+      "facts": [
+        { "text": "One of only two double-landlocked countries in the world.", "emoji": "🔒" },
+        { "text": "Home to ancient Silk Road cities like Samarkand.", "emoji": "🕌" },
+        { "text": "Gold teeth are a status symbol.", "emoji": "😁" },
+        { "text": "Handshakes are only acceptable between men.", "emoji": "🤝" }
+      ]
+    },
+    {
+      "name": "Vanuatu",
+      "facts": [
+        { "text": "Bungee jumping originated here as 'Land Diving'.", "emoji": "🧗" },
+        { "text": "Invented the world's only underwater post office.", "emoji": "📮" },
+        { "text": "Ranked as one of the happiest places on Earth.", "emoji": "😊" },
+        { "text": "Cannibalism was practiced until relatively recently.", "emoji": "🦴" }
+      ]
+    },
+    {
+      "name": "Vatican City",
+      "facts": [
+        { "text": "The smallest country in the world (0.17 sq miles).", "emoji": "🤏" },
+        { "text": "The ATM instructions are in Latin.", "emoji": "🏧" },
+        { "text": "Has the highest crime rate per capita (pickpockets).", "emoji": "🕵️" },
+        { "text": "Consumes more wine per capita than anywhere else.", "emoji": "🍷" },
+        { "text": "The Swiss Guard protects the Pope.", "emoji": "💂" }
+      ]
+    },
+    {
+      "name": "Venezuela",
+      "facts": [
+        { "text": "Home to Angel Falls, the world's highest waterfall.", "emoji": "🌊" },
+        { "text": "The Catatumbo Lightning strikes 280 times per hour.", "emoji": "⚡" },
+        { "text": "Has the largest proven oil reserves in the world.", "emoji": "🛢️" },
+        { "text": "Has won more Miss Universe titles than almost any nation.", "emoji": "👑" }
+      ]
+    },
+    {
+      "name": "Vietnam",
+      "facts": [
+        { "text": "The second largest coffee producer in the world.", "emoji": "☕" },
+        { "text": "Motorbikes are the primary form of transport.", "emoji": "🛵" },
+        { "text": "Home to Son Doong, the world's largest cave.", "emoji": "🕳️" },
+        { "text": "Water puppetry is a unique ancient art form.", "emoji": "🎭" },
+        { "text": "Nguyen is the most common surname (40% of people).", "emoji": "👪" }
+      ]
+    },
+    {
+      "name": "Yemen",
+      "facts": [
+        { "text": "Shibam is known as the 'Manhattan of the Desert' (mud skyscrapers).", "emoji": "🏙️" },
+        { "text": "Mocha coffee is named after the port city of Mocha.", "emoji": "☕" },
+        { "text": "Home to the alien-looking Dragon Blood Trees.", "emoji": "🌳" },
+        { "text": "Qat chewing is a daily afternoon social ritual.", "emoji": "🌿" }
+      ]
+    },
+    {
+      "name": "Zambia",
+      "facts": [
+        { "text": "Home to Victoria Falls (Mosi-oa-Tunya).", "emoji": "🌊" },
+        { "text": "Termites are a local delicacy.", "emoji": "🐜" },
+        { "text": "The Walking Safari was pioneered here.", "emoji": "🚶" },
+        { "text": "Copper is the main export.", "emoji": "⛏️" }
+      ]
+    },
+    {
+      "name": "Zimbabwe",
+      "facts": [
+        { "text": "Once printed a 100 Trillion Dollar banknote.", "emoji": "💵" },
+        { "text": "Lake Kariba is the world's largest man-made lake by volume.", "emoji": "🌊" },
+        { "text": "The country is named after 'Great Zimbabwe', a ruined stone city.", "emoji": "🏰" },
+        { "text": "Has one of the highest literacy rates in Africa.", "emoji": "📚" }
+      ]
+    }
+  ]
+}
